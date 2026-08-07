@@ -43,7 +43,7 @@ pretext deploy --stage-only
 and then view the results with,
 
 ```bash
-pretext view -d
+pretext view -dp
 ```
 
 If you then run

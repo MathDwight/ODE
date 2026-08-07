@@ -6,10 +6,9 @@
   <xi:include href="./docinfo.ptx" />
   <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
   <book>
-    <title>Intro to Differential Equations</title>
+    <title>Intro to (Ordinary) Differential Equations</title>
 
-
-    <subtitle>MATH 340 Semester 2026</subtitle>
+    <subtitle>MATH 340 Fall 2026</subtitle>
 
     <!-- Optional: include frontmatter with author info and date -->
     <xi:include href="./frontmatter.ptx" />
@@ -27,13 +26,31 @@
 
       <introduction>
         <p>
-          The following notes are intended to remind you what we covered each week.
-          They are not a substitute for attending class and not a substitute for reading the textbook.
+          Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
+          Notes are neither a substitute for engaging class texts nor participating in classroom activities.
+
+          Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).
         </p>
       </introduction>
 
-      <xi:include href="./notes/week01.ptx"/>
+
+<!--  <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./notes/week03.ptx"/>
+      <xi:include href="./notes/week04.ptx"/>
+      <xi:include href="./notes/week05.ptx"/>
+      <xi:include href="./notes/week06.ptx"/>
+      <xi:include href="./notes/week07.ptx"/>
+      <xi:include href="./notes/week08.ptx"/>
+      <xi:include href="./notes/week09.ptx"/>
+      <xi:include href="./notes/week10.ptx"/>
+      <xi:include href="./notes/week11.ptx"/>
+      <xi:include href="./notes/week12.ptx"/>
+      <xi:include href="./notes/week13.ptx"/>
+      <xi:include href="./notes/week14.ptx"/>
+      <xi:include href="./notes/week15.ptx"/>
+      <xi:include href="./notes/week16.ptx"/> -->
+    
       <!-- etc. -->
 
     </chapter>
