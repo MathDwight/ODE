@@ -19,22 +19,13 @@ var ptx_lunr_docs = [
   "body": "course name (MATH xxx, section xxx) "
 },
 {
-  "id": "notes-week-01",
+  "id": "course-notes",
   "level": "1",
-  "url": "notes-week-01.html",
-  "type": "Section",
+  "url": "course-notes.html",
+  "type": "Chapter",
   "number": "",
-  "title": "Week 1",
-  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/22      Wednesday 8\/24      Friday 8\/26     "
-},
-{
-  "id": "notes-week-02",
-  "level": "1",
-  "url": "notes-week-02.html",
-  "type": "Section",
-  "number": "",
-  "title": "Week 2",
-  "body": " Week 2   Monday      Wednesday      Friday     "
+  "title": "Course Notes",
+  "body": " Course Notes   Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date. Notes are neither a substitute for engaging class texts nor participating in classroom activities. Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).     "
 },
 {
   "id": "activity-01-intro-activity",
