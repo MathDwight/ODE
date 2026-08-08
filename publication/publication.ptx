@@ -288,9 +288,9 @@
     <!-- the full range of configuration.  See                            -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
     <css
-        theme="denver"
-        primary-color="#386F94"
-        primary-color-dark="#5192BD"
+        theme="boulder"
+        primary-color="#1B4383"
+        primary-color-dark="#F47937"
         provide-dark-mode="yes"
     />
 
