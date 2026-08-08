@@ -16,12 +16,12 @@
     <!-- Level at which html output is split into separate pages: 0 gives -->
     <!-- a single page, 1 is chapter, 2 is section, and so on through 6.  -->
     <!-- The default depends on the type of document.                     -->
-      <chunking level="0" />
+      <chunking level="3" />
 
     <!-- Depth of the table of contents, from 0 through 6.  A value of 0 -->
     <!-- means no table of contents.  The default depends on the type of -->
     <!-- document and the conversion.                                    -->
-    <tableofcontents level="0" />
+    <tableofcontents level="2" />
 
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
@@ -285,9 +285,9 @@
     <!-- the full range of configuration.  See                            -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
     <css
-        theme="denver"
-        primary-color="#386F94"
-        primary-color-dark="#5192BD"
+        theme="boulder"
+        primary-color="#1B4383"
+        primary-color-dark="#F47937"
     />
 
     <!-- Search.  @variant is "textbook" (the default; the value          -->
@@ -305,7 +305,7 @@
     <!-- NOTE: the entry below spells the element "toc", which PreTeXt   -->
     <!-- does not recognize, so it currently has no effect.  The name to -->
     <!-- use is "tableofcontents", as in the comment above.              -->
-    <tableofcontents focused="yes" preexpanded-levels="0" />
+    <tableofcontents focused="yes" preexpanded-levels="2" />
 
     <!-- Navigation.  @logic is "linear" (the default) or "tree"; -->
     <!-- @upbutton is "yes" (the default) or "no".                -->
