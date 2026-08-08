@@ -21,28 +21,23 @@
       <interactive desmos="azhqr1mtqd" width="60%" aspect="2:3" />
   </titlepage>
 
-  <preface xml:id="preface-visualization">
-    <title>Dynamic Vector Field</title>
-    <p> Differential equations help us model the world; geometry and algebra help us understand their solutions.</p>
-    <figure xml:id="fig-vector-field">
-        <caption>Vector Field Simulation: <m>v_x = 0.1 y^2</m>, <m>v_y = -0.2 y x</m></caption>
-        <interactive xml:id="interactive-custom-field" platform="iframe">
-            <visual source="fieldplay-vector.html"/>
+<preface xml:id="preface-visualization">
+    <title>What's Happening, Good People!</title>
+    <p>
+        Differential equations help us model the world; geometry and algebra help us understand their solutions.
+    </p>
+
+    <sidebyside widths="45% 45%" margins="auto" valign="middle">
+        <!-- Panel 1: FieldPlay Vector Field Simulation -->
+        <interactive xml:id="interactive-vector-field" platform="iframe">
+            <visual source="https://tinyurl.com/MD-vector-field-1"/>
         </interactive>
-    </figure>
+
+        <!-- Panel 2: Desmos Graph Overlay -->
+        <interactive xml:id="interactive-desmos-graph" desmos="azhqr1mtqd" aspect="2:3" />
+    </sidebyside>
 </preface>
 
-  <preface xml:id="landing-interactive">
-        <title>What's Happening, Good People!</title>
-        <p>
-            Differential equations help us model the world; geometry and algebra help us understand their solutions.
-        </p>
-
-        <!-- Use a regular image tag inside a sidebyside to display it without a figure number -->
-        <sidebyside width="60%">
-            <interactive desmos="azhqr1mtqd" aspect="2:3" />
-        </sidebyside>
-    </preface>
 
 </frontmatter>
 
