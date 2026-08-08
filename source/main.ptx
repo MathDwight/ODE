@@ -65,7 +65,7 @@
 
 
     <chapter xml:id="Mod-2">
-        <title>Mod-1</title>
+        <title>Mod-2</title>
         <xi:include href="./Mod-2/Mod-2.ptx"/>
 
         <introduction>
@@ -88,7 +88,7 @@
       </chapter>
 
       <chapter xml:id="Mod-3">
-          <title>Mod-1</title>
+          <title>Mod-3</title>
           <xi:include href="./Mod-3/Mod-3.ptx"/>
 
           <introduction>
@@ -111,7 +111,7 @@
 
 
         <chapter xml:id="Mod-4">
-            <title>Mod-1</title>
+            <title>Mod-4</title>
             <xi:include href="./Mod-4/Mod-4.ptx"/>
 
             <introduction>
@@ -133,7 +133,7 @@
           </chapter>
 
           <chapter xml:id="Mod-5">
-              <title>Mod-1</title>
+              <title>Mod-5</title>
               <xi:include href="./Mod-5/Mod-5.ptx"/>
 
               <introduction>
@@ -155,7 +155,7 @@
             </chapter>
 
             <chapter xml:id="Projects">
-                <title>Mod-1</title>
+                <title>Projects</title>
                 <xi:include href="./Projects/Projects.ptx"/>
 
                 <introduction>
