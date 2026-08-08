@@ -114,8 +114,8 @@ var ptx_lunr_docs = [
   "url": "Mod-3-breakdown.html",
   "type": "Section",
   "number": "",
-  "title": "Mod 4: First-Order ODEs and Analytic Methods",
-  "body": " Mod 4: First-Order ODEs and Analytic Methods   Mod 3 is called First-Order ODEs and Analytic Methods.   "
+  "title": "Mod 3: First-Order ODEs and Analytic Methods",
+  "body": " Mod 3: First-Order ODEs and Analytic Methods   Mod 3 is called First-Order ODEs and Analytic Methods.   "
 },
 {
   "id": "week-08",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Mod 5: Systems and Symmetries",
-  "body": " Mod 5: Systems and Symmetries   Mod 5 is called Systems and Symmetriess.   "
+  "body": " Mod 5: Systems and Symmetries   Mod 5 is called Systems and Symmetries.   "
 },
 {
   "id": "week-12",
