@@ -21,11 +21,28 @@
       <interactive desmos="azhqr1mtqd" width="60%" aspect="2:3" />
   </titlepage>
 
-    <figure xml:id="fig-desmos-graph">
-        <caption>Differential equations model the world; geometry and algebra help shape their solutions.</caption>
-        <interactive desmos="azhqr1mtqd" width="60%" aspect="2:3" />
+  <preface xml:id="preface-visualization">
+    <title>Dynamic Vector Field</title>
+    <p> Differential equations help us model the world; geometry and algebra help us understand their solutions.</p>
+    <figure xml:id="fig-vector-field">
+        <caption>Vector Field Simulation: <m>v_x = 0.1 y^2</m>, <m>v_y = -0.2 y x</m></caption>
+        <interactive xml:id="interactive-custom-field" platform="iframe">
+            <visual source="fieldplay-vector.html"/>
+        </interactive>
     </figure>
+</preface>
 
+  <preface xml:id="landing-interactive">
+        <title>What's Happening, Good People!</title>
+        <p>
+            Differential equations help us model the world; geometry and algebra help us understand their solutions.
+        </p>
+
+        <!-- Use a regular image tag inside a sidebyside to display it without a figure number -->
+        <sidebyside width="60%">
+            <interactive desmos="azhqr1mtqd" aspect="2:3" />
+        </sidebyside>
+    </preface>
 
 </frontmatter>
 
