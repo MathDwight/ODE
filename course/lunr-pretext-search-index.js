@@ -7,7 +7,25 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "What’s Happening, Good People!",
-  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.        "
+  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.     Vector Field Simulation      Desmos Mathematical Model     "
+},
+{
+  "id": "fig-vector-field",
+  "level": "2",
+  "url": "preface-visualization.html#fig-vector-field",
+  "type": "Figure",
+  "number": "1",
+  "title": "",
+  "body": " Vector Field Simulation   "
+},
+{
+  "id": "fig-desmos-graph",
+  "level": "2",
+  "url": "preface-visualization.html#fig-desmos-graph",
+  "type": "Figure",
+  "number": "2",
+  "title": "",
+  "body": " Desmos Mathematical Model   "
 },
 {
   "id": "syllabus",
