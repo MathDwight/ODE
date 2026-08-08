@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Projects-breakdown">
+  <title>Core Projects</title>
+
+  <introduction>
+    <p>
+    There is a core proejct per Mod. Thus there are five core projects.
+      </p>
+    <p>
+      Timeline: There is a single due date for core projects. Each project is due December 4, 2026, at 11:59PM EDT.
+    </p>
+
+  </introduction>
+
+  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
+
+
+</section>

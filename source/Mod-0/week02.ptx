@@ -1,64 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <section xml:id="week-02">
   <title>Week 2</title>
 
   <introduction>
     <p>
-      This is an outline of the topics we covered in the second week of class.
+      Week 2 (Sep 2 – Sep 8) closes Mod 0: Logistics and Foundations.
+    </p>
+    <p>
+      Class meeting dates: Sep 2, Sep 4.
+    </p>
+    <p>
+      Next Reading Quiz due date: Mod 0 Quiz (if first day of enrollment is post August 26) Sep 7, 11:59 PM EDT; Reading Quiz 1 Sep 10, 11:59 PM EDT.
     </p>
   </introduction>
 
-  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-
-  <subsection>
+  <handout>
     <title>Wednesday, 02 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Thursday, 03 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Friday, 04 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-
-  <subsection>
+  <handout>
     <title>Saturday, 05 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Sunday, 06 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Monday, 07 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Tuesday, 08 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
 </section>

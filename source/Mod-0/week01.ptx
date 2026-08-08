@@ -5,61 +5,56 @@
 
   <introduction>
     <p>
-      This is an outline of the topics we covered in the first week of class.
+      Week 1 (Aug 26 – Sep 1) opens Mod 0: Logistics and Foundations.
+    </p>
+    <p>
+      Class meeting dates: Aug 26, Aug 28, Aug 31.
+    </p>
+    <p>
+      Next Reading Quiz due date: Mod 0 Quiz (Day-One Enrollees) Aug 31, 11:59 PM EDT; Mod 0 Quiz (if first day of enrollment is post August 26) Sep 7, 11:59 PM EDT; Reading Quiz 1 Sep 10, 11:59 PM EDT.
     </p>
   </introduction>
 
-  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-
   <handout>
     <title>Wednesday, 26 August 2026</title>
-
     <p>
-      Day one.
     </p>
   </handout>
 
-  <subsection>
+  <handout>
     <title>Thursday, 27 August 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Friday, 28 August 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-
-  <subsection>
+  <handout>
     <title>Saturday, 29 August 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Sunday, 30 August 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Monday, 31 August 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Tuesday, 01 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
 </section>

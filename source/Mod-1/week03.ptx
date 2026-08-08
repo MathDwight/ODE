@@ -1,64 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <section xml:id="week-03">
   <title>Week 3</title>
 
   <introduction>
     <p>
-      This is an outline of the topics we covered in the third week of class.
+      Week 3 (Sep 9 – Sep 15) opens Mod 1: Recognizing Differential Equations and Their Solutions.
+    </p>
+    <p>
+      Class meeting dates: Sep 9, Sep 11, Sep 14.
+    </p>
+    <p>
+      Next Reading Quiz due date: Reading Quiz 2 Sep 24, 11:59 PM EDT.
     </p>
   </introduction>
 
-  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-
-  <subsection>
+  <handout>
     <title>Wednesday, 09 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Thursday, 10 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Friday, 11 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-
-  <subsection>
+  <handout>
     <title>Saturday, 12 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Sunday, 13 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Monday, 14 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
-  <subsection>
+  <handout>
     <title>Tuesday, 15 September 2026</title>
-
     <p>
     </p>
-  </subsection>
+  </handout>
 
 </section>
