@@ -28,21 +28,22 @@
     </p>
 
     <sidebyside widths="45% 45%" margins="auto" valign="middle">
-        <!-- Panel 1: FieldPlay Vector Field Simulation -->
+        <!-- Panel 1: FieldPlay Vector Field Simulation via Data URI -->
         <figure xml:id="fig-vector-field">
-            <caption>Vector Field Simulation (original credit: Andrei Kashcha): <m>v_x = 0.1 y^2</m>, <m>v_y = -0.2 y x</m></caption>
+            <caption>Vector field simulation (original credit: Andrei Kashcha): <m>v_x = 0.1 y^2</m>, <m>v_y = -0.2 y x</m></caption>
             <interactive xml:id="interactive-vector-field" platform="iframe">
-                <visual source="external/fieldplay-vector.html"/>
+                <visual source="data:text/html;base64,PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHN0eWxlPmJvZHksaHRtbHttYXJnaW46MDtwYWRkaW5nOjA7d2lkdGg6MTAwJTtoZWlnaHQ6MTAwJTtvdmVyZmxvdzpoaWRkZW47YmFja2dyb3VuZDojMDAwO31pZnJhbWV7d2lkdGg6MTAwJTtoZWlnaHQ6MTAwJTtib3JkZXI6bm9uZTt9PC9zdHlsZT48L2hlYWQ+PGJvZHk+PGlmcmFtZSBzcmM9Imh0dHBzOi8vYW52YWthLmdpdGh1Yi5pby9maWVsZHBsYXkvP2N4PTAuMDAxMDUwMDAwMDAwMDAwMjE3NCZjeT0wJnc9OC41NDE5Jmg9OC41NDE5JmZvPTAuOTk5NiZkcD0wLjAwMyZkdD0wLjAyJmNtPTMmdmY9JTJGJTJGJTIwcC54JTIwYW5kJTIwcC55JTIwYXJlJTIwY3VycmVudCUyMGNvb3JkaW5hdGVzJTBBJTJGJTJGJTIwdi54JTIwYW5kJTIwdi55JTIwaXMlMjBhJTIwdmVsb2NpdHklMjBhdCUyMHBvaW50JTIwcCUwQXZlYzIlMjBnZXRfdmVsb2NpdHklMjh2ZWMyJTIwcCUyOSUyMCU3QiUwQSUyMCUyMHZlYzIlMjB2JTIwJTNEJTIwdmVjMiUyODAuJTJDJTIwMC4lMjklM0IlMEElMEElMjAlMjAlMkYlMkYlMjBjaGFuZ2UlMjB0aGlzJTIwdG8lMjBnZXQlMjBhJTIwbmV3JTIwdmVjdG9yJTIwZmllbGQlMEElMjAlMjB2LnglMjAlM0QlMjAwLjElMjAqJTIwcC55KnAueSUzQiUwQSUyMCUyMHYueSUyMCUzRCUyMC0wLjIlMjAqJTIwcC55KnAueCUzQiUwQSUwQSUyMCUyMHJldHVybiUyMHYlM0IlMEElN0QmY29kZT0lMkYlMkYlMjBwLnglMjBhbmQlMjBwLnklMjBhcmUlMjBjdXJyZW50JTIwY29vcmRpbmF0ZXMlMEElMkYlMkYlMjB2LnglMjBhbmQlMjB2LnklMjBpcyUyMGElMjB2ZWxvY2l0eSUyMGF0JTIwcG9pbnQlMjBwJTBBdmVjMiUyMGdldF92ZWxvY2l0eSUyOHZlYzIlMjBwJTI5JTIwJTdCJTBBJTIwJTIwdmVjMiUyMHYlMjAlM0QlMjB2ZWMyJTI4MC4lMkMlMjAwLiUyOSUzQiUwQSUwQSUyMCUyMCUyRiUyRiUyMGNoYW5nZSUyMHRoaXMlMjB0byUyMGdldCUyMGElMjBuZXclMjB2ZWN0b3IlMjBmaWVsZCUwQSUyMCUyMHYueCUyMCUzRCUyMDAuMSUyMColMjBwLnkqcC55JTNCJTBBJTIwJTIwdi55JTIwJTNEJTIwLTAuMiUyMColMjBwLnkqcC54JTNCJTBBJTBBJTIwJTIwcmV0dXJuJTIwdiUzQiUwQSU3RCZwYz0zNzc0Ij48L2lmcmFtZT48L2JvZHk+PC9odG1sPg=="/>
             </interactive>
         </figure>
 
         <!-- Panel 2: Desmos Graph Overlay -->
         <figure xml:id="fig-desmos-graph">
-            <caption>Visualizing (Sohphus) Lie theory using Desmos</caption>
+            <caption>Visualizing (Sohphus) Lie theory</caption>
             <interactive xml:id="interactive-desmos-graph" desmos="azhqr1mtqd" aspect="2:3" />
         </figure>
     </sidebyside>
 </preface>
+
 
 
 
