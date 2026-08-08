@@ -1,6 +1,33 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
+  "id": "preface-visualization",
+  "level": "1",
+  "url": "preface-visualization.html",
+  "type": "Preface",
+  "number": "",
+  "title": "Dynamic Vector Field",
+  "body": " Dynamic Vector Field  Differential equations help us model the world; geometry and algebra help us understand their solutions.   Vector Field Simulation: ,    "
+},
+{
+  "id": "fig-vector-field",
+  "level": "2",
+  "url": "preface-visualization.html#fig-vector-field",
+  "type": "Figure",
+  "number": "1",
+  "title": "",
+  "body": " Vector Field Simulation: ,   "
+},
+{
+  "id": "landing-interactive",
+  "level": "1",
+  "url": "landing-interactive.html",
+  "type": "Preface",
+  "number": "",
+  "title": "What’s Happening, Good People!",
+  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.      "
+},
+{
   "id": "syllabus",
   "level": "1",
   "url": "syllabus.html",
