@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "What’s Happening, Good People!",
-  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.     Vector Field Simulation      Desmos Mathematical Model     "
+  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.     Vector field simulation (original credit: Andrei Kashcha): ,      Visualizing (Sohphus) Lie theory     "
 },
 {
   "id": "fig-vector-field",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "1",
   "title": "",
-  "body": " Vector Field Simulation   "
+  "body": " Vector field simulation (original credit: Andrei Kashcha): ,   "
 },
 {
   "id": "fig-desmos-graph",
@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2",
   "title": "",
-  "body": " Desmos Mathematical Model   "
+  "body": " Visualizing (Sohphus) Lie theory   "
 },
 {
   "id": "syllabus",
