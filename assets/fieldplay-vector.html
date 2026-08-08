@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vector Field Stage</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
+</head>
+<body>
+    <script>
+        // Define your custom GLSL vector equations cleanly
+        const velocityFunction = [
+            "// p.x and p.y are current coordinates",
+            "// v.x and v.y is a velocity at point p",
+            "vec2 get_velocity(vec2 p) {",
+            "  vec2 v = vec2(0., 0.);",
+            "",
+            "  // change this to get a new vector field",
+            "  v.x = 0.1 * p.y*p.y;",
+            "  v.y = -0.2 * p.y*p.x;",
+            "",
+            "  return v;",
+            "}"
+        ].join("\n");
+
+        // Encode equations smoothly for browser query transmission
+        const encodedCode = encodeURIComponent(velocityFunction);
+
+        // Build the absolute, untruncated URL step by step
+        const baseURL = "https://github.io?";
+        const settings = [
+            "cx=0.0010500000000002174",
+            "cy=0",
+            "w=8.5419",
+            "h=8.5419",
+            "fo=0.9996",
+            "dp=0.003",
+            "dt=0.02",
+            "cm=3",
+            "pc=3774"
+        ].join("&");
+
+        const finalURL = baseURL + settings + "&vf=" + encodedCode + "&code=" + encodedCode;
+
+        // Inject the clean iframe stage live
+        const ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", finalURL);
+        document.body.appendChild(ifrm);
+    </script>
+</body>
+</html>

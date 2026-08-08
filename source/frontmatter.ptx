@@ -29,14 +29,22 @@
 
     <sidebyside widths="45% 45%" margins="auto" valign="middle">
         <!-- Panel 1: FieldPlay Vector Field Simulation -->
-        <interactive xml:id="interactive-vector-field" platform="iframe">
-            <visual source="https://anvaka.github.io/fieldplay/?cx=0.0010500000000002174&amp;cy=0&amp;w=8.5419&amp;h=8.5419&amp;fo=0.9996&amp;dp=0.003&amp;dt=0.02&amp;cm=3&amp;vf=%2F%2F%20p.x%20and%20p.y%20are%20current%20coordinates%0A%2F%2F%20v.x%20and%20v.y%20is%20a%20velocity%20at%20point%20p%0Avec2%20get_velocity%28vec2%20p%29%20%7B%0A%20%20vec2%20v%20%3D%20vec2%280.%2C%200.%29%3B%0A%0A%20%20%2F%2F%20change%20this%20to%20get%20a%20new%20vector%20field%0A%20%20v.x%20%3D%200.1%20*%20p.y*p.y%3B%0A%20%20v.y%20%3D%20-0.2%20*%20p.y*p.x%3B%0A%0A%20%20return%20v%3B%0A%7D&amp;code=%2F%2F%20p.x%20and%20p.y%20are%20current%20coordinates%0A%2F%2F%20v.x%20and%20v.y%20is%20a%20velocity%20at%20point%20p%0Avec2%20get_velocity%28vec2%20p%29%20%7B%0A%20%20vec2%20v%20%3D%20vec2%280.%2C%200.%29%3B%0A%0A%20%20%2F%2F%20change%20this%20to%20get%20a%20new%20vector%20field%0A%20%20v.x%20%3D%200.1%20*%20p.y*p.y%3B%0A%20%20v.y%20%3D%20-0.2%20*%20p.y*p.x%3B%0A%0A%20%20return%20v%3B%0A%7D&amp;pc=3774"/>
-        </interactive>
+        <figure xml:id="fig-vector-field">
+            <caption>Vector Field Simulation (original credit: Andrei Kashcha): <m>v_x = 0.1 y^2</m>, <m>v_y = -0.2 y x</m></caption>
+            <interactive xml:id="interactive-vector-field" platform="iframe">
+                <visual source="external/fieldplay-vector.html"/>
+            </interactive>
+        </figure>
 
         <!-- Panel 2: Desmos Graph Overlay -->
-        <interactive xml:id="interactive-desmos-graph" desmos="azhqr1mtqd" aspect="2:3" />
+        <figure xml:id="fig-desmos-graph">
+            <caption>Visualizing (Sohphus) Lie theory using Desmos</caption>
+            <interactive xml:id="interactive-desmos-graph" desmos="azhqr1mtqd" aspect="2:3" />
+        </figure>
     </sidebyside>
 </preface>
+
+
 
 
 
