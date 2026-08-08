@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Mod-1-breakdown">
+  <title>Mod 1: Recognizing ODEs and Their Solutions</title>
+
+  <introduction>
+    <p>
+      Mod 1 is called Recognizing ODEs and Their Solutions. 
+      </p>
+    <p>   
+      After internalizing the course set-up and considering plans of progress, we step into the world of differential equations. 
+      We need to recognize the landscape and that process starts with determining what is and isn't a differential equation. Identifying what kind of problem we face is central to developing our problem solving skills.
+      Then, believe it or not, we will analyze solutions before we discuss techniques to arrive at solutions. 
+      We take time to construct quality checks and assurance factors for the work we submit.
+      The mantra is as follows: 
+      </p>
+      <blockquote>
+        <p>
+           A solution we do not understand is no solution at all! 
+        </p>
+      </blockquote>
+    
+  </introduction>
+
+  <!-- Can also be <handout> instead of <subsection> to get a printable version -->
+
+ 
+</section>
