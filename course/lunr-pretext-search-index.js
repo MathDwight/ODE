@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 1",
-  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Wednesday, 26 August 2026      Thursday, 27 August 2026      Friday, 28 August 2026      Saturday, 29 August 2026      Sunday, 30 August 2026      Monday, 31 August 2026      Tuesday, 01 September 2026     "
+  "body": " Week 1   Week 1 (Aug 26 – Sep 1) opens Mod 0: Logistics and Foundations.  Class meeting dates: Aug 26, Aug 28, Aug 31.  Next Reading Quiz due date: Mod 0 Quiz (Day-One Enrollees) Aug 31, 11:59 PM EDT; Mod 0 Quiz (if first day of enrollment is post August 26) Sep 7, 11:59 PM EDT; Reading Quiz 1 Sep 10, 11:59 PM EDT.    Wednesday, 26 August 2026      Thursday, 27 August 2026      Friday, 28 August 2026      Saturday, 29 August 2026      Sunday, 30 August 2026      Monday, 31 August 2026      Tuesday, 01 September 2026     "
 },
 {
   "id": "week-02",
@@ -43,7 +43,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 2",
-  "body": " Week 2   This is an outline of the topics we covered in the second week of class.     Wednesday, 02 September 2026      Thursday, 03 September 2026      Friday, 04 September 2026      Saturday, 05 September 2026      Sunday, 06 September 2026      Monday, 07 September 2026      Tuesday, 08 September 2026     "
+  "body": " Week 2   Week 2 (Sep 2 – Sep 8) closes Mod 0: Logistics and Foundations.  Class meeting dates: Sep 2, Sep 4.  Next Reading Quiz due date: Mod 0 Quiz (if first day of enrollment is post August 26) Sep 7, 11:59 PM EDT; Reading Quiz 1 Sep 10, 11:59 PM EDT.    Wednesday, 02 September 2026      Thursday, 03 September 2026      Friday, 04 September 2026      Saturday, 05 September 2026      Sunday, 06 September 2026      Monday, 07 September 2026      Tuesday, 08 September 2026     "
 },
 {
   "id": "Mod-1-breakdown",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 3",
-  "body": " Week 3   This is an outline of the topics we covered in the third week of class.     Wednesday, 09 September 2026      Thursday, 10 September 2026      Friday, 11 September 2026      Saturday, 12 September 2026      Sunday, 13 September 2026      Monday, 14 September 2026      Tuesday, 15 September 2026     "
+  "body": " Week 3   Week 3 (Sep 9 – Sep 15) opens Mod 1: Recognizing Differential Equations and Their Solutions.  Class meeting dates: Sep 9, Sep 11, Sep 14.  Next Reading Quiz due date: Reading Quiz 2 Sep 24, 11:59 PM EDT.    Wednesday, 09 September 2026      Thursday, 10 September 2026      Friday, 11 September 2026      Saturday, 12 September 2026      Sunday, 13 September 2026      Monday, 14 September 2026      Tuesday, 15 September 2026     "
 },
 {
   "id": "week-04",
@@ -70,7 +70,160 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 4",
-  "body": " Week 4   This is an outline of the topics we covered in the third week of class.     Wednesday, 16 September 2026      Thursday, 17 September 2026      Friday, 18 September 2026      Saturday, 19 September 2026      Sunday, 20 September 2026      Monday, 21 September 2026      Tuesday, 22 September 2026     "
+  "body": " Week 4   Week 4 (Sep 16 – Sep 22) continues Mod 1: Recognizing Differential Equations and Their Solutions.  Class meeting dates: Sep 16, Sep 18, Sep 21.  Next Reading Quiz due date: Reading Quiz 2 Sep 24, 11:59 PM EDT.    Wednesday, 16 September 2026      Thursday, 17 September 2026      Friday, 18 September 2026      Saturday, 19 September 2026      Sunday, 20 September 2026      Monday, 21 September 2026      Tuesday, 22 September 2026     "
+},
+{
+  "id": "Mod-2-breakdown",
+  "level": "1",
+  "url": "Mod-2-breakdown.html",
+  "type": "Section",
+  "number": "",
+  "title": "Mod 2: Numerical Methods",
+  "body": " Mod 2: Numerical Methods   Mod 2 is called Numerical Methods.   "
+},
+{
+  "id": "week-05",
+  "level": "1",
+  "url": "week-05.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 5",
+  "body": " Week 5   Week 5 (Sep 23 – Sep 29) closes Mod 1: Recognizing Differential Equations and Their Solutions and opens Mod 2: Numerical Methods.  Class meeting dates: Sep 23, Sep 25, Sep 28.  Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT.    Wednesday, 23 September 2026      Thursday, 24 September 2026      Friday, 25 September 2026      Saturday, 26 September 2026      Sunday, 27 September 2026      Monday, 28 September 2026      Tuesday, 29 September 2026     "
+},
+{
+  "id": "week-06",
+  "level": "1",
+  "url": "week-06.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 6",
+  "body": " Week 6   Week 6 (Sep 30 – Oct 6) continues Mod 2: Numerical Methods.  Class meeting dates: Sep 30, Oct 2.  Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT.    Wednesday, 30 September 2026      Thursday, 01 October 2026      Friday, 02 October 2026      Saturday, 03 October 2026      Sunday, 04 October 2026      Monday, 05 October 2026      Tuesday, 06 October 2026     "
+},
+{
+  "id": "week-07",
+  "level": "1",
+  "url": "week-07.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 7",
+  "body": " Week 7   Week 7 (Oct 7 – Oct 13) continues Mod 2: Numerical Methods.  Class meeting dates: Oct 7, Oct 9, Oct 12.  Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT; Reading Quiz 4 Oct 27, 11:59 PM EDT.    Wednesday, 07 October 2026      Thursday, 08 October 2026      Friday, 09 October 2026      Saturday, 10 October 2026      Sunday, 11 October 2026      Monday, 12 October 2026      Tuesday, 13 October 2026     "
+},
+{
+  "id": "Mod-3-breakdown",
+  "level": "1",
+  "url": "Mod-3-breakdown.html",
+  "type": "Section",
+  "number": "",
+  "title": "Mod 4: First-Order ODEs and Analytic Methods",
+  "body": " Mod 4: First-Order ODEs and Analytic Methods   Mod 3 is called First-Order ODEs and Analytic Methods.   "
+},
+{
+  "id": "week-08",
+  "level": "1",
+  "url": "week-08.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 8",
+  "body": " Week 8   Week 8 (Oct 14 – Oct 20) closes Mod 2: Numerical Methods and opens Mod 3: First-Order ODEs Analytic Methods.  Class meeting dates: Oct 14, Oct 16, Oct 19.  Next Reading Quiz due date: Reading Quiz 4 Oct 27, 11:59 PM EDT.    Wednesday, 14 October 2026      Thursday, 15 October 2026      Friday, 16 October 2026      Saturday, 17 October 2026      Sunday, 18 October 2026      Monday, 19 October 2026      Tuesday, 20 October 2026     "
+},
+{
+  "id": "week-09",
+  "level": "1",
+  "url": "week-09.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 9",
+  "body": " Week 9   Week 9 (Oct 21 – Oct 27) continues Mod 3: First-Order ODEs Analytic Methods.  Class meeting dates: Oct 21, Oct 23, Oct 26.  Next Reading Quiz due date: Reading Quiz 4 Oct 27, 11:59 PM EDT; Reading Quiz 5 Nov 12, 11:59 PM EST.    Wednesday, 21 October 2026      Thursday, 22 October 2026      Friday, 23 October 2026      Saturday, 24 October 2026      Sunday, 25 October 2026      Monday, 26 October 2026      Tuesday, 27 October 2026     "
+},
+{
+  "id": "Mod-4-breakdown",
+  "level": "1",
+  "url": "Mod-4-breakdown.html",
+  "type": "Section",
+  "number": "",
+  "title": "Mod 4: Second-Order ODEs and Analytic Methods",
+  "body": " Mod 4: Second-Order ODEs and Analytic Methods   Mod 4 is called Second-Order ODEs and Analytic Methods.   "
+},
+{
+  "id": "week-10",
+  "level": "1",
+  "url": "week-10.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 10",
+  "body": " Week 10   Week 10 (Oct 28 – Nov 3) closes Mod 3: First-Order ODEs Analytic Methods and opens Mod 4: Second-Order ODEs Analytic Methods.  Class meeting dates: Oct 28, Oct 30, Nov 2.  Next Reading Quiz due date: Reading Quiz 5 Nov 12, 11:59 PM EST.    Wednesday, 28 October 2026      Thursday, 29 October 2026      Friday, 30 October 2026      Saturday, 31 October 2026      Sunday, 01 November 2026      Monday, 02 November 2026      Tuesday, 03 November 2026     "
+},
+{
+  "id": "week-11",
+  "level": "1",
+  "url": "week-11.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 11",
+  "body": " Week 11   Week 11 (Nov 4 – Nov 10) continues Mod 4: Second-Order ODEs Analytic Methods.  Class meeting dates: Nov 4, Nov 9.  Next Reading Quiz due date: Reading Quiz 5 Nov 12, 11:59 PM EST.    Wednesday, 04 November 2026      Thursday, 05 November 2026      Friday, 06 November 2026      Saturday, 07 November 2026      Sunday, 08 November 2026      Monday, 09 November 2026      Tuesday, 10 November 2026     "
+},
+{
+  "id": "Mod-5-breakdown",
+  "level": "1",
+  "url": "Mod-5-breakdown.html",
+  "type": "Section",
+  "number": "",
+  "title": "Mod 5: Systems and Symmetries",
+  "body": " Mod 5: Systems and Symmetries   Mod 5 is called Systems and Symmetriess.   "
+},
+{
+  "id": "week-12",
+  "level": "1",
+  "url": "week-12.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 12",
+  "body": " Week 12   Week 12 (Nov 11 – Nov 17) opens Mod 5: Systems and Symmetries.  Class meeting dates: Nov 11, Nov 13, Nov 16.  Next Reading Quiz due date: None.    Wednesday, 11 November 2026      Thursday, 12 November 2026      Friday, 13 November 2026      Saturday, 14 November 2026      Sunday, 15 November 2026      Monday, 16 November 2026      Tuesday, 17 November 2026     "
+},
+{
+  "id": "week-13",
+  "level": "1",
+  "url": "week-13.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 13",
+  "body": " Week 13   Week 13 (Nov 18 – Nov 24) closes Mod 5: Systems and Symmetries.  Class meeting dates: Nov 18, Nov 20.  Next Reading Quiz due date: None.    Wednesday, 18 November 2026      Thursday, 19 November 2026      Friday, 20 November 2026      Saturday, 21 November 2026      Sunday, 22 November 2026      Monday, 23 November 2026      Tuesday, 24 November 2026     "
+},
+{
+  "id": "Projects-breakdown",
+  "level": "1",
+  "url": "Projects-breakdown.html",
+  "type": "Section",
+  "number": "",
+  "title": "Core Projects",
+  "body": " Core Projects   There is a core proejct per Mod. Thus there are five core projects.  Timeline: There is a single due date for core projects. Each project is due December 4, 2026, at 11:59PM EDT.    "
+},
+{
+  "id": "week-14",
+  "level": "1",
+  "url": "week-14.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 14",
+  "body": " Week 14   Week 14 (Nov 25 – Dec 1).  Class meeting dates: Nov 30.  Next Reading Quiz due date: None.    Wednesday, 25 November 2026      Thursday, 26 November 2026      Friday, 27 November 2026      Saturday, 28 November 2026      Sunday, 29 November 2026      Monday, 30 November 2026      Tuesday, 01 December 2026     "
+},
+{
+  "id": "week-15",
+  "level": "1",
+  "url": "week-15.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 15",
+  "body": " Week 15   Week 15 (Dec 2 – Dec 8).  Class meeting dates: Dec 2, Dec 4, Dec 7.  Next Reading Quiz due date: None.    Wednesday, 02 December 2026      Thursday, 03 December 2026      Friday, 04 December 2026      Saturday, 05 December 2026      Sunday, 06 December 2026      Monday, 07 December 2026      Tuesday, 08 December 2026     "
+},
+{
+  "id": "week-16",
+  "level": "1",
+  "url": "week-16.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 16",
+  "body": " Week 16   Week 16 (Dec 9 – Dec 15).  Class meeting dates: Dec 9.  Next Reading Quiz due date: None.    Wednesday, 09 December 2026      Thursday, 10 December 2026      Friday, 11 December 2026      Saturday, 12 December 2026      Sunday, 13 December 2026      Monday, 14 December 2026      Tuesday, 15 December 2026     "
 }
 ]
 
