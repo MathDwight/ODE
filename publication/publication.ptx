@@ -327,6 +327,7 @@
     <!-- python3, octave.  The default is "none", except that "python"  -->
     <!-- is the default when hosting on a Runestone server.             -->
       <!--<calculator model="none" activecode="none" />-->
+      activecode="python"
 
     <!-- A third-party annotation service on every page.  @platform is -->
     <!-- "none" (the default) or "hypothesis".                         -->
