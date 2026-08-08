@@ -18,7 +18,14 @@
   <!-- This displays the title page information -->
   <titlepage>
     <titlepage-items/>
+      <interactive desmos="azhqr1mtqd" width="60%" aspect="2:3" />
   </titlepage>
+
+    <figure xml:id="fig-desmos-graph">
+        <caption>Differential equations model the world; geometry and algebra help shape their solutions.</caption>
+        <interactive desmos="azhqr1mtqd" width="60%" aspect="2:3" />
+    </figure>
+
 
 </frontmatter>
 
