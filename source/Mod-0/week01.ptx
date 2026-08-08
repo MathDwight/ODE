@@ -11,12 +11,13 @@
 
   <!-- Can also be <handout> instead of <subsection> to get a printable version -->
 
-  <subsection>
+  <handout>
     <title>Wednesday, 26 August 2026</title>
 
     <p>
+      Day one.
     </p>
-  </subsection>
+  </handout>
 
   <subsection>
     <title>Thursday, 27 August 2026</title>
