@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Syllabus",
-  "body": " Syllabus        Course Information  This is the syllabus for course name (MATH xxx, section xxx) for [term] 20xx. It is a [n] credit course.    Instructor  Prof. Lastname, Office Location, prof.lastname@example.edu .    Student Hours  TBD    Class meets  course times and location.    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview        Assessments and Grades     "
+  "body": " Syllabus        Course Information  Welcome to a summary page of the syllabus for Intro to Differential Equations (MATH 340, sections 003\/004) for Fall 2026.    Instructor  Dwight Anderson Williams II, PhD. Office: Calloway 306. Email: dwight.williamsii@morgan.edu . Homepage: mathdwight.com .    Student Hours   Schedule meetings using Calendly .    Class meets  MWF 11am - 11:50am in Carnegie 259 for section 003; MWF 1:00pm - 1:50pm in Carnegie G57 for section 004.    Course Description  Differential equations (DEs) is a study of mathematics that furthers the concept of modeling phenomena using functions. In MATH 340, we revisit the derivative of a differentiable function with respect to a single independent variable , and we note that may also be a differentiable function. We then consider the methods of finding and describing solutions (functions) to equations called ordinary differential equations (ODEs), equations which express an unknown single-variable function in terms of its first, second, or higher-order derivatives.    Knowledge Prerequisite  Students should be familiar with linearization and the derivative, review series and approximation (Taylor series), and demonstrate algebraic savvy.    Textbook and course materials  We use  A First Course in Differential Equations Third Edition by John D. Logan.       Course Overview  There are 6 Mods: , , , , , and .      Full Syllabus    MATH 340 Differential Equations Full Syllabus      "
 },
 {
   "id": "sec-course-info-2",
@@ -43,7 +43,16 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "course name (MATH xxx, section xxx) "
+  "body": "Intro to Differential Equations (MATH 340, sections 003\/004) "
+},
+{
+  "id": "fig-math340-syllabus",
+  "level": "2",
+  "url": "syllabus.html#fig-math340-syllabus",
+  "type": "Figure",
+  "number": "3",
+  "title": "",
+  "body": " MATH 340 Differential Equations Full Syllabus   "
 },
 {
   "id": "Mod-0-breakdown",
