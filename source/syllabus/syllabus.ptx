@@ -12,15 +12,14 @@
     <title>Course Information</title>
 
     <p>
-      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
-      It is a [n] credit course.
+      Welcome to a summary page of the syllabus for <term>Intro to Differential Equations (MATH 340, sections 003/004)</term> for Fall 2026. 
       <!-- use a description list (dl) for short items -->
       <dl>
         <li>
           <title>Instructor</title>
 
-          <p>
-            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
+          <p> 
+            Dwight Anderson Williams II, PhD. Office: Calloway 306. Email: <url href="mailto:dwight.williamsii@morgan.edu">dwight.williamsii@morgan.edu</url>. Homepage: <url href="https://mathdwight.com">mathdwight.com</url>.
           </p>
         </li>
 
@@ -28,7 +27,7 @@
           <title>Student Hours</title>
 
           <p>
-            TBD
+            <url href = "https://calendly.com/mathdwight">Schedule meetings using Calendly</url>.
           </p>
         </li>
 
@@ -36,23 +35,24 @@
           <title>Class meets</title>
 
           <p>
-            course times and location.
+           MWF 11am - 11:50am in Carnegie 259 for section 003; MWF 1:00pm - 1:50pm in Carnegie G57 for section 004.
           </p>
         </li>
 
         <li>
           <title>Course Description</title>
-
           <p>
-            course description from catalog
+             Differential equations (DEs) is a study of mathematics that furthers the concept of modeling phenomena using functions. 
+            In MATH 340, we revisit the derivative <m>x'</m> of a differentiable function <m>x</m> with respect to a single independent variable <m>t</m>, and we note that <m>x'</m> may also be a differentiable function. 
+            We then consider the methods of finding and describing solutions (functions) to equations called ordinary differential equations (ODEs), equations which express an unknown single-variable function in terms of its first, second, or higher-order derivatives.   
           </p>
         </li>
 
         <li>
-          <title>Prerequisite</title>
+          <title>Knowledge Prerequisite</title>
 
           <p>
-            list of prerequisites
+            Students should be familiar with linearization and the derivative, review series and approximation (Taylor series), and demonstrate algebraic savvy.
           </p>
         </li>
 
@@ -60,8 +60,9 @@
           <title>Textbook and course materials</title>
 
           <p>
-            <pubtitle>textbook name</pubtitle>
-            by textbook author.
+            We use <url href="https://drive.google.com/file/d/1SW_IQxnIWSiHKEL9XT530DUdmww2zvM4/view?usp=drive_link">
+            <pubtitle>A First Course in Differential Equations Third Edition</pubtitle></url>
+            by John D. Logan.
           </p>
         </li>
       </dl>
@@ -70,17 +71,32 @@
   <!-- Use paragraphs to break apart subsections -->
     <paragraphs>
       <title>Course Overview</title>
-
+          
       <p>
+        There are 6 Mods: 
+        <xref text="title" ref="Mod-0-breakdown"/>, 
+        <xref text="title" ref="Mod-1-breakdown"/>,
+        <xref text="title" ref="Mod-2-breakdown"/>,
+        <xref text="title" ref="Mod-3-breakdown"/>,
+        <xref text="title" ref="Mod-4-breakdown"/>, and
+        <xref text="title" ref="Mod-5-breakdown"/>.
       </p>
     </paragraphs>
   </subsection>
 
   <!-- Other subsections for larger dividers -->
-  <subsection xml:id="sec-assessments">
-    <title>Assessments and Grades</title>
+<subsection xml:id="sec-full-syllabus">
+    <title>Full Syllabus</title>
 
     <p>
+      <figure xml:id="fig-math340-syllabus">
+        <caption>MATH 340 Differential Equations Full Syllabus</caption>
+        <interactive xml:id="interactive-math340-syllabus" 
+                     iframe="https://create.piktochart.com/embed/7f5856ebce8e-morgan2627f-math340-de-syllabus" 
+                     width="100%" 
+                     aspect="4:3" />
+      </figure>
     </p>
-  </subsection>
+</subsection>
+
 </section>
