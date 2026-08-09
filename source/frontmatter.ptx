@@ -31,7 +31,7 @@
         <!-- Panel 1: FieldPlay Vector Field Simulation -->
         <figure xml:id="fig-vector-field">
              <caption>
-                    <url href="https://tinyurl.com/MD-vector-field-1" visual="See visual at source." /> 
+                    <url href="https://tinyurl.com/MD-vector-field-1" visual="See visual at source" /> as may not render above.
                     Vector field simulation (original credit: Andrei Kashcha): <m>v_x = 0.1y^2</m>, <m>v_y = -0.2yx</m>
                 </caption>
             <interactive xml:id="interactive-vector-field" platform="iframe">
