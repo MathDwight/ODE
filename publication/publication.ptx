@@ -196,7 +196,7 @@
 
     <!-- Covers: paths to pdfs for the front and back covers, relative -->
     <!-- to your external assets directory.                            -->
-      <cover front="images/MathChange.png" back="image/MathDwight.png" />-->
+    <cover front="images/MathChange.png" back="image/MathDwight.png" />-->
 
     <!-- Set @formatted to "no" to give worksheets no special formatting -->
     <!-- and treat them like any other division.  The default is "yes".  -->
@@ -416,7 +416,7 @@
   <epub>
     <!-- The cover element takes a @front attribute naming a cover image, -->
     <!-- as a path relative to your external assets directory.            -->
-      <!-- <cover front="cover.jpg"/> -->
+      <cover front="cover.jpg"/>
   </epub>
 
   <!-- Conversion to Jupyter notebooks.  @kernel names the kernel that -->
