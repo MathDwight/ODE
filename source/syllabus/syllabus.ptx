@@ -4,16 +4,20 @@
   <title>Syllabus</title>
 
   <introduction>
-    <p>
-    </p>
+   <p>
+      Welcome, again, to
+      <term>MATH 340 Intro to Differential Equations</term>! Primary course information for Sections 003 and 004 during Fall 2026 is summarized on this page.
+     </p> 
+      <p>
+       Find the <xref text="title" ref="sec-full-syllabus"/> at the bottom of the page.
+      </p> 
+      
   </introduction>
   <!-- Include chapters -->
   <subsection xml:id="sec-course-info">
     <title>Course Information</title>
 
-    <p>
-      Welcome to a summary page of the syllabus for &#xA;
-      <term>Intro to Differential Equations (MATH 340, sections 003/004)</term> for Fall 2026. 
+   <p>
       <!-- use a description list (dl) for short items -->
       <dl>
         <li>
@@ -81,7 +85,7 @@
         </li>
 
         <li>
-          <title>Knowledge Prerequisite</title>
+          <title>Knowledge Prerequisites</title>
 
           <p>
             Students should be familiar with linearization and the derivative, review series and approximation (Taylor series), and demonstrate algebraic savvy.
