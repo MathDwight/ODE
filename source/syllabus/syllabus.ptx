@@ -32,7 +32,18 @@
         </li>
 
         <li>
-          <title>Class meets</title>
+          <title>Class Location and Time (003)</title>
+
+          <p>
+           Section 003 meets Wednesdays, Fridays, and Mondays from 11:00am to 11:50am. in Carnegie 259 for section 003; MWF 1:00pm - 1:50pm in Carnegie G57 for section 004.
+          </p>
+          <p>
+           The classroom is Carnegie 259. 
+          </p>
+        </li>
+
+        <li>
+          <title>Class Location and Time (003)</title>
 
           <p>
            MWF 11am - 11:50am in Carnegie 259 for section 003; MWF 1:00pm - 1:50pm in Carnegie G57 for section 004.
@@ -41,11 +52,14 @@
 
         <li>
           <title>Course Description</title>
+
           <p>
-             Differential equations (DEs) is a study of mathematics that furthers the concept of modeling phenomena using functions. 
-            In MATH 340, we revisit the derivative <m>x'</m> of a differentiable function <m>x</m> with respect to a single independent variable <m>t</m>, and we note that <m>x'</m> may also be a differentiable function. 
-            We then consider the methods of finding and describing solutions (functions) to equations called ordinary differential equations (ODEs), equations which express an unknown single-variable function in terms of its first, second, or higher-order derivatives.   
+            Differential equations as a subfield of mathematics furthers the concept of modeling phenomena using functions. In MATH 340 Intro to Differential Equations, we revisit the derivative <m>\frac{dx}{dt}</m> of a differentiable function <m>x</m> with respect to a single independent variable such as <m>t</m> for time. 
+            We assume that <m>\frac{dx}{dt}</m>, <m>\frac{d^{2}x}{{dt}^{2}}</m>, and so on are also differentiable functions. &#xA;  
+
+            Equations (e.g. <m>\frac{dx}{dt} = x</m>) with an unknown function <m>x</m> written in terms of <m>x</m>, <m>\frac{dx}{dt}</m>, <m>\frac{d^{2}x}{{dt}^{2}}</m>, etc., are called ordinary differential equations (ODEs). We consider numerical, analytic, and qualitative methods for finding and describing solution functions (e.g. <m>x(t) = e^{t}</m>) to ODEs. We focus especially on first-order and second-order ODEs. To begin, we discuss types of ODEs and their importance in modeling the world around us.
           </p>
+
         </li>
 
         <li>
@@ -60,9 +74,9 @@
           <title>Textbook and course materials</title>
 
           <p>
-            We use <url href="https://drive.google.com/file/d/1SW_IQxnIWSiHKEL9XT530DUdmww2zvM4/view?usp=drive_link">
+            We use the freely available <url href="https://drive.google.com/file/d/1SW_IQxnIWSiHKEL9XT530DUdmww2zvM4/view?usp=drive_link">
             <pubtitle>A First Course in Differential Equations Third Edition</pubtitle></url>
-            by John D. Logan.
+            by John D. Logan. Use Morgan.edu email to access the link to the book.
           </p>
         </li>
       </dl>
@@ -72,15 +86,17 @@
     <paragraphs>
       <title>Course Overview</title>
           
-      <p>
-        There are 6 Mods: 
-        <xref text="title" ref="Mod-0-breakdown"/>, 
-        <xref text="title" ref="Mod-1-breakdown"/>,
-        <xref text="title" ref="Mod-2-breakdown"/>,
-        <xref text="title" ref="Mod-3-breakdown"/>,
-        <xref text="title" ref="Mod-4-breakdown"/>, and
-        <xref text="title" ref="Mod-5-breakdown"/>.
-      </p>
+  <p>
+  There are 6 Mods: 
+  <ol marker="(0)">
+    <li><xref text="title" ref="Mod-0-breakdown"/>,</li> 
+    <li><xref text="title" ref="Mod-1-breakdown"/>,</li>
+    <li><xref text="title" ref="Mod-2-breakdown"/>,</li>
+    <li><xref text="title" ref="Mod-3-breakdown"/>,</li>
+    <li><xref text="title" ref="Mod-4-breakdown"/>, and</li>
+    <li><xref text="title" ref="Mod-5-breakdown"/>.</li>
+  </ol>
+</p>
     </paragraphs>
   </subsection>
 
