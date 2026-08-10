@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 1",
-  "body": " Week 1   Week 1 (Aug 26 – Sep 1) opens Mod 0: Logistics and Foundations.  Class meeting dates:  Aug 26  Aug 28T  Aug 31    Next due dates:  Mod 0 Quiz: Aug 31 (if day-one enrolled)  Mod 0 Quiz: Sep 7 (if not day-one enrolled)  Reading Quiz 1: Sep 10      Wednesday, 26 August 2026      Thursday, 27 August 2026      Friday, 28 August 2026      Saturday, 29 August 2026      Sunday, 30 August 2026      Monday, 31 August 2026      Tuesday, 01 September 2026     "
+  "body": " Week 1   Week 1 (Aug 26 – Sep 1) opens Mod 0: Logistics and Foundations.  Class meeting dates:  Aug 26  Aug 28  Aug 31    Next due dates:  Mod 0 Quiz: Aug 31 (if day-one enrolled)  Mod 0 Quiz: Sep 7 (if not day-one enrolled)  Reading Quiz 1: Sep 10      Wednesday, 26 August 2026      Thursday, 27 August 2026      Friday, 28 August 2026      Saturday, 29 August 2026      Sunday, 30 August 2026      Monday, 31 August 2026      Tuesday, 01 September 2026     "
 },
 {
   "id": "week-02",
