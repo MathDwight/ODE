@@ -79,12 +79,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Schedule",
-  "body": " Schedule  All times are local to Baltimore. Deadlines are specified by the due date and the 11:59PM cut-off for submission.   Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday      Aug 26: First day of class  Aug 28:   Aug 31: Mod-0 quiz due for first-day enrollees    Week 2  Sep 02:   Sep 04:   Sep 07: University Closed; Mod-0 quiz due for other enrollees    Week 3  Sep 09: Mod-1 begins  Sep 11: Feedback\/Check-in activity  Sep 14:     Week 4  Sep 16:   Sep 18:   Sep 21:     Week 5  Sep 23: Mod-2 begins  Sep 25: Feedback\/Check-in activity  Sep 28:     Week 6  Sep 30:   Oct 02:   Oct 05:     Week 7  Oct 07: Group Work Day  Oct 09:   Oct 12:     Week 8  Oct 14: Mod-3 begins  Oct 16: Feedback\/Check-in activity  Oct 19: Mid-term\/snapshot grade calculated by     Week 9  Oct 21:   Oct 23:   Oct 26:     Week 10  Oct 28: Mod-4 begins  Oct 30: Feedback\/Check-in activity  Nov 02:     Week 11  Nov 04:   Nov 06: Group Work Day  Nov 09:     Week 12  Nov 11: Mod-5 begins  Nov 13: Feedback\/Check-in activity  Nov 16:     Week 13  Nov 18:   Nov 20:   Nov 23: Group Work Day    Week 14  Nov 25: University Closed  Nov 27: University Closed  Nov 30:     Week 15  Dec 02: Core project should have been submitted  Dec 04: Feedback\/Check-in activity  Dec 07:     Week 16  Dec 09: Last day of class  Dec 11:   Dec 14:      "
+  "body": " Schedule  All times are local to Baltimore. Deadlines are specified by the due date and the 11:59PM cut-off for submission.  Click a specific week to jump to the page within the correspond Mod. Find printable worksheets and full week activities\/alerts within Mods.   Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday      Aug 26: First day of class  Aug 28:   Aug 31: Mod-0 quiz due for first-day enrollees    Week 2  Sep 02:   Sep 04:   Sep 07: University Closed; Mod-0 quiz due for other enrollees    Week 3  Sep 09: Mod-1 begins  Sep 11: Feedback\/Check-in activity  Sep 14:     Week 4  Sep 16:   Sep 18:   Sep 21:     Week 5  Sep 23: Mod-2 begins  Sep 25: Feedback\/Check-in activity  Sep 28:     Week 6  Sep 30:   Oct 02:   Oct 05:     Week 7  Oct 07: Group Work Day  Oct 09:   Oct 12:     Week 8  Oct 14: Mod-3 begins  Oct 16: Feedback\/Check-in activity  Oct 19: Mid-term\/snapshot grade calculated by     Week 9  Oct 21:   Oct 23:   Oct 26:     Week 10  Oct 28: Mod-4 begins  Oct 30: Feedback\/Check-in activity  Nov 02:     Week 11  Nov 04:   Nov 06: Group Work Day  Nov 09:     Week 12  Nov 11: Mod-5 begins  Nov 13: Feedback\/Check-in activity  Nov 16:     Week 13  Nov 18:   Nov 20:   Nov 23: Group Work Day    Week 14  Nov 25: University Closed  Nov 27: University Closed  Nov 30:     Week 15  Dec 02: Core project should have been submitted  Dec 04: Feedback\/Check-in activity  Dec 07:     Week 16  Dec 09: Last day of class  Dec 11:   Dec 14:      "
 },
 {
-  "id": "schedule-3",
+  "id": "schedule-4",
   "level": "2",
-  "url": "schedule.html#schedule-3",
+  "url": "schedule.html#schedule-4",
   "type": "Table",
   "number": "5",
   "title": "Course Schedule for Fall 2026",
@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 1",
-  "body": " Week 1   Week 1 (Aug 26 – Sep 1) opens Mod 0: Logistics and Foundations.  Class meeting dates: Aug 26, Aug 28, Aug 31.  Next Reading Quiz due date: Mod 0 Quiz (Day-One Enrollees) Aug 31, 11:59 PM EDT; Mod 0 Quiz (if first day of enrollment is post August 26) Sep 7, 11:59 PM EDT; Reading Quiz 1 Sep 10, 11:59 PM EDT.    Wednesday, 26 August 2026      Thursday, 27 August 2026      Friday, 28 August 2026      Saturday, 29 August 2026      Sunday, 30 August 2026      Monday, 31 August 2026      Tuesday, 01 September 2026     "
+  "body": " Week 1   Week 1 (Aug 26 – Sep 1) opens Mod 0: Logistics and Foundations.  Class meeting dates:  Aug 26  Aug 28T  Aug 31    Next due dates:  Mod 0 Quiz: Aug 31 (if day-one enrolled)  Mod 0 Quiz: Sep 7 (if not day-one enrolled)  Reading Quiz 1: Sep 10      Wednesday, 26 August 2026      Thursday, 27 August 2026      Friday, 28 August 2026      Saturday, 29 August 2026      Sunday, 30 August 2026      Monday, 31 August 2026      Tuesday, 01 September 2026     "
 },
 {
   "id": "week-02",
