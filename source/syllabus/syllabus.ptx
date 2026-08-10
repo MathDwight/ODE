@@ -19,7 +19,13 @@
           <title>Instructor</title>
 
           <p> 
-            Dwight Anderson Williams II, PhD. Office: Calloway 306. Email: <url href="mailto:dwight.williamsii@morgan.edu">dwight.williamsii@morgan.edu</url>. Homepage: <url href="https://mathdwight.com">mathdwight.com</url>.
+           <ul>
+            <li>Dwight Anderson Williams II, PhD.</li>
+            <li>Reference me as Dwight or Dr. Dwight with he/his pronouns.</li> 
+            <li> Office: Calloway 306. The building is connected to Carnegie<mdash/>see Campus Map.</li> 
+            <li>Email: <url href="mailto:dwight.williamsii@morgan.edu">dwight.williamsii@morgan.edu</url>.</li>
+            <li>Homepage: <url href="https://mathdwight.com">mathdwight.com</url>.</li>
+          </ul>
           </p>
         </li>
 
@@ -27,16 +33,20 @@
           <title>Student Hours</title>
 
           <p>
-            <url href = "https://calendly.com/mathdwight">Schedule meetings using Calendly</url>.
+            <url href = "https://calendly.com/mathdwight">Schedule meetings using Calendly</url>. 
           </p>
         </li>
 
         <li>
-          <title>Section 003 Location and Time</title>
-
+           <title>Campus Map</title> 
+         
           <image source="images/Map-CarnegieHall.png" width="75%">
           <shortdescription>Map of Carnegie Hall on Morgan State University's campus.</shortdescription>
           </image>
+         </li>
+
+        <li>
+          <title>Section 003 Class Meeting Information</title>
 
           <p>
            Section 003 meets Wednesdays, Fridays, and Mondays from 11:00am to 11:50am.
@@ -47,11 +57,7 @@
         </li>
 
       <li>
-          <title>Section 004 Location and Time</title>
-
-          <image source="images/Map-CarnegieHall.png" width="75%">
-          <shortdescription>Map of Carnegie Hall on Morgan State University's campus.</shortdescription>
-          </image>
+          <title>Section 004 Class Meeting Information</title>
 
           <p>
            Section 004 meets Wednesdays, Fridays, and Mondays from 1:00pm to 1:50pm.
