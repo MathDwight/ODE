@@ -341,7 +341,7 @@
     <!-- An image in the upper-left corner of every page's banner.       -->
     <!-- @source (required) locates the image in your external assets    -->
     <!-- directory; the optional @url makes the image a link.            -->
-      <!--<brandlogo source="logo.png" url="https://mywebsite.org/"/>-->
+      <brandlogo source="/images/MathChange.png" url="https://mathdwight.com/"/>
 
     <!-- Whether the subtitle and author byline appear in the banner. -->
     <!-- Each is "yes" (the default) or "no".                         -->
