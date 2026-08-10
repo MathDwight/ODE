@@ -19,7 +19,9 @@
       <!-- Course syllabus -->
       <xi:include href="./syllabus/syllabus.ptx" />
       <!-- Other documents could go here, like a schedule, project description, etc. -->
+      <xi:include href="./gradingexamples/gradingexamples.ptx" />
       <xi:include href="./schedule/schedule.ptx" />
+      
     
     </chapter>
 

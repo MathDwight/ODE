@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="grading-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Grading Examples</title>
+
+<table xml:id="table-student-journeys">
+    <title>Example Students to Final Letter Grades</title>
+    <tabular halign="center" bottom="minor" top="minor">
+        <col right="medium"/>
+        <col right="minor"/>
+        <col right="minor"/>
+        <col right="minor"/>
+        <col right="minor"/>
+        <col right="medium"/>
+        <col right="medium"/>
+        <row header="yes" bottom="medium">
+            <cell halign="left">Student Strategy / Journey</cell>
+            <cell>Mod-0 Quiz</cell>
+            <cell>GM Points (Max 30)</cell>
+            <cell>RQ Points (Max 50)</cell>
+            <cell>CP Points (Max 20)</cell>
+            <cell>Sum</cell>
+            <cell>Total Points (×0.77 if Mod-0 Quiz Late)</cell>
+            <cell>Final Letter Grade</cell>
+        </row>
+        <!-- A Grades -->
+        <row>
+            <cell halign="left">Provided consistent and strong execution.</cell>
+            <cell>On Time</cell>
+            <cell>30</cell>
+            <cell>50</cell>
+            <cell>20</cell>
+            <cell>100</cell>
+            <cell bold="yes">100.0</cell>
+            <cell bold="yes">A</cell>
+        </row>
+        <row>
+            <cell halign="left">Registered post-Aug 26; executed Mod-0 quiz by Sep 7; provided strong execution thereafter.</cell>
+            <cell>On Time</cell>
+            <cell>27</cell>
+            <cell>45</cell>
+            <cell>20</cell>
+            <cell>92</cell>
+            <cell bold="yes">92.0</cell>
+            <cell bold="yes">A</cell>
+        </row>
+        <!-- B Grades -->
+        <row>
+            <cell halign="left">Missed 1 core project; otherwise, provided strong execution.</cell>
+            <cell>On Time</cell>
+            <cell>30</cell>
+            <cell>46</cell>
+            <cell>10</cell>
+            <cell>86</cell>
+            <cell bold="yes">86.0</cell>
+            <cell bold="yes">B</cell>
+        </row>
+        <row>
+            <cell halign="left">Performed less than stellar on Reading Quizzes; set trend of steady execution.</cell>
+            <cell>On Time</cell>
+            <cell>24</cell>
+            <cell>38</cell>
+            <cell>20</cell>
+            <cell>82</cell>
+            <cell bold="yes">82.0</cell>
+            <cell bold="yes">B</cell>
+        </row>
+        <!-- C Grades -->
+        <row>
+            <cell halign="left">Performed less than stellar on Reading Quizzes; was inconsistent in Group Meeting engagement.</cell>
+            <cell>On Time</cell>
+            <cell>18</cell>
+            <cell>36</cell>
+            <cell>20</cell>
+            <cell>74</cell>
+            <cell bold="yes">74.0</cell>
+            <cell bold="yes">C</cell>
+        </row>
+        <row>
+            <cell halign="left">Late Mod-0 Quiz: Sought to maximize learning and letter grade given past failure to execute; was successful given the recalibrated goal.</cell>
+            <cell>Late</cell>
+            <cell>30</cell>
+            <cell>45</cell>
+            <cell>20</cell>
+            <cell>95</cell>
+            <cell bold="yes">73.15</cell>
+            <cell bold="yes">C</cell>
+        </row>
+        <!-- D Grades -->
+        <row>
+            <cell halign="left">Late Mod-0 Quiz: Decided not to withdraw despite initial failure to execute unsurprisingly yielding a great effect on GPA and degree progress.</cell>
+            <cell>Late</cell>
+            <cell>30 </cell>
+            <cell>39</cell>
+            <cell>20</cell>
+            <cell>89</cell>
+            <cell bold="yes">68.53</cell>
+            <cell bold="yes">D</cell>
+        </row>
+        <row>
+            <cell halign="left">Gave low effort and lacked overall engagment; finished semester by executing Core Projects.</cell>
+            <cell>On Time</cell>
+            <cell>12 (4/10)</cell>
+            <cell>30 (3/5)</cell>
+            <cell>20 (2/2)</cell>
+            <cell>62</cell>
+            <cell bold="yes">62.0</cell>
+            <cell bold="yes">D</cell>
+        </row>
+        <!-- F Grades -->
+        <row>
+            <cell halign="left">Ignored Group Meetings after Week 4; left points on the board from questions that peers understood well; failed to follow Core Project instructions. </cell>
+            <cell>On Time</cell>
+            <cell>6</cell>
+            <cell>42</cell>
+            <cell>10</cell>
+            <cell>58</cell>
+            <cell bold="yes">58.0</cell>
+            <cell bold="yes">F</cell>
+        </row>
+        <row>
+            <cell halign="left">Late Mod-0 Quiz: Performed less than stellar on Reading Quizzes; was inconsistent in Group Meeting engagement thereafter.</cell>
+            <cell>Late</cell>
+            <cell>18</cell>
+            <cell>34</cell>
+            <cell>20</cell>
+            <cell>72</cell>
+            <cell bold="yes">55.44</cell>
+            <cell bold="yes">F</cell>
+        </row>
+        <!-- W Grade -->
+        <row>
+            <cell halign="left">Enrolled post-Aug 26; missed Sep 7 deadline for Mod-0 quiz;  continued to engage and study in order to learn and prepare for another potential opportunity; completed withdrawal process by the close of Oct 27. </cell>
+            <cell>Late</cell>
+            <cell>18</cell>
+            <cell>30</cell>
+            <cell>0</cell>
+            <cell>48</cell>
+            <cell bold="yes">N/A</cell>
+            <cell bold="yes">W</cell>
+        </row>
+    </tabular>
+</table>
+
+
+
+</section>
