@@ -55,6 +55,24 @@ var ptx_lunr_docs = [
   "body": " MATH 340 Differential Equations Full Syllabus   "
 },
 {
+  "id": "grading-examples",
+  "level": "1",
+  "url": "grading-examples.html",
+  "type": "Section",
+  "number": "",
+  "title": "Grading Examples",
+  "body": " Grading Examples   Example Students to Final Letter Grades           Student Strategy \/ Journey  Mod-0 Quiz  GM Points (Max 30)  RQ Points (Max 50)  CP Points (Max 20)  Sum  Total Points (×0.77 if Mod-0 Quiz Late)  Final Letter Grade     Provided consistent and strong execution.  On Time  30  50  20  100  100.0  A    Registered post-Aug 26; executed Mod-0 quiz by Sep 7; provided strong execution thereafter.  On Time  27  45  20  92  92.0  A     Missed 1 core project; otherwise, provided strong execution.  On Time  30  46  10  86  86.0  B    Performed less than stellar on Reading Quizzes; set trend of steady execution.  On Time  24  38  20  82  82.0  B     Performed less than stellar on Reading Quizzes; was inconsistent in Group Meeting engagement.  On Time  18  36  20  74  74.0  C    Late Mod-0 Quiz: Sought to maximize learning and letter grade given past failure to execute; was successful given the recalibrated goal.  Late  30  45  20  95  73.15  C     Late Mod-0 Quiz: Decided not to withdraw despite initial failure to execute unsurprisingly yielding a great effect on GPA and degree progress.  Late  30  39  20  89  68.53  D    Gave low effort and lacked overall engagment; finished semester by executing Core Projects.  On Time  12 (4\/10)  30 (3\/5)  20 (2\/2)  62  62.0  D     Ignored Group Meetings after Week 4; left points on the board from questions that peers understood well; failed to follow Core Project instructions.  On Time  6  42  10  58  58.0  F    Late Mod-0 Quiz: Performed less than stellar on Reading Quizzes; was inconsistent in Group Meeting engagement thereafter.  Late  18  34  20  72  55.44  F     Enrolled post-Aug 26; missed Sep 7 deadline for Mod-0 quiz; continued to engage and study in order to learn and prepare for another potential opportunity; completed withdrawal process by the close of Oct 27.  Late  18  30  0  48  N\/A  W     "
+},
+{
+  "id": "table-student-journeys",
+  "level": "2",
+  "url": "grading-examples.html#table-student-journeys",
+  "type": "Table",
+  "number": "4",
+  "title": "Example Students to Final Letter Grades",
+  "body": " Example Students to Final Letter Grades           Student Strategy \/ Journey  Mod-0 Quiz  GM Points (Max 30)  RQ Points (Max 50)  CP Points (Max 20)  Sum  Total Points (×0.77 if Mod-0 Quiz Late)  Final Letter Grade     Provided consistent and strong execution.  On Time  30  50  20  100  100.0  A    Registered post-Aug 26; executed Mod-0 quiz by Sep 7; provided strong execution thereafter.  On Time  27  45  20  92  92.0  A     Missed 1 core project; otherwise, provided strong execution.  On Time  30  46  10  86  86.0  B    Performed less than stellar on Reading Quizzes; set trend of steady execution.  On Time  24  38  20  82  82.0  B     Performed less than stellar on Reading Quizzes; was inconsistent in Group Meeting engagement.  On Time  18  36  20  74  74.0  C    Late Mod-0 Quiz: Sought to maximize learning and letter grade given past failure to execute; was successful given the recalibrated goal.  Late  30  45  20  95  73.15  C     Late Mod-0 Quiz: Decided not to withdraw despite initial failure to execute unsurprisingly yielding a great effect on GPA and degree progress.  Late  30  39  20  89  68.53  D    Gave low effort and lacked overall engagment; finished semester by executing Core Projects.  On Time  12 (4\/10)  30 (3\/5)  20 (2\/2)  62  62.0  D     Ignored Group Meetings after Week 4; left points on the board from questions that peers understood well; failed to follow Core Project instructions.  On Time  6  42  10  58  58.0  F    Late Mod-0 Quiz: Performed less than stellar on Reading Quizzes; was inconsistent in Group Meeting engagement thereafter.  Late  18  34  20  72  55.44  F     Enrolled post-Aug 26; missed Sep 7 deadline for Mod-0 quiz; continued to engage and study in order to learn and prepare for another potential opportunity; completed withdrawal process by the close of Oct 27.  Late  18  30  0  48  N\/A  W    "
+},
+{
   "id": "schedule",
   "level": "1",
   "url": "schedule.html",
@@ -68,7 +86,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "schedule.html#schedule-2",
   "type": "Table",
-  "number": "4",
+  "number": "5",
   "title": "Course Schedule for Fall 2026",
   "body": " Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday     Week 1  Aug 26:   Aug 28:   Aug 31:     Week 2  Sep 02:   Sep 04:   Sep 07:     Week 3  Sep 09:   Sep 11:   Sep 14:     Week 4  Sep 16:   Sep 18:   Sep 21:     Week 5  Sep 23:   Sep 25:   Sep 28:     Week 6  Sep 30:   Oct 02:   Oct 05:     Week 7  Oct 07:   Oct 09:   Oct 12:     Week 8  Oct 14:   Oct 16:   Oct 19:     Week 9  Oct 21:   Oct 23:   Oct 26:     Week 10  Oct 28:   Oct 30:   Nov 02:     Week 11  Nov 04:   Nov 06:   Nov 09:     Week 12  Nov 11:   Nov 13:   Nov 16:     Week 13  Nov 18:   Nov 20:   Nov 23:     Week 14  Nov 25:   Nov 27:   Nov 30:     Week 15  Dec 02:   Dec 04:   Dec 07:     Week 16  Dec 09:   Dec 11:   Dec 14:     "
 },
