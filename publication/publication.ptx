@@ -196,7 +196,7 @@
 
     <!-- Covers: paths to pdfs for the front and back covers, relative -->
     <!-- to your external assets directory.                            -->
-    <cover front="images/MathChange.png" back="image/MathDwight.png" />-->
+    <cover front="images/MathChange.png" back="images/MathDwight.png" />-->
 
     <!-- Set @formatted to "no" to give worksheets no special formatting -->
     <!-- and treat them like any other division.  The default is "yes".  -->

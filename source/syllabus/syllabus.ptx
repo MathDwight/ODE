@@ -12,7 +12,8 @@
     <title>Course Information</title>
 
     <p>
-      Welcome to a summary page of the syllabus for <term>Intro to Differential Equations (MATH 340, sections 003/004)</term> for Fall 2026. 
+      Welcome to a summary page of the syllabus for &#xA;
+      <term>Intro to Differential Equations (MATH 340, sections 003/004)</term> for Fall 2026. 
       <!-- use a description list (dl) for short items -->
       <dl>
         <li>
@@ -120,7 +121,11 @@
   <!-- Other subsections for larger dividers -->
 <subsection xml:id="sec-full-syllabus">
     <title>Full Syllabus</title>
-
+   
+   <p>
+    View the full syllabus as a presentation at <url href="https://create.piktochart.com/output/7f5856ebce8e-morgan2627f-math340-de-syllabus">Piktochart</url>. Be aware of the last updated date before saving<mdash/>a PDF will be available after the end of the add/drop period.
+   </p>
+   
     <p>
       <figure xml:id="fig-math340-syllabus">
         <caption>MATH 340 Differential Equations Full Syllabus</caption>
