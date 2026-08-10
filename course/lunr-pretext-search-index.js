@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "What’s Happening, Good People!",
-  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.      Vector field simulation (original credit: Andrei Kashcha): ,         Visualizing (Sohphus) Lie theory     "
+  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.      Vector field simulation (original credit: Andrei Kashcha): ,         Visualizing (Sophus) Lie theory      "
 },
 {
   "id": "fig-vector-field",
@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2",
   "title": "",
-  "body": " Visualizing (Sohphus) Lie theory   "
+  "body": " Visualizing (Sophus) Lie theory    "
 },
 {
   "id": "syllabus",
