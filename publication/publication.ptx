@@ -196,7 +196,7 @@
 
     <!-- Covers: paths to pdfs for the front and back covers, relative -->
     <!-- to your external assets directory.                            -->
-      <!--<cover front="cover-front.pdf" back="cover-back.pdf" />-->
+      <cover front="images/MathChange.png" back="image/MathDwight.png" />-->
 
     <!-- Set @formatted to "no" to give worksheets no special formatting -->
     <!-- and treat them like any other division.  The default is "yes".  -->
@@ -341,7 +341,7 @@
     <!-- An image in the upper-left corner of every page's banner.       -->
     <!-- @source (required) locates the image in your external assets    -->
     <!-- directory; the optional @url makes the image a link.            -->
-      <!--<brandlogo source="logo.png" url="https://mywebsite.org/"/>-->
+      <brandlogo source="images/MathChange.png" url="https://mathdwight.com/"/>
 
     <!-- Whether the subtitle and author byline appear in the banner. -->
     <!-- Each is "yes" (the default) or "no".                         -->
@@ -400,7 +400,7 @@
     <!-- Feedback button, with a link to an email or form.  @href is  -->
     <!-- required; optional text content replaces the default label   -->
     <!-- on the button and should contain no markup.                  -->
-      <!--<feedback href="mailto:youraddress@yourUni.edu"/>-->
+      <feedback href="mailto:dwight.williamsii@morgan.edu"/>
 
     <!-- Magic IDs identify HTML pages to analytics services.       -->
     <!-- Presence implies relevant Javascript will be added.        -->
@@ -416,7 +416,7 @@
   <epub>
     <!-- The cover element takes a @front attribute naming a cover image, -->
     <!-- as a path relative to your external assets directory.            -->
-      <!-- <cover front="cover.jpg"/> -->
+       <cover front="images/MathChange.png"/>
   </epub>
 
   <!-- Conversion to Jupyter notebooks.  @kernel names the kernel that -->
