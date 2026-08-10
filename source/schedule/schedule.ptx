@@ -3,6 +3,14 @@
 <section xml:id="schedule" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Schedule</title>
 
+  <p>
+   All times are local to Baltimore. Deadlines are specified by the due date and the 11:59PM cut-off for submission.
+  </p>
+
+   <p>
+   Click a specific week to jump to the page within the correspond Mod. Find printable worksheets and full week activities/alerts within Mods.
+  </p>
+
 <table>
   <title>Course Schedule for Fall 2026</title>
   <tabular top="major" bottom="major" halign="left">
@@ -21,21 +29,21 @@
 
     <!-- Schedule Rows -->
     <row bottom="minor">
-      <cell>Week 1</cell>
-      <cell><line><bold>Aug 26:</bold> </line></cell>
+      <cell><xref text="title" ref="week-01"/></cell>
+      <cell><line><bold>Aug 26:</bold> First day of class</line></cell>
       <cell><line><bold>Aug 28:</bold> </line></cell>
-      <cell><line><bold>Aug 31:</bold> </line></cell>
+      <cell><line><bold>Aug 31:</bold> Mod-0 quiz due for first-day enrollees</line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 2</cell>
       <cell><line><bold>Sep 02:</bold> </line></cell>
       <cell><line><bold>Sep 04:</bold> </line></cell>
-      <cell><line><bold>Sep 07:</bold> </line></cell>
+      <cell><line><bold>Sep 07:</bold> University Closed; Mod-0 quiz due for other enrollees</line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 3</cell>
-      <cell><line><bold>Sep 09:</bold> </line></cell>
-      <cell><line><bold>Sep 11:</bold> </line></cell>
+      <cell><line><bold>Sep 09:</bold> Mod-1 begins</line></cell>
+      <cell><line><bold>Sep 11:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Sep 14:</bold> </line></cell>
     </row>
     <row bottom="minor">
@@ -46,8 +54,8 @@
     </row>
     <row bottom="minor">
       <cell>Week 5</cell>
-      <cell><line><bold>Sep 23:</bold> </line></cell>
-      <cell><line><bold>Sep 25:</bold> </line></cell>
+      <cell><line><bold>Sep 23:</bold> Mod-2 begins</line></cell>
+      <cell><line><bold>Sep 25:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Sep 28:</bold> </line></cell>
     </row>
     <row bottom="minor">
@@ -58,15 +66,15 @@
     </row>
     <row bottom="minor">
       <cell>Week 7</cell>
-      <cell><line><bold>Oct 07:</bold> </line></cell>
+      <cell><line><bold>Oct 07:</bold> Group Work Day</line></cell>
       <cell><line><bold>Oct 09:</bold> </line></cell>
       <cell><line><bold>Oct 12:</bold> </line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 8</cell>
-      <cell><line><bold>Oct 14:</bold> </line></cell>
-      <cell><line><bold>Oct 16:</bold> </line></cell>
-      <cell><line><bold>Oct 19:</bold> </line></cell>
+      <cell><line><bold>Oct 14:</bold> Mod-3 begins</line></cell>
+      <cell><line><bold>Oct 16:</bold> Feedback/Check-in activity </line></cell>
+      <cell><line><bold>Oct 19:</bold> Mid-term/snapshot grade calculated by <m>\frac{\text{Total Points by October 19}}{48} \mapsto \text{10-point scale letter grade}</m> </line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 9</cell>
@@ -76,43 +84,43 @@
     </row>
     <row bottom="minor">
       <cell>Week 10</cell>
-      <cell><line><bold>Oct 28:</bold> </line></cell>
-      <cell><line><bold>Oct 30:</bold> </line></cell>
+      <cell><line><bold>Oct 28:</bold> Mod-4 begins</line></cell>
+      <cell><line><bold>Oct 30:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Nov 02:</bold> </line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 11</cell>
       <cell><line><bold>Nov 04:</bold> </line></cell>
-      <cell><line><bold>Nov 06:</bold> </line></cell>
+      <cell><line><bold>Nov 06:</bold> Group Work Day</line></cell>
       <cell><line><bold>Nov 09:</bold> </line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 12</cell>
-      <cell><line><bold>Nov 11:</bold> </line></cell>
-      <cell><line><bold>Nov 13:</bold> </line></cell>
+      <cell><line><bold>Nov 11:</bold> Mod-5 begins</line></cell>
+      <cell><line><bold>Nov 13:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Nov 16:</bold> </line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 13</cell>
       <cell><line><bold>Nov 18:</bold> </line></cell>
       <cell><line><bold>Nov 20:</bold> </line></cell>
-      <cell><line><bold>Nov 23:</bold> </line></cell>
+      <cell><line><bold>Nov 23:</bold> Group Work Day</line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 14</cell>
-      <cell><line><bold>Nov 25:</bold> </line></cell>
-      <cell><line><bold>Nov 27:</bold> </line></cell>
+      <cell><line><bold>Nov 25:</bold> University Closed</line></cell>
+      <cell><line><bold>Nov 27:</bold> University Closed</line></cell>
       <cell><line><bold>Nov 30:</bold> </line></cell>
     </row>
     <row bottom="minor">
       <cell>Week 15</cell>
-      <cell><line><bold>Dec 02:</bold> </line></cell>
-      <cell><line><bold>Dec 04:</bold> </line></cell>
+      <cell><line><bold>Dec 02:</bold> Core project should have been submitted</line></cell>
+      <cell><line><bold>Dec 04:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Dec 07:</bold> </line></cell>
     </row>
     <row>
       <cell>Week 16</cell>
-      <cell><line><bold>Dec 09:</bold> </line></cell>
+      <cell><line><bold>Dec 09:</bold> Last day of class</line></cell>
       <cell><line><bold>Dec 11:</bold> </line></cell>
       <cell><line><bold>Dec 14:</bold> </line></cell>
     </row>
