@@ -416,7 +416,7 @@
   <epub>
     <!-- The cover element takes a @front attribute naming a cover image, -->
     <!-- as a path relative to your external assets directory.            -->
-       <cover front="images/MathChange.png"/> 
+      <!-- <cover front="cover.jpg"/> -->
   </epub>
 
   <!-- Conversion to Jupyter notebooks.  @kernel names the kernel that -->
