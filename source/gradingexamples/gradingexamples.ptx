@@ -4,7 +4,7 @@
   <title>Grading Examples</title>
 
 <table xml:id="table-student-journeys">
-    <title>Example Students to Final Letter Grades</title>
+    <title>Example Students's Final Letter Grades</title>
     <tabular halign="center" bottom="minor" top="minor">
         <col right="medium"/>
         <col right="minor"/>
