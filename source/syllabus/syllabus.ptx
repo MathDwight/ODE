@@ -32,21 +32,32 @@
         </li>
 
         <li>
-          <title>Class Location and Time (003)</title>
+          <title>Section 003 Location and Time</title>
+
+          <image source="images/Map-CarnegieHall.png" width="75%">
+          <shortdescription>Map of Carnegie Hall on Morgan State University's campus.</shortdescription>
+          </image>
 
           <p>
-           Section 003 meets Wednesdays, Fridays, and Mondays from 11:00am to 11:50am. in Carnegie 259 for section 003; MWF 1:00pm - 1:50pm in Carnegie G57 for section 004.
+           Section 003 meets Wednesdays, Fridays, and Mondays from 11:00am to 11:50am.
           </p>
           <p>
            The classroom is Carnegie 259. 
           </p>
         </li>
 
-        <li>
-          <title>Class Location and Time (003)</title>
+      <li>
+          <title>Section 004 Location and Time</title>
+
+          <image source="images/Map-CarnegieHall.png" width="75%">
+          <shortdescription>Map of Carnegie Hall on Morgan State University's campus.</shortdescription>
+          </image>
 
           <p>
-           MWF 11am - 11:50am in Carnegie 259 for section 003; MWF 1:00pm - 1:50pm in Carnegie G57 for section 004.
+           Section 004 meets Wednesdays, Fridays, and Mondays from 1:00pm to 1:50pm.
+          </p>
+          <p>
+           The classroom is Carnegie G57. 
           </p>
         </li>
 
