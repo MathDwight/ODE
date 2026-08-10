@@ -34,7 +34,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Syllabus",
-  "body": " Syllabus        Course Information  Welcome to a summary page of the syllabus for Intro to Differential Equations (MATH 340, sections 003\/004) for Fall 2026.    Instructor  Dwight Anderson Williams II, PhD. Office: Calloway 306. Email: dwight.williamsii@morgan.edu . Homepage: mathdwight.com .    Student Hours   Schedule meetings using Calendly .    Class meets  MWF 11am - 11:50am in Carnegie 259 for section 003; MWF 1:00pm - 1:50pm in Carnegie G57 for section 004.    Course Description  Differential equations as a subfield of mathematics furthers the concept of modeling phenomena using functions. In MATH 340 Intro to Differential Equations, we revisit the derivative of a differentiable function with respect to a single independent variable such as for time. We assume that , , and so on are also differentiable functions. Equations (e.g. ) with an unknown function written in terms of , , , etc., are called ordinary differential equations (ODEs). We consider numerical, analytic, and qualitative methods for finding and describing solution functions (e.g. ) to ODEs. We focus especially on first-order and second-order ODEs. To begin, we discuss types of ODEs and their importance in modeling the world around us.    Knowledge Prerequisite  Students should be familiar with linearization and the derivative, review series and approximation (Taylor series), and demonstrate algebraic savvy.    Textbook and course materials  We use the freely available  A First Course in Differential Equations Third Edition by John D. Logan. Use Morgan.edu email to access the link to the book.       Course Overview  There are 6 Mods:  ,  ,  ,  ,  , and  .        Full Syllabus    MATH 340 Differential Equations Full Syllabus      "
+  "body": " Syllabus        Course Information  Welcome to a summary page of the syllabus for Intro to Differential Equations (MATH 340, sections 003\/004) for Fall 2026.    Instructor  Dwight Anderson Williams II, PhD. Office: Calloway 306. Email: dwight.williamsii@morgan.edu . Homepage: mathdwight.com .    Student Hours   Schedule meetings using Calendly .    Section 003 Location and Time   Map of Carnegie Hall on Morgan State University's campus.   Section 003 meets Wednesdays, Fridays, and Mondays from 11:00am to 11:50am.  The classroom is Carnegie 259.    Section 004 Location and Time   Map of Carnegie Hall on Morgan State University's campus.   Section 004 meets Wednesdays, Fridays, and Mondays from 1:00pm to 1:50pm.  The classroom is Carnegie G57.    Course Description  Differential equations as a subfield of mathematics furthers the concept of modeling phenomena using functions. In MATH 340 Intro to Differential Equations, we revisit the derivative of a differentiable function with respect to a single independent variable such as for time. We assume that , , and so on are also differentiable functions. Equations (e.g. ) with an unknown function written in terms of , , , etc., are called ordinary differential equations (ODEs). We consider numerical, analytic, and qualitative methods for finding and describing solution functions (e.g. ) to ODEs. We focus especially on first-order and second-order ODEs. To begin, we discuss types of ODEs and their importance in modeling the world around us.    Knowledge Prerequisite  Students should be familiar with linearization and the derivative, review series and approximation (Taylor series), and demonstrate algebraic savvy.    Textbook and course materials  We use the freely available  A First Course in Differential Equations Third Edition by John D. Logan. Use Morgan.edu email to access the link to the book.       Course Overview  There are 6 Mods:  ,  ,  ,  ,  , and  .        Full Syllabus    MATH 340 Differential Equations Full Syllabus      "
 },
 {
   "id": "sec-course-info-2",
@@ -53,6 +53,24 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": " MATH 340 Differential Equations Full Syllabus   "
+},
+{
+  "id": "schedule",
+  "level": "1",
+  "url": "schedule.html",
+  "type": "Section",
+  "number": "",
+  "title": "Schedule",
+  "body": " Schedule   Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday     Week 1  Aug 26:   Aug 28:   Aug 31:     Week 2  Sep 02:   Sep 04:   Sep 07:     Week 3  Sep 09:   Sep 11:   Sep 14:     Week 4  Sep 16:   Sep 18:   Sep 21:     Week 5  Sep 23:   Sep 25:   Sep 28:     Week 6  Sep 30:   Oct 02:   Oct 05:     Week 7  Oct 07:   Oct 09:   Oct 12:     Week 8  Oct 14:   Oct 16:   Oct 19:     Week 9  Oct 21:   Oct 23:   Oct 26:     Week 10  Oct 28:   Oct 30:   Nov 02:     Week 11  Nov 04:   Nov 06:   Nov 09:     Week 12  Nov 11:   Nov 13:   Nov 16:     Week 13  Nov 18:   Nov 20:   Nov 23:     Week 14  Nov 25:   Nov 27:   Nov 30:     Week 15  Dec 02:   Dec 04:   Dec 07:     Week 16  Dec 09:   Dec 11:   Dec 14:      "
+},
+{
+  "id": "schedule-2",
+  "level": "2",
+  "url": "schedule.html#schedule-2",
+  "type": "Table",
+  "number": "4",
+  "title": "Course Schedule for Fall 2026",
+  "body": " Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday     Week 1  Aug 26:   Aug 28:   Aug 31:     Week 2  Sep 02:   Sep 04:   Sep 07:     Week 3  Sep 09:   Sep 11:   Sep 14:     Week 4  Sep 16:   Sep 18:   Sep 21:     Week 5  Sep 23:   Sep 25:   Sep 28:     Week 6  Sep 30:   Oct 02:   Oct 05:     Week 7  Oct 07:   Oct 09:   Oct 12:     Week 8  Oct 14:   Oct 16:   Oct 19:     Week 9  Oct 21:   Oct 23:   Oct 26:     Week 10  Oct 28:   Oct 30:   Nov 02:     Week 11  Nov 04:   Nov 06:   Nov 09:     Week 12  Nov 11:   Nov 13:   Nov 16:     Week 13  Nov 18:   Nov 20:   Nov 23:     Week 14  Nov 25:   Nov 27:   Nov 30:     Week 15  Dec 02:   Dec 04:   Dec 07:     Week 16  Dec 09:   Dec 11:   Dec 14:     "
 },
 {
   "id": "Mod-0-breakdown",
