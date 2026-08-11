@@ -26,8 +26,10 @@ day_letters = {
     "Tuesday": "T"
 }
 
+# Fixed Template: Uses paragraphs as the root element instead of fragment
 xml_template = """<?xml version="1.0" encoding="UTF-8" ?>
-<fragment xmlns:xi="http://w3.org">
+<paragraphs xml:id="day-{file_stub}" xmlns:xi="http://w3.org">
+  <title></title>
 
   <paragraphs xml:id="scratchpad-{file_stub}">
     <title>Instructor Notes</title>
@@ -47,24 +49,22 @@ xml_template = """<?xml version="1.0" encoding="UTF-8" ?>
     </biographical>
   </handout>
 
-</fragment>"""
+</paragraphs>"""
 
 for week_name, config in week_configs.items():
     week_folder_path = os.path.join(base_dir, week_name)
     os.makedirs(week_folder_path, exist_ok=True)
 
-    print(f"\n=========================================")
+    print(f"\\n=========================================")
     print(f"Creating files in: {week_folder_path}")
     print(f"=========================================")
 
-    include_tags = []
     current_date = config["start_date"]
 
     for i in range(config["days_count"]):
         day_full_name = current_date.strftime("%A")
         day_letter = day_letters[day_full_name]
 
-        # Create chronological stub: e.g., 20260826-W
         file_stub = f"{current_date.strftime('%Y%m%d')}-{day_letter}"
         display_date = current_date.strftime("%A, %d %B %Y")
 
@@ -75,11 +75,6 @@ for week_name, config in week_configs.items():
             f.write(filled_content)
 
         print(f" -> Created {file_stub}.xml")
-        include_tags.append(f'<xi:include href="{week_name}/{file_stub}.xml" />')
         current_date += timedelta(days=1)
 
-    print(f"\n--- Copy and paste these lines into your source/Mod-0/{week_name}.ptx file ---")
-    for tag in include_tags:
-        print(tag)
-
-print("\nExecution complete! Check your updated chronological files in Atom.")
+print("\\nExecution complete! Check your updated chronological files in Atom.")
