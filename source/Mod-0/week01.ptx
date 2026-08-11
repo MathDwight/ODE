@@ -16,7 +16,7 @@
       </ul>
     </p>
     <p>
-        Next due dates:  
+        Next due dates:
     <ul>
       <li>Mod 0 Quiz: Aug 31 (if day-one enrolled)</li>
       <li>Mod 0 Quiz: Sep 7 (if not day-one enrolled)</li>
@@ -25,6 +25,15 @@
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 1 -->
+    <xi:include href="week01/20260826-W.xml" />
+    <xi:include href="week01/20260827-R.xml" />
+    <xi:include href="week01/20260828-F.xml" />
+    <xi:include href="week01/20260829-S.xml" />
+    <xi:include href="week01/20260830-U.xml" />
+    <xi:include href="week01/20260831-M.xml" />
+    <xi:include href="week01/20260901-T.xml" />
+<!--
   <handout>
     <title>Wednesday, 26 August 2026</title>
     <p>
@@ -66,5 +75,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>
