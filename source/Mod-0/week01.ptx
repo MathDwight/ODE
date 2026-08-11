@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<section xml:id="week01" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="week-01" xmlns:xi="http://w3.org">
   <title>Week 1</title>
 
   <introduction>
     <p>
-      Week 1 (Aug 26 – Sep 1) opens Mod-0: Logistics and Foundations.
+      Week 1 (Aug 26 <ndash/> Sep 1) opens Mod 0: Logistics and Foundations.
     </p>
     <p>
       Class meeting dates:
       <ul>
-      <li>Aug 26</li>
-      <li>Aug 28</li>
-      <li>Aug 31</li>
+        <li>Aug 26</li>
+        <li>Aug 28</li>
+        <li>Aug 31</li>
       </ul>
     </p>
     <p>
-        Next due dates:
-    <ul>
-      <li>Mod 0 Quiz: Aug 31 (if day-one enrolled)</li>
-      <li>Mod 0 Quiz: Sep 7 (if not day-one enrolled)</li>
-      <li>Reading Quiz 1: Sep 10</li>
-    </ul>
+      Next due dates:
+      <ul>
+        <li>Mod 0 Quiz: Aug 31 (if day-one enrolled)</li>
+        <li>Mod 0 Quiz: Sep 7 (if not day-one enrolled)</li>
+        <li>Reading Quiz 1: Sep 10</li>
+      </ul>
     </p>
   </introduction>
 
   <!-- Chronological daily includes for Week 1 -->
-    <xi:include href="week01/20260826-W.xml" />
-    <xi:include href="week01/20260827-R.xml" />
-    <xi:include href="week01/20260828-F.xml" />
-    <xi:include href="week01/20260829-S.xml" />
-    <xi:include href="week01/20260830-U.xml" />
-    <xi:include href="week01/20260831-M.xml" />
-    <xi:include href="week01/20260901-T.xml" />
+  <xi:include href="week01/20260826-W.xml" />
+  <xi:include href="week01/20260827-R.xml" />
+  <xi:include href="week01/20260828-F.xml" />
+  <xi:include href="week01/20260829-S.xml" />
+  <xi:include href="week01/20260830-U.xml" />
+  <xi:include href="week01/20260831-M.xml" />
+  <xi:include href="week01/20260901-T.xml" />
+
 <!--
   <handout>
     <title>Wednesday, 26 August 2026</title>
