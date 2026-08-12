@@ -1,18 +1,37 @@
-<section xml:id="week-12">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week12" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 12</title>
 
   <introduction>
     <p>
-      Week 12 (Nov 11 – Nov 17) opens Mod 5: Systems and Symmetries.
+      Week 12 (Nov 11<ndash/>Nov 17) continues Mod-5: Systems and Symmetries.
     </p>
     <p>
-      Class meeting dates: Nov 11, Nov 13, Nov 16.
+      Class meeting dates:
+      <ul>
+        <li>Nov 11</li>
+        <li>Nov 13</li>
+        <li>Nov 16</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: None.
+      Next due dates:
+      <ul>
+        <li>Projects: December 1, 11:5PM EST.</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 12 -->
+  <xi:include href="week12/20261111-W.xml" />
+  <xi:include href="week12/20261112-R.xml" />
+  <xi:include href="week12/20261113-F.xml" />
+  <xi:include href="week12/20261114-S.xml" />
+  <xi:include href="week12/20261115-U.xml" />
+  <xi:include href="week12/20261116-M.xml" />
+  <xi:include href="week12/20261117-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 11 November 2026</title>
     <p>
@@ -54,5 +73,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

@@ -1,18 +1,37 @@
-<section xml:id="week-05">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week05" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 5</title>
 
   <introduction>
     <p>
-      Week 5 (Sep 23 – Sep 29) closes Mod 1: Recognizing Differential Equations and Their Solutions and opens Mod 2: Numerical Methods.
+      Week 5 (Sep 23<ndash/>Sep 29) continues Mod-2: Numerical Methods.
     </p>
     <p>
-      Class meeting dates: Sep 23, Sep 25, Sep 28.
+      Class meeting dates:
+      <ul>
+        <li>Sep 23</li>
+        <li>Sep 25</li>
+        <li>Sep 28</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT.
+      Next due dates:
+      <ul>
+        <li>Reading Quiz 3: Oct 13, 11:59PM EDT</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 5 -->
+  <xi:include href="week05/20260923-W.xml" />
+  <xi:include href="week05/20260924-R.xml" />
+  <xi:include href="week05/20260925-F.xml" />
+  <xi:include href="week05/20260926-S.xml" />
+  <xi:include href="week05/20260927-U.xml" />
+  <xi:include href="week05/20260928-M.xml" />
+  <xi:include href="week05/20260929-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 23 September 2026</title>
     <p>
@@ -54,5 +73,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

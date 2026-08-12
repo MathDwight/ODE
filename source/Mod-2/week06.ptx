@@ -1,18 +1,37 @@
-<section xml:id="week-06">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week06" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 6</title>
 
   <introduction>
     <p>
-      Week 6 (Sep 30 – Oct 6) continues Mod 2: Numerical Methods.
+      Week 6 (Sep 30<ndash/>Oct 06) continues Mod-2: Numerical Methods.
     </p>
     <p>
-      Class meeting dates: Sep 30, Oct 2.
+      Class meeting dates:
+      <ul>
+        <li>Sep 30</li>
+        <li>Oct 02</li>
+        <li>Oct 05</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT.
+      Next due dates:
+      <ul>
+        <li>Reading Quiz 3: Oct 13, 11:59PM EDT</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 6 -->
+  <xi:include href="week06/20260930-W.xml" />
+  <xi:include href="week06/20261001-R.xml" />
+  <xi:include href="week06/20261002-F.xml" />
+  <xi:include href="week06/20261003-S.xml" />
+  <xi:include href="week06/20261004-U.xml" />
+  <xi:include href="week06/20261005-M.xml" />
+  <xi:include href="week06/20261006-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 30 September 2026</title>
     <p>
@@ -54,5 +73,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

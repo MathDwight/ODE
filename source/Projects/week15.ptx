@@ -1,18 +1,37 @@
-<section xml:id="week-15">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week15" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 15</title>
 
   <introduction>
     <p>
-      Week 15 (Dec 2 – Dec 8).
+      Week 15 (Dec 02<ndash/>Dec 08) closes Core Projects.
     </p>
     <p>
-      Class meeting dates: Dec 2, Dec 4, Dec 7.
+      Class meeting dates:
+      <ul>
+        <li>Dec 02</li>
+        <li>Dec 04</li>
+        <li>Dec 07</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: None.
+      Next due dates:
+      <ul>
+        <li>Final Review: December 8, 11:5PM EST.</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 15 -->
+  <xi:include href="week15/20261202-W.xml" />
+  <xi:include href="week15/20261203-R.xml" />
+  <xi:include href="week15/20261204-F.xml" />
+  <xi:include href="week15/20261205-S.xml" />
+  <xi:include href="week15/20261206-U.xml" />
+  <xi:include href="week15/20261207-M.xml" />
+  <xi:include href="week15/20261208-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 02 December 2026</title>
     <p>
@@ -54,5 +73,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

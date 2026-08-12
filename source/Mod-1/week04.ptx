@@ -1,18 +1,37 @@
-<section xml:id="week-04">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week04" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 4</title>
 
   <introduction>
     <p>
-      Week 4 (Sep 16 – Sep 22) continues Mod 1: Recognizing Differential Equations and Their Solutions.
+      Week 4 (Sep 16<ndash/>Sep 22) closes Mod-1: Recognizing ODEs and Their Solutions.
     </p>
     <p>
-      Class meeting dates: Sep 16, Sep 18, Sep 21.
+      Class meeting dates:
+      <ul>
+        <li>Sep 16</li>
+        <li>Sep 18</li>
+        <li>Sep 21</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: Reading Quiz 2 Sep 24, 11:59 PM EDT.
+      Next due dates:
+      <ul>
+        <li>Reading Quiz 2: Sep 22, 11:59PM EDT</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 4 -->
+  <xi:include href="week04/20260916-W.xml" />
+  <xi:include href="week04/20260917-R.xml" />
+  <xi:include href="week04/20260918-F.xml" />
+  <xi:include href="week04/20260919-S.xml" />
+  <xi:include href="week04/20260920-U.xml" />
+  <xi:include href="week04/20260921-M.xml" />
+  <xi:include href="week04/20260922-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 16 September 2026</title>
     <p>
@@ -54,5 +73,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

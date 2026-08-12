@@ -1,18 +1,36 @@
-<section xml:id="week-07">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week07" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 7</title>
 
   <introduction>
     <p>
-      Week 7 (Oct 7 – Oct 13) continues Mod 2: Numerical Methods.
+      Week 7 (Oct 07<ndash/>Oct 13) closes Mod-2: Numerical Methods.
     </p>
     <p>
-      Class meeting dates: Oct 7, Oct 9, Oct 12.
+      Class meeting dates:
+      <ul>
+        <li>Oct 09</li>
+        <li>Oct 12</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT; Reading Quiz 4 Oct 27, 11:59 PM EDT.
+      Next due dates:
+      <ul>
+        <li>Reading Quiz 3: Oct 13, 11:59PM EDT</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 7 -->
+  <xi:include href="week07/20261007-W.xml" />
+  <xi:include href="week07/20261008-R.xml" />
+  <xi:include href="week07/20261009-F.xml" />
+  <xi:include href="week07/20261010-S.xml" />
+  <xi:include href="week07/20261011-U.xml" />
+  <xi:include href="week07/20261012-M.xml" />
+  <xi:include href="week07/20261013-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 07 October 2026</title>
     <p>
@@ -54,5 +72,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

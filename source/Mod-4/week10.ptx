@@ -1,18 +1,37 @@
-<section xml:id="week-10">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week10" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 10</title>
 
   <introduction>
     <p>
-      Week 10 (Oct 28 – Nov 3) closes Mod 3: First-Order ODEs Analytic Methods and opens Mod 4: Second-Order ODEs Analytic Methods.
+      Week 10 (Oct 28<ndash/>Nov 03) continues Mod-4: Second-Order ODEs and Analytic Methods.
     </p>
     <p>
-      Class meeting dates: Oct 28, Oct 30, Nov 2.
+      Class meeting dates:
+      <ul>
+        <li>Oct 28</li>
+        <li>Oct 30</li>
+        <li>Nov 02</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: Reading Quiz 5 Nov 12, 11:59 PM EST.
+      Next due dates:
+      <ul>
+        <li>Reading Quiz 5: Nov 10, 11:59PM EST</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 10 -->
+  <xi:include href="week10/20261028-W.xml" />
+  <xi:include href="week10/20261029-R.xml" />
+  <xi:include href="week10/20261030-F.xml" />
+  <xi:include href="week10/20261031-S.xml" />
+  <xi:include href="week10/20261101-U.xml" />
+  <xi:include href="week10/20261102-M.xml" />
+  <xi:include href="week10/20261103-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 28 October 2026</title>
     <p>
@@ -54,5 +73,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

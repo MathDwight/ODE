@@ -1,18 +1,37 @@
-<section xml:id="week-09">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week09" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 9</title>
 
   <introduction>
     <p>
-      Week 9 (Oct 21 – Oct 27) continues Mod 3: First-Order ODEs Analytic Methods.
+      Week 9 (Oct 21<ndash/>Oct 27) closes Mod-3: First-Order ODEs and Analytic Methods.
     </p>
     <p>
-      Class meeting dates: Oct 21, Oct 23, Oct 26.
+      Class meeting dates:
+      <ul>
+        <li>Oct 21</li>
+        <li>Oct 23</li>
+        <li>Oct 26</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: Reading Quiz 4 Oct 27, 11:59 PM EDT; Reading Quiz 5 Nov 12, 11:59 PM EST.
+      Next due dates:
+      <ul>
+        <li>Reading Quiz 4: Oct 27, 11:59PM EDT</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 9 -->
+  <xi:include href="week09/20261021-W.xml" />
+  <xi:include href="week09/20261022-R.xml" />
+  <xi:include href="week09/20261023-F.xml" />
+  <xi:include href="week09/20261024-S.xml" />
+  <xi:include href="week09/20261025-U.xml" />
+  <xi:include href="week09/20261026-M.xml" />
+  <xi:include href="week09/20261027-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 21 October 2026</title>
     <p>
@@ -54,5 +73,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

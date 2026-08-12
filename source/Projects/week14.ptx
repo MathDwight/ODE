@@ -1,18 +1,35 @@
-<section xml:id="week-14">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week14" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 14</title>
 
   <introduction>
     <p>
-      Week 14 (Nov 25 – Dec 1).
+      Week 14 (Nov 25<ndash/>Dec 01) continues Core Projects.
     </p>
     <p>
-      Class meeting dates: Nov 30.
+      Class meeting dates:
+      <ul>
+        <li>Nov 30</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: None.
+      Next due dates:
+      <ul>
+        <li>Projects: December 1, 11:5PM EST.</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 14 -->
+  <xi:include href="week14/20261125-W.xml" />
+  <xi:include href="week14/20261126-R.xml" />
+  <xi:include href="week14/20261127-F.xml" />
+  <xi:include href="week14/20261128-S.xml" />
+  <xi:include href="week14/20261129-U.xml" />
+  <xi:include href="week14/20261130-M.xml" />
+  <xi:include href="week14/20261201-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 25 November 2026</title>
     <p>
@@ -54,5 +71,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

@@ -1,18 +1,36 @@
-<section xml:id="week-11">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week11" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 11</title>
 
   <introduction>
     <p>
-      Week 11 (Nov 4 – Nov 10) continues Mod 4: Second-Order ODEs Analytic Methods.
+      Week 11 (Nov 04<ndash/>Nov 10) closes Mod-4: Second-Order ODEs and Analytic Methods.
     </p>
     <p>
-      Class meeting dates: Nov 4, Nov 9.
+      Class meeting dates:
+      <ul>
+        <li>Nov 04</li>
+        <li>Nov 09</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: Reading Quiz 5 Nov 12, 11:59 PM EST.
+      Next due dates:
+      <ul>
+        <li>Reading Quiz 5: Nov 10, 11:59PM EST</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 11 -->
+  <xi:include href="week11/20261104-W.xml" />
+  <xi:include href="week11/20261105-R.xml" />
+  <xi:include href="week11/20261106-F.xml" />
+  <xi:include href="week11/20261107-S.xml" />
+  <xi:include href="week11/20261108-U.xml" />
+  <xi:include href="week11/20261109-M.xml" />
+  <xi:include href="week11/20261110-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 04 November 2026</title>
     <p>
@@ -54,5 +72,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>
