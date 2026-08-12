@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: boulder                        *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Thursday, 12 November 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Intro to (Ordinary) Differential Equations">
+<meta property="og:title" content="Intro to (Ordinary) Differential Equations">
+<meta property="book:title" content="Intro to (Ordinary) Differential Equations">
+<meta name="twitter:description" content="MATH 340 Fall 2026">
+<meta property="og:description" content="MATH 340 Fall 2026">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.48"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.48"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.4';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.40bd1420d3277749.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://mathdwight.com/"><img src="external/images/MathChange.png" alt="Logo image"></a><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Intro to (Ordinary) Differential Equations</span> <span class="subtitle">MATH 340 Fall 2026</span></a></div>
+<p class="byline">Dwight Anderson Williams II, PhD</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup"><div class="ptx-embed-popup-controls">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="day-20261111-W.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="week12.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="day-20261113-F.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul id="ptx-toc-group-frontmatter" class="structural toc-item-list"><li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-visualization.html" class="internal"><span class="title">What’s Happening, Good People!</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul id="ptx-toc-group-course-documents" class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Syllabus</span></a></div>
+<ul id="ptx-toc-group-syllabus" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="syllabus-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-course-info.html" class="internal"><span class="title">Course Information</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-full-syllabus.html" class="internal"><span class="title">Full Syllabus</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="grading-examples.html" class="internal"><span class="title">Grading Examples</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="schedule.html" class="internal"><span class="title">Schedule</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Mod-0.html" class="internal"><span class="title">Mod-0</span></a></div>
+<ul id="ptx-toc-group-Mod-0" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Mod-0-breakdown.html" class="internal"><span class="title">Mod-0: Logistics and Foundations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week01.html" class="internal"><span class="title">Week 1</span></a></div>
+<ul id="ptx-toc-group-week01" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week01-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260826-W.html" class="internal"><span class="title">Wednesday, 26 August 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260826-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260826-W.html#handout-20260826-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 26 August 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260827-R.html" class="internal"><span class="title">Thursday, 27 August 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260827-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260827-R.html#handout-20260827-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 27 August 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260828-F.html" class="internal"><span class="title">Friday, 28 August 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260828-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260828-F.html#handout-20260828-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 28 August 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260829-S.html" class="internal"><span class="title">Saturday, 29 August 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260829-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260829-S.html#handout-20260829-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 29 August 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260830-U.html" class="internal"><span class="title">Sunday, 30 August 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260830-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260830-U.html#handout-20260830-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 30 August 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260831-M.html" class="internal"><span class="title">Monday, 31 August 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260831-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260831-M.html#handout-20260831-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 31 August 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260901-T.html" class="internal"><span class="title">Tuesday, 01 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260901-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260901-T.html#handout-20260901-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 01 September 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week02.html" class="internal"><span class="title">Week 2</span></a></div>
+<ul id="ptx-toc-group-week02" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week02-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260902-W.html" class="internal"><span class="title">Wednesday, 02 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260902-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260902-W.html#handout-20260902-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 02 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260903-R.html" class="internal"><span class="title">Thursday, 03 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260903-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260903-R.html#handout-20260903-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 03 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260904-F.html" class="internal"><span class="title">Friday, 04 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260904-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260904-F.html#handout-20260904-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 04 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260905-S.html" class="internal"><span class="title">Saturday, 05 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260905-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260905-S.html#handout-20260905-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 05 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260906-U.html" class="internal"><span class="title">Sunday, 06 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260906-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260906-U.html#handout-20260906-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 06 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260907-M.html" class="internal"><span class="title">Monday, 07 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260907-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260907-M.html#handout-20260907-M" class="internal"><span class="title">Reflection and Review for Study Date: Monday, 07 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260908-T.html" class="internal"><span class="title">Tuesday, 08 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260908-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260908-T.html#handout-20260908-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 08 September 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Mod-1.html" class="internal"><span class="title">Mod-1</span></a></div>
+<ul id="ptx-toc-group-Mod-1" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Mod-1-breakdown.html" class="internal"><span class="title">Mod-1: Recognizing ODEs and Their Solutions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week03.html" class="internal"><span class="title">Week 3</span></a></div>
+<ul id="ptx-toc-group-week03" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week03-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260909-W.html" class="internal"><span class="title">Wednesday, 09 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260909-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260909-W.html#handout-20260909-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 09 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260910-R.html" class="internal"><span class="title">Thursday, 10 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260910-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260910-R.html#handout-20260910-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 10 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260911-F.html" class="internal"><span class="title">Friday, 11 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260911-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260911-F.html#handout-20260911-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 11 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260912-S.html" class="internal"><span class="title">Saturday, 12 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260912-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260912-S.html#handout-20260912-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 12 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260913-U.html" class="internal"><span class="title">Sunday, 13 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260913-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260913-U.html#handout-20260913-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 13 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260914-M.html" class="internal"><span class="title">Monday, 14 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260914-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260914-M.html#handout-20260914-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 14 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260915-T.html" class="internal"><span class="title">Tuesday, 15 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260915-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260915-T.html#handout-20260915-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 15 September 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week04.html" class="internal"><span class="title">Week 4</span></a></div>
+<ul id="ptx-toc-group-week04" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week04-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260916-W.html" class="internal"><span class="title">Wednesday, 16 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260916-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260916-W.html#handout-20260916-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 16 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260917-R.html" class="internal"><span class="title">Thursday, 17 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260917-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260917-R.html#handout-20260917-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 17 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260918-F.html" class="internal"><span class="title">Friday, 18 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260918-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260918-F.html#handout-20260918-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 18 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260919-S.html" class="internal"><span class="title">Saturday, 19 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260919-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260919-S.html#handout-20260919-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 19 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260920-U.html" class="internal"><span class="title">Sunday, 20 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260920-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260920-U.html#handout-20260920-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 20 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260921-M.html" class="internal"><span class="title">Monday, 21 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260921-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260921-M.html#handout-20260921-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 21 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260922-T.html" class="internal"><span class="title">Tuesday, 22 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260922-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260922-T.html#handout-20260922-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 22 September 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Mod-2.html" class="internal"><span class="title">Mod-2</span></a></div>
+<ul id="ptx-toc-group-Mod-2" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Mod-2-breakdown.html" class="internal"><span class="title">Mod-2: Numerical Methods</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week05.html" class="internal"><span class="title">Week 5</span></a></div>
+<ul id="ptx-toc-group-week05" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week05-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260923-W.html" class="internal"><span class="title">Wednesday, 23 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260923-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260923-W.html#handout-20260923-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 23 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260924-R.html" class="internal"><span class="title">Thursday, 24 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260924-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260924-R.html#handout-20260924-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 24 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260925-F.html" class="internal"><span class="title">Friday, 25 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260925-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260925-F.html#handout-20260925-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 25 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260926-S.html" class="internal"><span class="title">Saturday, 26 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260926-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260926-S.html#handout-20260926-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 26 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260927-U.html" class="internal"><span class="title">Sunday, 27 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260927-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260927-U.html#handout-20260927-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 27 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260928-M.html" class="internal"><span class="title">Monday, 28 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260928-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260928-M.html#handout-20260928-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 28 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260929-T.html" class="internal"><span class="title">Tuesday, 29 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260929-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260929-T.html#handout-20260929-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 29 September 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week06.html" class="internal"><span class="title">Week 6</span></a></div>
+<ul id="ptx-toc-group-week06" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week06-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20260930-W.html" class="internal"><span class="title">Wednesday, 30 September 2026</span></a></div>
+<ul id="ptx-toc-group-day-20260930-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20260930-W.html#handout-20260930-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 30 September 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261001-R.html" class="internal"><span class="title">Thursday, 01 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261001-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261001-R.html#handout-20261001-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 01 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261002-F.html" class="internal"><span class="title">Friday, 02 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261002-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261002-F.html#handout-20261002-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 02 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261003-S.html" class="internal"><span class="title">Saturday, 03 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261003-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261003-S.html#handout-20261003-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 03 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261004-U.html" class="internal"><span class="title">Sunday, 04 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261004-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261004-U.html#handout-20261004-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 04 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261005-M.html" class="internal"><span class="title">Monday, 05 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261005-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261005-M.html#handout-20261005-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 05 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261006-T.html" class="internal"><span class="title">Tuesday, 06 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261006-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261006-T.html#handout-20261006-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 06 October 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week07.html" class="internal"><span class="title">Week 7</span></a></div>
+<ul id="ptx-toc-group-week07" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week07-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261007-W.html" class="internal"><span class="title">Wednesday, 07 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261007-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261007-W.html#handout-20261007-W" class="internal"><span class="title">Reflection and Review for Study Date: Wednesday, 07 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261008-R.html" class="internal"><span class="title">Thursday, 08 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261008-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261008-R.html#handout-20261008-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 08 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261009-F.html" class="internal"><span class="title">Friday, 09 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261009-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261009-F.html#handout-20261009-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 09 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261010-S.html" class="internal"><span class="title">Saturday, 10 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261010-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261010-S.html#handout-20261010-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 10 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261011-U.html" class="internal"><span class="title">Sunday, 11 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261011-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261011-U.html#handout-20261011-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 11 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261012-M.html" class="internal"><span class="title">Monday, 12 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261012-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261012-M.html#handout-20261012-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 12 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261013-T.html" class="internal"><span class="title">Tuesday, 13 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261013-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261013-T.html#handout-20261013-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 13 October 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Mod-3.html" class="internal"><span class="title">Mod-3</span></a></div>
+<ul id="ptx-toc-group-Mod-3" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Mod-3-breakdown.html" class="internal"><span class="title">Mod-3: First-Order ODEs and Analytic Methods</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week08.html" class="internal"><span class="title">Week 8</span></a></div>
+<ul id="ptx-toc-group-week08" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week08-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261014-W.html" class="internal"><span class="title">Wednesday, 14 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261014-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261014-W.html#handout-20261014-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 14 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261015-R.html" class="internal"><span class="title">Thursday, 15 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261015-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261015-R.html#handout-20261015-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 15 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261016-F.html" class="internal"><span class="title">Friday, 16 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261016-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261016-F.html#handout-20261016-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 16 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261017-S.html" class="internal"><span class="title">Saturday, 17 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261017-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261017-S.html#handout-20261017-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 17 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261018-U.html" class="internal"><span class="title">Sunday, 18 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261018-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261018-U.html#handout-20261018-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 18 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261019-M.html" class="internal"><span class="title">Monday, 19 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261019-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261019-M.html#handout-20261019-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 19 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261020-T.html" class="internal"><span class="title">Tuesday, 20 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261020-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261020-T.html#handout-20261020-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 20 October 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week09.html" class="internal"><span class="title">Week 9</span></a></div>
+<ul id="ptx-toc-group-week09" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week09-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261021-W.html" class="internal"><span class="title">Wednesday, 21 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261021-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261021-W.html#handout-20261021-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 21 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261022-R.html" class="internal"><span class="title">Thursday, 22 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261022-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261022-R.html#handout-20261022-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 22 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261023-F.html" class="internal"><span class="title">Friday, 23 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261023-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261023-F.html#handout-20261023-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 23 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261024-S.html" class="internal"><span class="title">Saturday, 24 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261024-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261024-S.html#handout-20261024-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 24 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261025-U.html" class="internal"><span class="title">Sunday, 25 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261025-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261025-U.html#handout-20261025-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 25 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261026-M.html" class="internal"><span class="title">Monday, 26 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261026-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261026-M.html#handout-20261026-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 26 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261027-T.html" class="internal"><span class="title">Tuesday, 27 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261027-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261027-T.html#handout-20261027-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 27 October 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Mod-4.html" class="internal"><span class="title">Mod-4</span></a></div>
+<ul id="ptx-toc-group-Mod-4" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Mod-4-breakdown.html" class="internal"><span class="title">Mod-4: Second-Order ODEs and Analytic Methods</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week10.html" class="internal"><span class="title">Week 10</span></a></div>
+<ul id="ptx-toc-group-week10" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week10-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261028-W.html" class="internal"><span class="title">Wednesday, 28 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261028-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261028-W.html#handout-20261028-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 28 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261029-R.html" class="internal"><span class="title">Thursday, 29 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261029-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261029-R.html#handout-20261029-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 29 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261030-F.html" class="internal"><span class="title">Friday, 30 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261030-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261030-F.html#handout-20261030-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 30 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261031-S.html" class="internal"><span class="title">Saturday, 31 October 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261031-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261031-S.html#handout-20261031-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 31 October 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261101-U.html" class="internal"><span class="title">Sunday, 01 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261101-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261101-U.html#handout-20261101-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 01 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261102-M.html" class="internal"><span class="title">Monday, 02 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261102-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261102-M.html#handout-20261102-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 02 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261103-T.html" class="internal"><span class="title">Tuesday, 03 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261103-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261103-T.html#handout-20261103-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 03 November 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week11.html" class="internal"><span class="title">Week 11</span></a></div>
+<ul id="ptx-toc-group-week11" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week11-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261104-W.html" class="internal"><span class="title">Wednesday, 04 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261104-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261104-W.html#handout-20261104-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 04 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261105-R.html" class="internal"><span class="title">Thursday, 05 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261105-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261105-R.html#handout-20261105-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 05 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261106-F.html" class="internal"><span class="title">Friday, 06 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261106-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261106-F.html#handout-20261106-F" class="internal"><span class="title">Reflection and Review for Study Date: Friday, 06 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261107-S.html" class="internal"><span class="title">Saturday, 07 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261107-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261107-S.html#handout-20261107-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 07 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261108-U.html" class="internal"><span class="title">Sunday, 08 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261108-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261108-U.html#handout-20261108-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 08 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261109-M.html" class="internal"><span class="title">Monday, 09 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261109-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261109-M.html#handout-20261109-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 09 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261110-T.html" class="internal"><span class="title">Tuesday, 10 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261110-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261110-T.html#handout-20261110-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 10 November 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="Mod-5.html" class="internal"><span class="title">Mod-5</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-Mod-5">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Mod-5-breakdown.html" class="internal"><span class="title">Mod-5: Systems and Symmetries</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="week12.html" class="internal"><span class="title">Week 12</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-week12">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week12-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261111-W.html" class="internal"><span class="title">Wednesday, 11 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261111-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261111-W.html#handout-20261111-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 11 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection contains-active">
+<div class="toc-title-box"><a href="day-20261112-R.html" class="internal"><span class="title">Thursday, 12 November 2026</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-day-20261112-R"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261112-R.html#handout-20261112-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 12 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261113-F.html" class="internal"><span class="title">Friday, 13 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261113-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261113-F.html#handout-20261113-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 13 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261114-S.html" class="internal"><span class="title">Saturday, 14 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261114-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261114-S.html#handout-20261114-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 14 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261115-U.html" class="internal"><span class="title">Sunday, 15 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261115-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261115-U.html#handout-20261115-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 15 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261116-M.html" class="internal"><span class="title">Monday, 16 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261116-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261116-M.html#handout-20261116-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 16 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261117-T.html" class="internal"><span class="title">Tuesday, 17 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261117-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261117-T.html#handout-20261117-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 17 November 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week13.html" class="internal"><span class="title">Week 13</span></a></div>
+<ul id="ptx-toc-group-week13" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week13-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261118-W.html" class="internal"><span class="title">Wednesday, 18 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261118-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261118-W.html#handout-20261118-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 18 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261119-R.html" class="internal"><span class="title">Thursday, 19 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261119-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261119-R.html#handout-20261119-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 19 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261120-F.html" class="internal"><span class="title">Friday, 20 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261120-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261120-F.html#handout-20261120-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 20 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261121-S.html" class="internal"><span class="title">Saturday, 21 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261121-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261121-S.html#handout-20261121-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 21 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261122-U.html" class="internal"><span class="title">Sunday, 22 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261122-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261122-U.html#handout-20261122-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 22 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261123-M.html" class="internal"><span class="title">Monday, 23 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261123-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261123-M.html#handout-20261123-M" class="internal"><span class="title">Reflection and Review for Study Date: Monday, 23 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261124-T.html" class="internal"><span class="title">Tuesday, 24 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261124-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261124-T.html#handout-20261124-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 24 November 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="Projects.html" class="internal"><span class="title">Projects</span></a></div>
+<ul id="ptx-toc-group-Projects" class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="Projects-breakdown.html" class="internal"><span class="title">Core Projects</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week14.html" class="internal"><span class="title">Week 14</span></a></div>
+<ul id="ptx-toc-group-week14" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week14-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261125-W.html" class="internal"><span class="title">Wednesday, 25 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261125-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261125-W.html#handout-20261125-W" class="internal"><span class="title">Reflection and Review for Study Date: Wednesday, 25 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261126-R.html" class="internal"><span class="title">Thursday, 26 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261126-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261126-R.html#handout-20261126-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 26 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261127-F.html" class="internal"><span class="title">Friday, 27 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261127-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261127-F.html#handout-20261127-F" class="internal"><span class="title">Reflection and Review for Study Date: Friday, 27 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261128-S.html" class="internal"><span class="title">Saturday, 28 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261128-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261128-S.html#handout-20261128-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 28 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261129-U.html" class="internal"><span class="title">Sunday, 29 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261129-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261129-U.html#handout-20261129-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 29 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261130-M.html" class="internal"><span class="title">Monday, 30 November 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261130-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261130-M.html#handout-20261130-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 30 November 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261201-T.html" class="internal"><span class="title">Tuesday, 01 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261201-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261201-T.html#handout-20261201-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 01 December 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week15.html" class="internal"><span class="title">Week 15</span></a></div>
+<ul id="ptx-toc-group-week15" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week15-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261202-W.html" class="internal"><span class="title">Wednesday, 02 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261202-W" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261202-W.html#handout-20261202-W" class="internal"><span class="title">Reflection and Review for Class Date: Wednesday, 02 December 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261203-R.html" class="internal"><span class="title">Thursday, 03 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261203-R" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261203-R.html#handout-20261203-R" class="internal"><span class="title">Reflection and Review for Study Date: Thursday, 03 December 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261204-F.html" class="internal"><span class="title">Friday, 04 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261204-F" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261204-F.html#handout-20261204-F" class="internal"><span class="title">Reflection and Review for Class Date: Friday, 04 December 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261205-S.html" class="internal"><span class="title">Saturday, 05 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261205-S" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261205-S.html#handout-20261205-S" class="internal"><span class="title">Reflection and Review for Study Date: Saturday, 05 December 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261206-U.html" class="internal"><span class="title">Sunday, 06 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261206-U" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261206-U.html#handout-20261206-U" class="internal"><span class="title">Reflection and Review for Study Date: Sunday, 06 December 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261207-M.html" class="internal"><span class="title">Monday, 07 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261207-M" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261207-M.html#handout-20261207-M" class="internal"><span class="title">Reflection and Review for Class Date: Monday, 07 December 2026</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="day-20261208-T.html" class="internal"><span class="title">Tuesday, 08 December 2026</span></a></div>
+<ul id="ptx-toc-group-day-20261208-T" class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="day-20261208-T.html#handout-20261208-T" class="internal"><span class="title">Reflection and Review for Study Date: Tuesday, 08 December 2026</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="week-16.html" class="internal"><span class="title">Week 16</span></a></div>
+<ul id="ptx-toc-group-week-16" class="structural toc-item-list">
+<li class="toc-item toc-introduction"><div class="toc-title-box"><a href="week-16-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="week-16-3.html" class="internal"><span class="title">Wednesday, 09 December 2026</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="week-16-4.html" class="internal"><span class="title">Thursday, 10 December 2026</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="week-16-5.html" class="internal"><span class="title">Friday, 11 December 2026</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="week-16-6.html" class="internal"><span class="title">Saturday, 12 December 2026</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="week-16-7.html" class="internal"><span class="title">Sunday, 13 December 2026</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="week-16-8.html" class="internal"><span class="title">Monday, 14 December 2026</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="week-16-9.html" class="internal"><span class="title">Tuesday, 15 December 2026</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="subsection" id="day-20261112-R">
+<h1 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Thursday, 12 November 2026</span>
+</h1>
+<section class="paragraphs" id="announcements-20261112-R"><h2 class="heading"><span class="title">Announcements.</span></h2>
+<div class="para" id="announcements-20261112-R-2"> <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#announcements-20261112-R-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Announcements"><a tabindex="-1" href="#announcements-20261112-R" title="Copy heading and permalink for Paragraphs: Announcements" aria-label="Copy heading and permalink for Paragraphs: Announcements">🔗</a></div>
+</section>
+<section class="paragraphs" id="preparation-20261112-R"><h2 class="heading"><span class="title">Pre-Class Preparation.</span></h2>
+<div class="para" id="preparation-20261112-R-2"> <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#preparation-20261112-R-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Pre-Class Preparation"><a tabindex="-1" href="#preparation-20261112-R" title="Copy heading and permalink for Paragraphs: Pre-Class Preparation" aria-label="Copy heading and permalink for Paragraphs: Pre-Class Preparation">🔗</a></div>
+</section>
+<section class="handout" id="handout-20261112-R" data-margins="0.75in 0.75in 0.75in 0.75in">
+<h2 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Reflection and Review for Study Date: Thursday, 12 November 2026</span><div class="print-links"><a href="?printpreview=handout-20261112-R" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h2>
+<div class="para" id="handout-20261112-R-2">Fall 2026 MATH 340 Intro to Differential Equations<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handout-20261112-R-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="handout-20261112-R-3">Instructor: Dwight Anderson Williams II, PhD<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handout-20261112-R-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="handout-20261112-R-4">Student: <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handout-20261112-R-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="handout-20261112-R-5">Date of Work: <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handout-20261112-R-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="handout-20261112-R-6"> <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#handout-20261112-R-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Handout: Reflection and Review for Study Date: Thursday, 12 November 2026"><a tabindex="-1" href="#handout-20261112-R" title="Copy heading and permalink for Handout: Reflection and Review for Study Date: Thursday, 12 November 2026" aria-label="Copy heading and permalink for Handout: Reflection and Review for Study Date: Thursday, 12 November 2026">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection: Thursday, 12 November 2026"><a tabindex="-1" href="#day-20261112-R" title="Copy heading and permalink for Subsection: Thursday, 12 November 2026" aria-label="Copy heading and permalink for Subsection: Thursday, 12 November 2026">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="day-20261111-W.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="day-20261113-F.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="feedback-link" href="mailto:dwight.williamsii@morgan.edu" target="_blank">Feedback</a><a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

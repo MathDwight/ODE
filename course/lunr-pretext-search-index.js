@@ -28,27 +28,27 @@ var ptx_lunr_docs = [
   "body": " Visualizing (Sophus) Lie theory    "
 },
 {
-  "id": "syllabus",
+  "id": "sec-course-info",
   "level": "1",
-  "url": "syllabus.html",
-  "type": "Section",
+  "url": "sec-course-info.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Syllabus",
-  "body": " Syllabus   Welcome, again, to MATH 340 Intro to Differential Equations ! Primary course information for Sections 003 and 004 during Fall 2026 is summarized on this page.  Find the at the bottom of the page.     Course Information      Instructor    Dwight Anderson Williams II, PhD.  Refer to me as Dwight or Dr. Dwight with he\/his pronouns.  Office: Calloway 306. The building is connected to Carnegie see Campus Map.  Email: dwight.williamsii@morgan.edu .  Homepage: mathdwight.com .      Student Hours   Schedule meetings using Calendly .    Campus Map   Map of Carnegie Hall on Morgan State University's campus.     Section 003 Class Meeting Information  Section 003 meets Wednesdays, Fridays, and Mondays from 11:00am to 11:50am.  The classroom is Carnegie 259.    Section 004 Class Meeting Information  Section 004 meets Wednesdays, Fridays, and Mondays from 1:00pm to 1:50pm.  The classroom is Carnegie G57.    Course Description  Differential equations as a subfield of mathematics furthers the concept of modeling phenomena using functions. In MATH 340 Intro to Differential Equations, we revisit the derivative of a differentiable function with respect to a single independent variable such as for time. We assume that , , and so on are also differentiable functions. Equations (e.g. ) with an unknown function written in terms of , , , etc., are called ordinary differential equations (ODEs). We consider numerical, analytic, and qualitative methods for finding and describing solution functions (e.g. ) to ODEs. We focus especially on first-order and second-order ODEs. To begin, we discuss types of ODEs and their importance in modeling the world around us.    Knowledge Prerequisites  Students should be familiar with linearization and the derivative, review series and approximation (Taylor series), and demonstrate algebraic savvy.    Textbook and course materials  We use the freely available  A First Course in Differential Equations Third Edition by John D. Logan. Use Morgan.edu email to access the link to the book.       Course Overview  There are 6 Mods:  ,  ,  ,  ,  , and  .        Full Syllabus  View the full syllabus as a presentation at Piktochart . Be aware of the last updated date before saving a PDF will be available after the end of the add\/drop period.    MATH 340 Differential Equations Full Syllabus      "
+  "title": "Course Information",
+  "body": " Course Information      Instructor    Dwight Anderson Williams II, PhD.  Refer to me as Dwight or Dr. Dwight with he\/his pronouns.  Office: Calloway 306. The building is connected to Carnegie see Campus Map.  Email: dwight.williamsii@morgan.edu .  Homepage: mathdwight.com .      Student Hours   Schedule meetings using Calendly .    Campus Map   Map of Carnegie Hall on Morgan State University's campus.     Section 003 Class Meeting Information  Section 003 meets Wednesdays, Fridays, and Mondays from 11:00am to 11:50am.  The classroom is Carnegie 259.    Section 004 Class Meeting Information  Section 004 meets Wednesdays, Fridays, and Mondays from 1:00pm to 1:50pm.  The classroom is Carnegie G57.    Course Description  Differential equations as a subfield of mathematics furthers the concept of modeling phenomena using functions. In MATH 340 Intro to Differential Equations, we revisit the derivative of a differentiable function with respect to a single independent variable such as for time. We assume that , , and so on are also differentiable functions. Equations (e.g. ) with an unknown function written in terms of , , , etc., are called ordinary differential equations (ODEs). We consider numerical, analytic, and qualitative methods for finding and describing solution functions (e.g. ) to ODEs. We focus especially on first-order and second-order ODEs. To begin, we discuss types of ODEs and their importance in modeling the world around us.    Knowledge Prerequisites  Students should be familiar with linearization and the derivative, review series and approximation (Taylor series), and demonstrate algebraic savvy.    Textbook and course materials  We use the freely available  A First Course in Differential Equations Third Edition by John D. Logan. Use Morgan.edu email to access the link to the book.       Course Overview  There are 6 Mods:  ,  ,  ,  ,  , and  .     "
 },
 {
-  "id": "syllabus-2-1",
-  "level": "2",
-  "url": "syllabus.html#syllabus-2-1",
-  "type": "Paragraph (with a defined term)",
+  "id": "sec-full-syllabus",
+  "level": "1",
+  "url": "sec-full-syllabus.html",
+  "type": "Subsection",
   "number": "",
-  "title": "",
-  "body": "MATH 340 Intro to Differential Equations "
+  "title": "Full Syllabus",
+  "body": " Full Syllabus  View the full syllabus as a presentation at Piktochart . Be aware of the last updated date before saving a PDF will be available after the end of the add\/drop period.    MATH 340 Differential Equations Full Syllabus     "
 },
 {
   "id": "fig-math340-syllabus",
   "level": "2",
-  "url": "syllabus.html#fig-math340-syllabus",
+  "url": "sec-full-syllabus.html#fig-math340-syllabus",
   "type": "Figure",
   "number": "3",
   "title": "",
@@ -96,26 +96,179 @@ var ptx_lunr_docs = [
   "url": "Mod-0-breakdown.html",
   "type": "Section",
   "number": "",
-  "title": "Mod 0: Logistics and Foundations",
-  "body": " Mod 0: Logistics and Foundations   Mod 0 is called Logistics and Foundations.  Before we start to study, we will discuss how to study and how to progress in this particular instance of MATH 340 Intro to Differential Equations. Expect to grow! Expect to work! Expect to learn! Expect to get stuck, but expect to get unstuck, too! Then repeat.  The assignments of the course are a proxy to help me assess your knowledge and learning, according to the contract we enter together as students and faculty at a institute of higher education within the tradition of the United States. We need to be familiar with the criteria to achieve final letter grades. The route features expertly-crafted markers aligned along a journey in the study of mathematics. Before taking a step, however, we will prepare for the trip: We consider where we are now; where are we headed; and, what we need to get there.  Keywords: , course schedule, group meetings, Mods, core projects.    "
+  "title": "Mod-0: Logistics and Foundations",
+  "body": " Mod-0: Logistics and Foundations   Mod 0 is called Logistics and Foundations.  Before we start to study, we will discuss how to study and how to progress in this particular instance of MATH 340 Intro to Differential Equations. Expect to grow! Expect to work! Expect to learn! Expect to get stuck, but expect to get unstuck, too! Then repeat.  The assignments of the course are a proxy to help me assess your knowledge and learning, according to the contract we enter together as students and faculty at a institute of higher education within the tradition of the United States. We need to be familiar with the criteria to achieve final letter grades. The route features expertly-crafted markers aligned along a journey in the study of mathematics. Before taking a step, however, we will prepare for the trip: We consider where we are now; where are we headed; and, what we need to get there.  Keywords: , course schedule, group meetings, Mods, core projects.    "
 },
 {
-  "id": "week-01",
+  "id": "day-20260826-W",
   "level": "1",
-  "url": "week-01.html",
-  "type": "Section",
+  "url": "day-20260826-W.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 1",
-  "body": " Week 1   Week 1 (Aug 26 – Sep 1) opens Mod 0: Logistics and Foundations.  Class meeting dates:  Aug 26  Aug 28  Aug 31    Next due dates:  Mod 0 Quiz: Aug 31 (if day-one enrolled)  Mod 0 Quiz: Sep 7 (if not day-one enrolled)  Reading Quiz 1: Sep 10      Wednesday, 26 August 2026      Thursday, 27 August 2026      Friday, 28 August 2026      Saturday, 29 August 2026      Sunday, 30 August 2026      Monday, 31 August 2026      Tuesday, 01 September 2026     "
+  "title": "Wednesday, 26 August 2026",
+  "body": " Wednesday, 26 August 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 26 August 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-02",
+  "id": "activity-20260826-W",
+  "level": "2",
+  "url": "day-20260826-W.html#activity-20260826-W",
+  "type": "Exploration",
+  "number": "6",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260827-R",
   "level": "1",
-  "url": "week-02.html",
-  "type": "Section",
+  "url": "day-20260827-R.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 2",
-  "body": " Week 2   Week 2 (Sep 2 – Sep 8) closes Mod 0: Logistics and Foundations.  Class meeting dates: Sep 2, Sep 4.  Next Reading Quiz due date: Mod 0 Quiz (if first day of enrollment is post August 26) Sep 7, 11:59 PM EDT; Reading Quiz 1 Sep 10, 11:59 PM EDT.    Wednesday, 02 September 2026      Thursday, 03 September 2026      Friday, 04 September 2026      Saturday, 05 September 2026      Sunday, 06 September 2026      Monday, 07 September 2026      Tuesday, 08 September 2026     "
+  "title": "Thursday, 27 August 2026",
+  "body": " Thursday, 27 August 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 27 August 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260828-F",
+  "level": "1",
+  "url": "day-20260828-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 28 August 2026",
+  "body": " Friday, 28 August 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 28 August 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260828-F",
+  "level": "2",
+  "url": "day-20260828-F.html#activity-20260828-F",
+  "type": "Exploration",
+  "number": "7",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260829-S",
+  "level": "1",
+  "url": "day-20260829-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 29 August 2026",
+  "body": " Saturday, 29 August 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 29 August 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260830-U",
+  "level": "1",
+  "url": "day-20260830-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 30 August 2026",
+  "body": " Sunday, 30 August 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 30 August 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260831-M",
+  "level": "1",
+  "url": "day-20260831-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 31 August 2026",
+  "body": " Monday, 31 August 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 31 August 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260831-M",
+  "level": "2",
+  "url": "day-20260831-M.html#activity-20260831-M",
+  "type": "Exploration",
+  "number": "8",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260901-T",
+  "level": "1",
+  "url": "day-20260901-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 01 September 2026",
+  "body": " Tuesday, 01 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 01 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260902-W",
+  "level": "1",
+  "url": "day-20260902-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 02 September 2026",
+  "body": " Wednesday, 02 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 02 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260902-W",
+  "level": "2",
+  "url": "day-20260902-W.html#activity-20260902-W",
+  "type": "Exploration",
+  "number": "9",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260903-R",
+  "level": "1",
+  "url": "day-20260903-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 03 September 2026",
+  "body": " Thursday, 03 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 03 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260904-F",
+  "level": "1",
+  "url": "day-20260904-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 04 September 2026",
+  "body": " Friday, 04 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 04 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260904-F",
+  "level": "2",
+  "url": "day-20260904-F.html#activity-20260904-F",
+  "type": "Exploration",
+  "number": "10",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260905-S",
+  "level": "1",
+  "url": "day-20260905-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 05 September 2026",
+  "body": " Saturday, 05 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 05 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260906-U",
+  "level": "1",
+  "url": "day-20260906-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 06 September 2026",
+  "body": " Sunday, 06 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 06 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260907-M",
+  "level": "1",
+  "url": "day-20260907-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 07 September 2026",
+  "body": " Monday, 07 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Monday, 07 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260908-T",
+  "level": "1",
+  "url": "day-20260908-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 08 September 2026",
+  "body": " Tuesday, 08 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 08 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
   "id": "Mod-1-breakdown",
@@ -123,26 +276,188 @@ var ptx_lunr_docs = [
   "url": "Mod-1-breakdown.html",
   "type": "Section",
   "number": "",
-  "title": "Mod 1: Recognizing ODEs and Their Solutions",
-  "body": " Mod 1: Recognizing ODEs and Their Solutions   Mod 1 is called Recognizing ODEs and Their Solutions.  After internalizing the course set-up and considering plans of progress, we step into the world of differential equations. We need to recognize the landscape and that process starts with determining what is and isn't a differential equation. Identifying what kind of problem we face is central to developing our problem solving skills. Then, believe it or not, we will analyze solutions before we discuss techniques to arrive at solutions. We take time to construct quality checks and assurance factors for the work we submit. The mantra is as follows:   A solution we do not understand is no solution at all!     "
+  "title": "Mod-1: Recognizing ODEs and Their Solutions",
+  "body": " Mod-1: Recognizing ODEs and Their Solutions   Mod-1 is called Recognizing ODEs and Their Solutions.  After internalizing the course set-up and considering plans of progress, we step into the world of differential equations. We need to recognize the landscape and that process starts with determining what is and isn't a differential equation. Identifying what kind of problem we face is central to developing our problem solving skills. Then, believe it or not, we will analyze solutions before we discuss techniques to arrive at solutions. We take time to construct quality checks and assurance factors for the work we submit. The mantra is as follows:   A solution we do not understand is no solution at all!     "
 },
 {
-  "id": "week-03",
+  "id": "day-20260909-W",
   "level": "1",
-  "url": "week-03.html",
-  "type": "Section",
+  "url": "day-20260909-W.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 3",
-  "body": " Week 3   Week 3 (Sep 9 – Sep 15) opens Mod 1: Recognizing Differential Equations and Their Solutions.  Class meeting dates: Sep 9, Sep 11, Sep 14.  Next Reading Quiz due date: Reading Quiz 2 Sep 24, 11:59 PM EDT.    Wednesday, 09 September 2026      Thursday, 10 September 2026      Friday, 11 September 2026      Saturday, 12 September 2026      Sunday, 13 September 2026      Monday, 14 September 2026      Tuesday, 15 September 2026     "
+  "title": "Wednesday, 09 September 2026",
+  "body": " Wednesday, 09 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 09 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-04",
+  "id": "activity-20260909-W",
+  "level": "2",
+  "url": "day-20260909-W.html#activity-20260909-W",
+  "type": "Exploration",
+  "number": "11",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260910-R",
   "level": "1",
-  "url": "week-04.html",
-  "type": "Section",
+  "url": "day-20260910-R.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 4",
-  "body": " Week 4   Week 4 (Sep 16 – Sep 22) continues Mod 1: Recognizing Differential Equations and Their Solutions.  Class meeting dates: Sep 16, Sep 18, Sep 21.  Next Reading Quiz due date: Reading Quiz 2 Sep 24, 11:59 PM EDT.    Wednesday, 16 September 2026      Thursday, 17 September 2026      Friday, 18 September 2026      Saturday, 19 September 2026      Sunday, 20 September 2026      Monday, 21 September 2026      Tuesday, 22 September 2026     "
+  "title": "Thursday, 10 September 2026",
+  "body": " Thursday, 10 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 10 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260911-F",
+  "level": "1",
+  "url": "day-20260911-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 11 September 2026",
+  "body": " Friday, 11 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 11 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260911-F",
+  "level": "2",
+  "url": "day-20260911-F.html#activity-20260911-F",
+  "type": "Exploration",
+  "number": "12",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260912-S",
+  "level": "1",
+  "url": "day-20260912-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 12 September 2026",
+  "body": " Saturday, 12 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 12 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260913-U",
+  "level": "1",
+  "url": "day-20260913-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 13 September 2026",
+  "body": " Sunday, 13 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 13 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260914-M",
+  "level": "1",
+  "url": "day-20260914-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 14 September 2026",
+  "body": " Monday, 14 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 14 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260914-M",
+  "level": "2",
+  "url": "day-20260914-M.html#activity-20260914-M",
+  "type": "Exploration",
+  "number": "13",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260915-T",
+  "level": "1",
+  "url": "day-20260915-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 15 September 2026",
+  "body": " Tuesday, 15 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 15 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260916-W",
+  "level": "1",
+  "url": "day-20260916-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 16 September 2026",
+  "body": " Wednesday, 16 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 16 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260916-W",
+  "level": "2",
+  "url": "day-20260916-W.html#activity-20260916-W",
+  "type": "Exploration",
+  "number": "14",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260917-R",
+  "level": "1",
+  "url": "day-20260917-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 17 September 2026",
+  "body": " Thursday, 17 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 17 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260918-F",
+  "level": "1",
+  "url": "day-20260918-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 18 September 2026",
+  "body": " Friday, 18 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 18 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260918-F",
+  "level": "2",
+  "url": "day-20260918-F.html#activity-20260918-F",
+  "type": "Exploration",
+  "number": "15",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260919-S",
+  "level": "1",
+  "url": "day-20260919-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 19 September 2026",
+  "body": " Saturday, 19 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 19 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260920-U",
+  "level": "1",
+  "url": "day-20260920-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 20 September 2026",
+  "body": " Sunday, 20 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 20 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260921-M",
+  "level": "1",
+  "url": "day-20260921-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 21 September 2026",
+  "body": " Monday, 21 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 21 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260921-M",
+  "level": "2",
+  "url": "day-20260921-M.html#activity-20260921-M",
+  "type": "Exploration",
+  "number": "16",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260922-T",
+  "level": "1",
+  "url": "day-20260922-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 22 September 2026",
+  "body": " Tuesday, 22 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 22 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
   "id": "Mod-2-breakdown",
@@ -150,35 +465,269 @@ var ptx_lunr_docs = [
   "url": "Mod-2-breakdown.html",
   "type": "Section",
   "number": "",
-  "title": "Mod 2: Numerical Methods",
-  "body": " Mod 2: Numerical Methods   Mod 2 is called Numerical Methods.   "
+  "title": "Mod-2: Numerical Methods",
+  "body": " Mod-2: Numerical Methods   Mod-2 is called Numerical Methods.   "
 },
 {
-  "id": "week-05",
+  "id": "day-20260923-W",
   "level": "1",
-  "url": "week-05.html",
-  "type": "Section",
+  "url": "day-20260923-W.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 5",
-  "body": " Week 5   Week 5 (Sep 23 – Sep 29) closes Mod 1: Recognizing Differential Equations and Their Solutions and opens Mod 2: Numerical Methods.  Class meeting dates: Sep 23, Sep 25, Sep 28.  Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT.    Wednesday, 23 September 2026      Thursday, 24 September 2026      Friday, 25 September 2026      Saturday, 26 September 2026      Sunday, 27 September 2026      Monday, 28 September 2026      Tuesday, 29 September 2026     "
+  "title": "Wednesday, 23 September 2026",
+  "body": " Wednesday, 23 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 23 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-06",
-  "level": "1",
-  "url": "week-06.html",
-  "type": "Section",
-  "number": "",
-  "title": "Week 6",
-  "body": " Week 6   Week 6 (Sep 30 – Oct 6) continues Mod 2: Numerical Methods.  Class meeting dates: Sep 30, Oct 2.  Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT.    Wednesday, 30 September 2026      Thursday, 01 October 2026      Friday, 02 October 2026      Saturday, 03 October 2026      Sunday, 04 October 2026      Monday, 05 October 2026      Tuesday, 06 October 2026     "
+  "id": "activity-20260923-W",
+  "level": "2",
+  "url": "day-20260923-W.html#activity-20260923-W",
+  "type": "Exploration",
+  "number": "17",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
 },
 {
-  "id": "week-07",
+  "id": "day-20260924-R",
   "level": "1",
-  "url": "week-07.html",
-  "type": "Section",
+  "url": "day-20260924-R.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 7",
-  "body": " Week 7   Week 7 (Oct 7 – Oct 13) continues Mod 2: Numerical Methods.  Class meeting dates: Oct 7, Oct 9, Oct 12.  Next Reading Quiz due date: Reading Quiz 3 Oct 13, 11:59 PM EDT; Reading Quiz 4 Oct 27, 11:59 PM EDT.    Wednesday, 07 October 2026      Thursday, 08 October 2026      Friday, 09 October 2026      Saturday, 10 October 2026      Sunday, 11 October 2026      Monday, 12 October 2026      Tuesday, 13 October 2026     "
+  "title": "Thursday, 24 September 2026",
+  "body": " Thursday, 24 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 24 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260925-F",
+  "level": "1",
+  "url": "day-20260925-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 25 September 2026",
+  "body": " Friday, 25 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 25 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260925-F",
+  "level": "2",
+  "url": "day-20260925-F.html#activity-20260925-F",
+  "type": "Exploration",
+  "number": "18",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260926-S",
+  "level": "1",
+  "url": "day-20260926-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 26 September 2026",
+  "body": " Saturday, 26 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 26 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260927-U",
+  "level": "1",
+  "url": "day-20260927-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 27 September 2026",
+  "body": " Sunday, 27 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 27 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260928-M",
+  "level": "1",
+  "url": "day-20260928-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 28 September 2026",
+  "body": " Monday, 28 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 28 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260928-M",
+  "level": "2",
+  "url": "day-20260928-M.html#activity-20260928-M",
+  "type": "Exploration",
+  "number": "19",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20260929-T",
+  "level": "1",
+  "url": "day-20260929-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 29 September 2026",
+  "body": " Tuesday, 29 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 29 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20260930-W",
+  "level": "1",
+  "url": "day-20260930-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 30 September 2026",
+  "body": " Wednesday, 30 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 30 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20260930-W",
+  "level": "2",
+  "url": "day-20260930-W.html#activity-20260930-W",
+  "type": "Exploration",
+  "number": "20",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261001-R",
+  "level": "1",
+  "url": "day-20261001-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 01 October 2026",
+  "body": " Thursday, 01 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 01 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261002-F",
+  "level": "1",
+  "url": "day-20261002-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 02 October 2026",
+  "body": " Friday, 02 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 02 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261002-F",
+  "level": "2",
+  "url": "day-20261002-F.html#activity-20261002-F",
+  "type": "Exploration",
+  "number": "21",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261003-S",
+  "level": "1",
+  "url": "day-20261003-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 03 October 2026",
+  "body": " Saturday, 03 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 03 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261004-U",
+  "level": "1",
+  "url": "day-20261004-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 04 October 2026",
+  "body": " Sunday, 04 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 04 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261005-M",
+  "level": "1",
+  "url": "day-20261005-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 05 October 2026",
+  "body": " Monday, 05 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 05 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261005-M",
+  "level": "2",
+  "url": "day-20261005-M.html#activity-20261005-M",
+  "type": "Exploration",
+  "number": "22",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261006-T",
+  "level": "1",
+  "url": "day-20261006-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 06 October 2026",
+  "body": " Tuesday, 06 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 06 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261007-W",
+  "level": "1",
+  "url": "day-20261007-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 07 October 2026",
+  "body": " Wednesday, 07 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Wednesday, 07 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261008-R",
+  "level": "1",
+  "url": "day-20261008-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 08 October 2026",
+  "body": " Thursday, 08 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 08 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261009-F",
+  "level": "1",
+  "url": "day-20261009-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 09 October 2026",
+  "body": " Friday, 09 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 09 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261009-F",
+  "level": "2",
+  "url": "day-20261009-F.html#activity-20261009-F",
+  "type": "Exploration",
+  "number": "23",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261010-S",
+  "level": "1",
+  "url": "day-20261010-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 10 October 2026",
+  "body": " Saturday, 10 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 10 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261011-U",
+  "level": "1",
+  "url": "day-20261011-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 11 October 2026",
+  "body": " Sunday, 11 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 11 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261012-M",
+  "level": "1",
+  "url": "day-20261012-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 12 October 2026",
+  "body": " Monday, 12 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 12 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261012-M",
+  "level": "2",
+  "url": "day-20261012-M.html#activity-20261012-M",
+  "type": "Exploration",
+  "number": "24",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261013-T",
+  "level": "1",
+  "url": "day-20261013-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 13 October 2026",
+  "body": " Tuesday, 13 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 13 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
   "id": "Mod-3-breakdown",
@@ -186,26 +735,188 @@ var ptx_lunr_docs = [
   "url": "Mod-3-breakdown.html",
   "type": "Section",
   "number": "",
-  "title": "Mod 3: First-Order ODEs and Analytic Methods",
-  "body": " Mod 3: First-Order ODEs and Analytic Methods   Mod 3 is called First-Order ODEs and Analytic Methods.   "
+  "title": "Mod-3: First-Order ODEs and Analytic Methods",
+  "body": " Mod-3: First-Order ODEs and Analytic Methods   Mod-3 is called First-Order ODEs and Analytic Methods.   "
 },
 {
-  "id": "week-08",
+  "id": "day-20261014-W",
   "level": "1",
-  "url": "week-08.html",
-  "type": "Section",
+  "url": "day-20261014-W.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 8",
-  "body": " Week 8   Week 8 (Oct 14 – Oct 20) closes Mod 2: Numerical Methods and opens Mod 3: First-Order ODEs Analytic Methods.  Class meeting dates: Oct 14, Oct 16, Oct 19.  Next Reading Quiz due date: Reading Quiz 4 Oct 27, 11:59 PM EDT.    Wednesday, 14 October 2026      Thursday, 15 October 2026      Friday, 16 October 2026      Saturday, 17 October 2026      Sunday, 18 October 2026      Monday, 19 October 2026      Tuesday, 20 October 2026     "
+  "title": "Wednesday, 14 October 2026",
+  "body": " Wednesday, 14 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 14 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-09",
+  "id": "activity-20261014-W",
+  "level": "2",
+  "url": "day-20261014-W.html#activity-20261014-W",
+  "type": "Exploration",
+  "number": "25",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261015-R",
   "level": "1",
-  "url": "week-09.html",
-  "type": "Section",
+  "url": "day-20261015-R.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 9",
-  "body": " Week 9   Week 9 (Oct 21 – Oct 27) continues Mod 3: First-Order ODEs Analytic Methods.  Class meeting dates: Oct 21, Oct 23, Oct 26.  Next Reading Quiz due date: Reading Quiz 4 Oct 27, 11:59 PM EDT; Reading Quiz 5 Nov 12, 11:59 PM EST.    Wednesday, 21 October 2026      Thursday, 22 October 2026      Friday, 23 October 2026      Saturday, 24 October 2026      Sunday, 25 October 2026      Monday, 26 October 2026      Tuesday, 27 October 2026     "
+  "title": "Thursday, 15 October 2026",
+  "body": " Thursday, 15 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 15 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261016-F",
+  "level": "1",
+  "url": "day-20261016-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 16 October 2026",
+  "body": " Friday, 16 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 16 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261016-F",
+  "level": "2",
+  "url": "day-20261016-F.html#activity-20261016-F",
+  "type": "Exploration",
+  "number": "26",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261017-S",
+  "level": "1",
+  "url": "day-20261017-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 17 October 2026",
+  "body": " Saturday, 17 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 17 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261018-U",
+  "level": "1",
+  "url": "day-20261018-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 18 October 2026",
+  "body": " Sunday, 18 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 18 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261019-M",
+  "level": "1",
+  "url": "day-20261019-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 19 October 2026",
+  "body": " Monday, 19 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 19 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261019-M",
+  "level": "2",
+  "url": "day-20261019-M.html#activity-20261019-M",
+  "type": "Exploration",
+  "number": "27",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261020-T",
+  "level": "1",
+  "url": "day-20261020-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 20 October 2026",
+  "body": " Tuesday, 20 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 20 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261021-W",
+  "level": "1",
+  "url": "day-20261021-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 21 October 2026",
+  "body": " Wednesday, 21 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 21 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261021-W",
+  "level": "2",
+  "url": "day-20261021-W.html#activity-20261021-W",
+  "type": "Exploration",
+  "number": "28",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261022-R",
+  "level": "1",
+  "url": "day-20261022-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 22 October 2026",
+  "body": " Thursday, 22 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 22 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261023-F",
+  "level": "1",
+  "url": "day-20261023-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 23 October 2026",
+  "body": " Friday, 23 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 23 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261023-F",
+  "level": "2",
+  "url": "day-20261023-F.html#activity-20261023-F",
+  "type": "Exploration",
+  "number": "29",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261024-S",
+  "level": "1",
+  "url": "day-20261024-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 24 October 2026",
+  "body": " Saturday, 24 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 24 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261025-U",
+  "level": "1",
+  "url": "day-20261025-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 25 October 2026",
+  "body": " Sunday, 25 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 25 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261026-M",
+  "level": "1",
+  "url": "day-20261026-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 26 October 2026",
+  "body": " Monday, 26 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 26 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261026-M",
+  "level": "2",
+  "url": "day-20261026-M.html#activity-20261026-M",
+  "type": "Exploration",
+  "number": "30",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261027-T",
+  "level": "1",
+  "url": "day-20261027-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 27 October 2026",
+  "body": " Tuesday, 27 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 27 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
   "id": "Mod-4-breakdown",
@@ -213,26 +924,179 @@ var ptx_lunr_docs = [
   "url": "Mod-4-breakdown.html",
   "type": "Section",
   "number": "",
-  "title": "Mod 4: Second-Order ODEs and Analytic Methods",
-  "body": " Mod 4: Second-Order ODEs and Analytic Methods   Mod 4 is called Second-Order ODEs and Analytic Methods.   "
+  "title": "Mod-4: Second-Order ODEs and Analytic Methods",
+  "body": " Mod-4: Second-Order ODEs and Analytic Methods   Mod-4 is called Second-Order ODEs and Analytic Methods.   "
 },
 {
-  "id": "week-10",
+  "id": "day-20261028-W",
   "level": "1",
-  "url": "week-10.html",
-  "type": "Section",
+  "url": "day-20261028-W.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 10",
-  "body": " Week 10   Week 10 (Oct 28 – Nov 3) closes Mod 3: First-Order ODEs Analytic Methods and opens Mod 4: Second-Order ODEs Analytic Methods.  Class meeting dates: Oct 28, Oct 30, Nov 2.  Next Reading Quiz due date: Reading Quiz 5 Nov 12, 11:59 PM EST.    Wednesday, 28 October 2026      Thursday, 29 October 2026      Friday, 30 October 2026      Saturday, 31 October 2026      Sunday, 01 November 2026      Monday, 02 November 2026      Tuesday, 03 November 2026     "
+  "title": "Wednesday, 28 October 2026",
+  "body": " Wednesday, 28 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 28 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-11",
+  "id": "activity-20261028-W",
+  "level": "2",
+  "url": "day-20261028-W.html#activity-20261028-W",
+  "type": "Exploration",
+  "number": "31",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261029-R",
   "level": "1",
-  "url": "week-11.html",
-  "type": "Section",
+  "url": "day-20261029-R.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 11",
-  "body": " Week 11   Week 11 (Nov 4 – Nov 10) continues Mod 4: Second-Order ODEs Analytic Methods.  Class meeting dates: Nov 4, Nov 9.  Next Reading Quiz due date: Reading Quiz 5 Nov 12, 11:59 PM EST.    Wednesday, 04 November 2026      Thursday, 05 November 2026      Friday, 06 November 2026      Saturday, 07 November 2026      Sunday, 08 November 2026      Monday, 09 November 2026      Tuesday, 10 November 2026     "
+  "title": "Thursday, 29 October 2026",
+  "body": " Thursday, 29 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 29 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261030-F",
+  "level": "1",
+  "url": "day-20261030-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 30 October 2026",
+  "body": " Friday, 30 October 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 30 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261030-F",
+  "level": "2",
+  "url": "day-20261030-F.html#activity-20261030-F",
+  "type": "Exploration",
+  "number": "32",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261031-S",
+  "level": "1",
+  "url": "day-20261031-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 31 October 2026",
+  "body": " Saturday, 31 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 31 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261101-U",
+  "level": "1",
+  "url": "day-20261101-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 01 November 2026",
+  "body": " Sunday, 01 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 01 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261102-M",
+  "level": "1",
+  "url": "day-20261102-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 02 November 2026",
+  "body": " Monday, 02 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 02 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261102-M",
+  "level": "2",
+  "url": "day-20261102-M.html#activity-20261102-M",
+  "type": "Exploration",
+  "number": "33",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261103-T",
+  "level": "1",
+  "url": "day-20261103-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 03 November 2026",
+  "body": " Tuesday, 03 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 03 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261104-W",
+  "level": "1",
+  "url": "day-20261104-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 04 November 2026",
+  "body": " Wednesday, 04 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 04 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261104-W",
+  "level": "2",
+  "url": "day-20261104-W.html#activity-20261104-W",
+  "type": "Exploration",
+  "number": "34",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261105-R",
+  "level": "1",
+  "url": "day-20261105-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 05 November 2026",
+  "body": " Thursday, 05 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 05 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261106-F",
+  "level": "1",
+  "url": "day-20261106-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 06 November 2026",
+  "body": " Friday, 06 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Friday, 06 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261107-S",
+  "level": "1",
+  "url": "day-20261107-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 07 November 2026",
+  "body": " Saturday, 07 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 07 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261108-U",
+  "level": "1",
+  "url": "day-20261108-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 08 November 2026",
+  "body": " Sunday, 08 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 08 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261109-M",
+  "level": "1",
+  "url": "day-20261109-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 09 November 2026",
+  "body": " Monday, 09 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 09 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261109-M",
+  "level": "2",
+  "url": "day-20261109-M.html#activity-20261109-M",
+  "type": "Exploration",
+  "number": "35",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261110-T",
+  "level": "1",
+  "url": "day-20261110-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 10 November 2026",
+  "body": " Tuesday, 10 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 10 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
   "id": "Mod-5-breakdown",
@@ -240,26 +1104,179 @@ var ptx_lunr_docs = [
   "url": "Mod-5-breakdown.html",
   "type": "Section",
   "number": "",
-  "title": "Mod 5: Systems and Symmetries",
-  "body": " Mod 5: Systems and Symmetries   Mod 5 is called Systems and Symmetries.   "
+  "title": "Mod-5: Systems and Symmetries",
+  "body": " Mod-5: Systems and Symmetries   Mod-5 is called Systems and Symmetries.   "
 },
 {
-  "id": "week-12",
+  "id": "day-20261111-W",
   "level": "1",
-  "url": "week-12.html",
-  "type": "Section",
+  "url": "day-20261111-W.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 12",
-  "body": " Week 12   Week 12 (Nov 11 – Nov 17) opens Mod 5: Systems and Symmetries.  Class meeting dates: Nov 11, Nov 13, Nov 16.  Next Reading Quiz due date: None.    Wednesday, 11 November 2026      Thursday, 12 November 2026      Friday, 13 November 2026      Saturday, 14 November 2026      Sunday, 15 November 2026      Monday, 16 November 2026      Tuesday, 17 November 2026     "
+  "title": "Wednesday, 11 November 2026",
+  "body": " Wednesday, 11 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 11 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-13",
+  "id": "activity-20261111-W",
+  "level": "2",
+  "url": "day-20261111-W.html#activity-20261111-W",
+  "type": "Exploration",
+  "number": "36",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261112-R",
   "level": "1",
-  "url": "week-13.html",
-  "type": "Section",
+  "url": "day-20261112-R.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 13",
-  "body": " Week 13   Week 13 (Nov 18 – Nov 24) closes Mod 5: Systems and Symmetries.  Class meeting dates: Nov 18, Nov 20.  Next Reading Quiz due date: None.    Wednesday, 18 November 2026      Thursday, 19 November 2026      Friday, 20 November 2026      Saturday, 21 November 2026      Sunday, 22 November 2026      Monday, 23 November 2026      Tuesday, 24 November 2026     "
+  "title": "Thursday, 12 November 2026",
+  "body": " Thursday, 12 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 12 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261113-F",
+  "level": "1",
+  "url": "day-20261113-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 13 November 2026",
+  "body": " Friday, 13 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 13 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261113-F",
+  "level": "2",
+  "url": "day-20261113-F.html#activity-20261113-F",
+  "type": "Exploration",
+  "number": "37",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261114-S",
+  "level": "1",
+  "url": "day-20261114-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 14 November 2026",
+  "body": " Saturday, 14 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 14 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261115-U",
+  "level": "1",
+  "url": "day-20261115-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 15 November 2026",
+  "body": " Sunday, 15 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 15 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261116-M",
+  "level": "1",
+  "url": "day-20261116-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 16 November 2026",
+  "body": " Monday, 16 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 16 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261116-M",
+  "level": "2",
+  "url": "day-20261116-M.html#activity-20261116-M",
+  "type": "Exploration",
+  "number": "38",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261117-T",
+  "level": "1",
+  "url": "day-20261117-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 17 November 2026",
+  "body": " Tuesday, 17 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 17 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261118-W",
+  "level": "1",
+  "url": "day-20261118-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 18 November 2026",
+  "body": " Wednesday, 18 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 18 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261118-W",
+  "level": "2",
+  "url": "day-20261118-W.html#activity-20261118-W",
+  "type": "Exploration",
+  "number": "39",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261119-R",
+  "level": "1",
+  "url": "day-20261119-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 19 November 2026",
+  "body": " Thursday, 19 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 19 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261120-F",
+  "level": "1",
+  "url": "day-20261120-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 20 November 2026",
+  "body": " Friday, 20 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 20 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261120-F",
+  "level": "2",
+  "url": "day-20261120-F.html#activity-20261120-F",
+  "type": "Exploration",
+  "number": "40",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261121-S",
+  "level": "1",
+  "url": "day-20261121-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 21 November 2026",
+  "body": " Saturday, 21 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 21 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261122-U",
+  "level": "1",
+  "url": "day-20261122-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 22 November 2026",
+  "body": " Sunday, 22 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 22 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261123-M",
+  "level": "1",
+  "url": "day-20261123-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 23 November 2026",
+  "body": " Monday, 23 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Monday, 23 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261124-T",
+  "level": "1",
+  "url": "day-20261124-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 24 November 2026",
+  "body": " Tuesday, 24 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 24 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
   "id": "Projects-breakdown",
@@ -271,31 +1288,229 @@ var ptx_lunr_docs = [
   "body": " Core Projects   There is a core proejct per Mod. Thus there are five core projects.  Timeline: There is a single due date for core projects. Each project is due December 4, 2026, at 11:59PM EDT.    "
 },
 {
-  "id": "week-14",
+  "id": "day-20261125-W",
   "level": "1",
-  "url": "week-14.html",
-  "type": "Section",
+  "url": "day-20261125-W.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 14",
-  "body": " Week 14   Week 14 (Nov 25 – Dec 1).  Class meeting dates: Nov 30.  Next Reading Quiz due date: None.    Wednesday, 25 November 2026      Thursday, 26 November 2026      Friday, 27 November 2026      Saturday, 28 November 2026      Sunday, 29 November 2026      Monday, 30 November 2026      Tuesday, 01 December 2026     "
+  "title": "Wednesday, 25 November 2026",
+  "body": " Wednesday, 25 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Wednesday, 25 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-15",
+  "id": "day-20261126-R",
   "level": "1",
-  "url": "week-15.html",
-  "type": "Section",
+  "url": "day-20261126-R.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 15",
-  "body": " Week 15   Week 15 (Dec 2 – Dec 8).  Class meeting dates: Dec 2, Dec 4, Dec 7.  Next Reading Quiz due date: None.    Wednesday, 02 December 2026      Thursday, 03 December 2026      Friday, 04 December 2026      Saturday, 05 December 2026      Sunday, 06 December 2026      Monday, 07 December 2026      Tuesday, 08 December 2026     "
+  "title": "Thursday, 26 November 2026",
+  "body": " Thursday, 26 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 26 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16",
+  "id": "day-20261127-F",
   "level": "1",
-  "url": "week-16.html",
-  "type": "Section",
+  "url": "day-20261127-F.html",
+  "type": "Subsection",
   "number": "",
-  "title": "Week 16",
-  "body": " Week 16   Week 16 (Dec 9 – Dec 15).  Class meeting dates: Dec 9.  Next Reading Quiz due date: None.    Wednesday, 09 December 2026      Thursday, 10 December 2026      Friday, 11 December 2026      Saturday, 12 December 2026      Sunday, 13 December 2026      Monday, 14 December 2026      Tuesday, 15 December 2026     "
+  "title": "Friday, 27 November 2026",
+  "body": " Friday, 27 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Friday, 27 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261128-S",
+  "level": "1",
+  "url": "day-20261128-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 28 November 2026",
+  "body": " Saturday, 28 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 28 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261129-U",
+  "level": "1",
+  "url": "day-20261129-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 29 November 2026",
+  "body": " Sunday, 29 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 29 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261130-M",
+  "level": "1",
+  "url": "day-20261130-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 30 November 2026",
+  "body": " Monday, 30 November 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 30 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261130-M",
+  "level": "2",
+  "url": "day-20261130-M.html#activity-20261130-M",
+  "type": "Exploration",
+  "number": "41",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261201-T",
+  "level": "1",
+  "url": "day-20261201-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 01 December 2026",
+  "body": " Tuesday, 01 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 01 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261202-W",
+  "level": "1",
+  "url": "day-20261202-W.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Wednesday, 02 December 2026",
+  "body": " Wednesday, 02 December 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 02 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261202-W",
+  "level": "2",
+  "url": "day-20261202-W.html#activity-20261202-W",
+  "type": "Exploration",
+  "number": "42",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261203-R",
+  "level": "1",
+  "url": "day-20261203-R.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Thursday, 03 December 2026",
+  "body": " Thursday, 03 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 03 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261204-F",
+  "level": "1",
+  "url": "day-20261204-F.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Friday, 04 December 2026",
+  "body": " Friday, 04 December 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 04 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261204-F",
+  "level": "2",
+  "url": "day-20261204-F.html#activity-20261204-F",
+  "type": "Exploration",
+  "number": "43",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261205-S",
+  "level": "1",
+  "url": "day-20261205-S.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Saturday, 05 December 2026",
+  "body": " Saturday, 05 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 05 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261206-U",
+  "level": "1",
+  "url": "day-20261206-U.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Sunday, 06 December 2026",
+  "body": " Sunday, 06 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 06 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "day-20261207-M",
+  "level": "1",
+  "url": "day-20261207-M.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Monday, 07 December 2026",
+  "body": " Monday, 07 December 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 07 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "activity-20261207-M",
+  "level": "2",
+  "url": "day-20261207-M.html#activity-20261207-M",
+  "type": "Exploration",
+  "number": "44",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261208-T",
+  "level": "1",
+  "url": "day-20261208-T.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Tuesday, 08 December 2026",
+  "body": " Tuesday, 08 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 08 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "week-16-3",
+  "level": "1",
+  "url": "week-16-3.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Wednesday, 09 December 2026",
+  "body": " Wednesday, 09 December 2026    "
+},
+{
+  "id": "week-16-4",
+  "level": "1",
+  "url": "week-16-4.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Thursday, 10 December 2026",
+  "body": " Thursday, 10 December 2026    "
+},
+{
+  "id": "week-16-5",
+  "level": "1",
+  "url": "week-16-5.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Friday, 11 December 2026",
+  "body": " Friday, 11 December 2026    "
+},
+{
+  "id": "week-16-6",
+  "level": "1",
+  "url": "week-16-6.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Saturday, 12 December 2026",
+  "body": " Saturday, 12 December 2026    "
+},
+{
+  "id": "week-16-7",
+  "level": "1",
+  "url": "week-16-7.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Sunday, 13 December 2026",
+  "body": " Sunday, 13 December 2026    "
+},
+{
+  "id": "week-16-8",
+  "level": "1",
+  "url": "week-16-8.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Monday, 14 December 2026",
+  "body": " Monday, 14 December 2026    "
+},
+{
+  "id": "week-16-9",
+  "level": "1",
+  "url": "week-16-9.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Tuesday, 15 December 2026",
+  "body": " Tuesday, 15 December 2026    "
 }
 ]
 
