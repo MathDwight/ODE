@@ -177,6 +177,10 @@ for x in range(2, 6):
 # Main processing generation pipeline loop
 current_week_start = start_date
 
+# Sort the deadlines chronologically by week threshold
+all_semester_deadlines.sort(key=lambda x: x["week_threshold"])
+
+
 for week_num in range(1, 16):
     mod_name = week_to_mod[week_num]
     week_str = f"{week_num:02d}"
@@ -228,16 +232,29 @@ for week_num in range(1, 16):
     commented_handouts_block = "\n\n".join(commented_handouts)
 
     active_dues = []
+
+    # 1. Check if there are any deadlines belonging EXACTLY to this week
     for item in all_semester_deadlines:
         if item["week_threshold"] == week_num:
             active_dues.append(f"        <li>{item['text']}</li>")
 
+    # 2. If none, find the next closest week that actually has deadlines, and grab ALL of them
     if not active_dues:
+        next_due_week = None
+
+        # Step A: Find the very next week number that contains deadlines
         for item in all_semester_deadlines:
             if item["week_threshold"] > week_num:
-                active_dues.append(f"        <li>{item['text']}</li>")
+                next_due_week = item["week_threshold"]
                 break
 
+        # Step B: Gather all deadlines belonging to that specific target week
+        if next_due_week is not None:
+            for item in all_semester_deadlines:
+                if item["week_threshold"] == next_due_week:
+                    active_dues.append(f"        <li>{item['text']}</li>")
+
+    # 3. Fallback if the semester assignments are completely finished
     if not active_dues:
         active_dues.append("        <li>None scheduled.</li>")
 
