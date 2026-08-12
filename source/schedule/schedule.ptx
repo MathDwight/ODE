@@ -29,7 +29,7 @@
 
     <!-- Schedule Rows -->
     <row bottom="minor">
-      <cell><xref text="title" ref="week-01"/></cell>
+      <cell><xref text="title" ref="week01"/></cell>
       <cell><line><bold>Aug 26:</bold> First day of class</line></cell>
       <cell><line><bold>Aug 28:</bold> </line></cell>
       <cell><line><bold>Aug 31:</bold> Mod-0 quiz due for first-day enrollees</line></cell>
