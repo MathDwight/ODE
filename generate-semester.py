@@ -48,7 +48,7 @@ NO_CLASS_DATES = [
     "20260907", "20261007", "20261106", "20261123", "20261125", "20261127"
 ]
 
-# XML layout templates using explicit dictionary-safe formatting parameters
+# XML layout template optimized for face-to-face active class days
 class_day_template = """<?xml version="1.0" encoding="UTF-8" ?>
 <subsection xml:id="day-{file_stub}" web-toc="none" xmlns:xi="{xi_url}">
   <title>{display_date}</title>
@@ -70,17 +70,16 @@ class_day_template = """<?xml version="1.0" encoding="UTF-8" ?>
 
   <handout xml:id="handout-{file_stub}">
     <title>Reflection and Review for Class Date: {display_date}</title>
-    <p>
-      Fall 2026 MATH 340 Intro to Differential Equations<br/>
-      Instructor: Dwight Anderson Williams II, PhD<br/>
-      Student: <fillin characters="30" /><br/>
-      Date of Work: <fillin characters="20" />
-    </p>
+    <p>Fall 2026 MATH 340 Intro to Differential Equations</p>
+    <p>Instructor: Dwight Anderson Williams II, PhD</p>
+    <p>Student: <fillin characters="30" /></p>
+    <p>Date of Work: <fillin characters="20" /></p>
     <p>&#xa0;</p>
   </handout>
 
 </subsection>"""
 
+# XML layout template optimized for independent study and preparation days
 no_class_template = """<?xml version="1.0" encoding="UTF-8" ?>
 <subsection xml:id="day-{file_stub}" web-toc="none" xmlns:xi="{xi_url}">
   <title>{display_date}</title>
@@ -97,16 +96,15 @@ no_class_template = """<?xml version="1.0" encoding="UTF-8" ?>
 
   <handout xml:id="handout-{file_stub}">
     <title>Reflection and Review for Study Date: {display_date}</title>
-    <p>
-      Fall 2026 MATH 340 Intro to Differential Equations<br/>
-      Instructor: Dwight Anderson Williams II, PhD<br/>
-      Student: <fillin characters="30" /><br/>
-      Date of Work: <fillin characters="20" />
-    </p>
+    <p>Fall 2026 MATH 340 Intro to Differential Equations</p>
+    <p>Instructor: Dwight Anderson Williams II, PhD</p>
+    <p>Student: <fillin characters="30" /></p>
+    <p>Date of Work: <fillin characters="20" /></p>
     <p>&#xa0;</p>
   </handout>
 
 </subsection>"""
+
 
 week_template = """<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="week{week_str}" xmlns:xi="{xi_url}">
