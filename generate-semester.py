@@ -72,8 +72,8 @@ class_day_template = """<?xml version="1.0" encoding="UTF-8" ?>
     <title>Reflection and Review for Class Date: {display_date}</title>
     <p>Fall 2026 MATH 340 Intro to Differential Equations</p>
     <p>Instructor: Dwight Anderson Williams II, PhD</p>
-    <p>Student: <fillin characters="30" /></p>
-    <p>Date of Work: <fillin characters="20" /></p>
+    <p>Student: /></p>
+    <p>Date of Work:  /></p>
     <p>&#xa0;</p>
   </handout>
 
