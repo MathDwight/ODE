@@ -21,23 +21,15 @@
       <!-- Other documents could go here, like a schedule, project description, etc. -->
       <xi:include href="./gradingexamples/gradingexamples.ptx" />
       <xi:include href="./schedule/schedule.ptx" />
-      
-    
+
+
     </chapter>
 
     <chapter xml:id="Mod-0">
       <title>Mod-0</title>
 
     <xi:include href="./Mod-0/Mod-0.ptx"/>
-       <introduction>
-        <p>
 
-          <!--Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
-          Notes are neither a substitute for engaging class texts nor participating in classroom activities.
-
-          Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).-->
-        </p>
-      </introduction>
 
 
       <xi:include href="./Mod-0/week01.ptx"/>
@@ -49,14 +41,6 @@
       <title>Mod-1</title>
       <xi:include href="./Mod-1/Mod-1.ptx"/>
 
-      <introduction>
-        <p>
-          <!--Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
-          Notes are neither a substitute for engaging class texts nor participating in classroom activities.
-
-          Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).-->
-        </p>
-      </introduction>
 
       <xi:include href="./Mod-1/week03.ptx"/>
       <xi:include href="./Mod-1/week04.ptx"/>
@@ -72,14 +56,6 @@
         <title>Mod-2</title>
         <xi:include href="./Mod-2/Mod-2.ptx"/>
 
-        <introduction>
-          <p>
-            <!--Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
-            Notes are neither a substitute for engaging class texts nor participating in classroom activities.
-
-            Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).-->
-          </p>
-        </introduction>
 
 
         <xi:include href="./Mod-2/week05.ptx"/>
@@ -95,15 +71,6 @@
           <title>Mod-3</title>
           <xi:include href="./Mod-3/Mod-3.ptx"/>
 
-          <introduction>
-            <p>
-              <!--Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
-              Notes are neither a substitute for engaging class texts nor participating in classroom activities.
-
-              Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).-->
-            </p>
-          </introduction>
-
 
           <xi:include href="./Mod-3/week08.ptx"/>
           <xi:include href="./Mod-3/week09.ptx"/>
@@ -118,15 +85,6 @@
             <title>Mod-4</title>
             <xi:include href="./Mod-4/Mod-4.ptx"/>
 
-            <introduction>
-              <p>
-                <!--Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
-                Notes are neither a substitute for engaging class texts nor participating in classroom activities.
-
-                Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).-->
-              </p>
-            </introduction>
-
 
             <xi:include href="./Mod-4/week10.ptx"/>
             <xi:include href="./Mod-4/week11.ptx"/>
@@ -140,15 +98,6 @@
               <title>Mod-5</title>
               <xi:include href="./Mod-5/Mod-5.ptx"/>
 
-              <introduction>
-                <p>
-                  <!--Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
-                  Notes are neither a substitute for engaging class texts nor participating in classroom activities.
-
-                  Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).-->
-                </p>
-              </introduction>
-
 
               <xi:include href="./Mod-5/week12.ptx"/>
               <xi:include href="./Mod-5/week13.ptx"/>
@@ -161,15 +110,6 @@
             <chapter xml:id="Projects">
                 <title>Projects</title>
                 <xi:include href="./Projects/Projects.ptx"/>
-
-                <introduction>
-                  <p>
-                    <!--Each Mod consists of a number of class meetings. Presence (academically, not simply physically) throughout a Mod is key to success. The following notes are designed for students to prepare for active learning and should be considered seriously and studiously before the listed date.
-                    Notes are neither a substitute for engaging class texts nor participating in classroom activities.
-
-                    Terminology: A week begins on a Wednesday (midnight on August 26, 2026, as an example) and ends after 7 days on a Tuesday (the minute before midnight on September 2, 2026, as an example).-->
-                  </p>
-                </introduction>
 
 
                 <xi:include href="./Projects/week14.ptx"/>
