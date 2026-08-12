@@ -16,7 +16,7 @@
     <!-- Level at which html output is split into separate pages: 0 gives -->
     <!-- a single page, 1 is chapter, 2 is section, and so on through 6.  -->
     <!-- The default depends on the type of document.                     -->
-      <chunking level="2" />
+      <chunking level="3" />
 
     <!-- Depth of the table of contents, from 0 through 6.  A value of 0 -->
     <!-- means no table of contents.  The default depends on the type of -->
