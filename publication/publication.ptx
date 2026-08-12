@@ -413,6 +413,22 @@
             /> -->
   </html>
 
+  <!--
+   <revealjs>
+        <appearance theme="white"/>
+        <resources host="cdn"/>
+        <controls display="yes" tutorial="yes" layout="bottom-right" backarrows="faded"/>
+        <navigation mode="default"/>
+    </revealjs>
+
+    <target name="slides-html" format="html">
+  <source>source/main.ptx</source>
+  <publication>publication/publication.ptx</publication>
+  <output>output/slides-html</output>
+  <xsl>xsl/pretext-revealjs.xsl</xsl> 
+</target>
+ --> 
+
   <epub>
     <!-- The cover element takes a @front attribute naming a cover image, -->
     <!-- as a path relative to your external assets directory.            -->

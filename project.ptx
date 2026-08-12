@@ -13,7 +13,15 @@
     <target name="slides" source="slides/slides.ptx" format="revealjs"
             publication="publication-slides.ptx" deploy-dir="slides"
             output-filename="index.html"/>
-    -->
+          -->
+
+    <target name="slides-html" format="revealjs"
+            source="main.ptx"
+            publication="publication.ptx"
+            output-dir="slides-html" />
+
+
+  
     <!-- 
     <target name="slides-annotated" source="slides/slides.ptx" format="revealjs"
             publication="publication-slides-annotated.ptx" deploy-dir="slides-annotated"

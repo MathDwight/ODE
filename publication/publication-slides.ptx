@@ -36,4 +36,22 @@
         <!--   mode="linear" is more traditional left/right movement for all slides  -->
         <navigation mode="default"/>
     </revealjs>
+
+<!--
+       <revealjs>
+        <appearance theme="white"/>
+        <resources host="cdn"/>
+        <controls display="yes" tutorial="yes" layout="bottom-right" backarrows="faded"/>
+        <navigation mode="default"/>
+    </revealjs>
+    -->
+
+<!--
+    <target name="slides-html" format="html">
+  <source>source/main.ptx</source>
+  <publication>publication/publication.ptx</publication>
+  <output>output/slides-html</output>
+  <xsl>xsl/pretext-revealjs.xsl</xsl> 
+</target>
 </publication>
+-->
