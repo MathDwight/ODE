@@ -35,91 +35,91 @@
       <cell><line><bold>Aug 31:</bold> Mod-0 quiz due for first-day enrollees</line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 2</cell>
+      <cell><xref text="title" ref="week02"/></cell>
       <cell><line><bold>Sep 02:</bold> </line></cell>
       <cell><line><bold>Sep 04:</bold> </line></cell>
       <cell><line><bold>Sep 07:</bold> University Closed; Mod-0 quiz due for other enrollees</line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 3</cell>
+      <cell><xref text="title" ref="week03"/></cell>
       <cell><line><bold>Sep 09:</bold> Mod-1 begins</line></cell>
       <cell><line><bold>Sep 11:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Sep 14:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 4</cell>
+      <cell><xref text="title" ref="week04"/></cell>
       <cell><line><bold>Sep 16:</bold> </line></cell>
       <cell><line><bold>Sep 18:</bold> </line></cell>
       <cell><line><bold>Sep 21:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 5</cell>
+      <cell><xref text="title" ref="week05"/></cell>
       <cell><line><bold>Sep 23:</bold> Mod-2 begins</line></cell>
       <cell><line><bold>Sep 25:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Sep 28:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 6</cell>
+      <cell><xref text="title" ref="week06"/></cell>
       <cell><line><bold>Sep 30:</bold> </line></cell>
       <cell><line><bold>Oct 02:</bold> </line></cell>
       <cell><line><bold>Oct 05:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 7</cell>
+     <cell><xref text="title" ref="week07"/></cell>
       <cell><line><bold>Oct 07:</bold> Group Work Day</line></cell>
       <cell><line><bold>Oct 09:</bold> </line></cell>
       <cell><line><bold>Oct 12:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 8</cell>
+      <cell><xref text="title" ref="week08"/></cell>
       <cell><line><bold>Oct 14:</bold> Mod-3 begins</line></cell>
       <cell><line><bold>Oct 16:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Oct 19:</bold> Mid-term/snapshot grade calculated by <m>\frac{\text{Total Points by October 19}}{48} \mapsto \text{10-point scale letter grade}</m> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 9</cell>
+      <cell><xref text="title" ref="week09"/></cell>
       <cell><line><bold>Oct 21:</bold> </line></cell>
       <cell><line><bold>Oct 23:</bold> </line></cell>
       <cell><line><bold>Oct 26:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 10</cell>
+      <cell><xref text="title" ref="week10"/></cell>
       <cell><line><bold>Oct 28:</bold> Mod-4 begins</line></cell>
       <cell><line><bold>Oct 30:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Nov 02:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 11</cell>
+     <cell><xref text="title" ref="week11"/></cell>
       <cell><line><bold>Nov 04:</bold> </line></cell>
       <cell><line><bold>Nov 06:</bold> Group Work Day</line></cell>
       <cell><line><bold>Nov 09:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 12</cell>
+    <cell><xref text="title" ref="week12"/></cell>
       <cell><line><bold>Nov 11:</bold> Mod-5 begins</line></cell>
       <cell><line><bold>Nov 13:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Nov 16:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 13</cell>
+     <cell><xref text="title" ref="week13"/></cell>
       <cell><line><bold>Nov 18:</bold> </line></cell>
       <cell><line><bold>Nov 20:</bold> </line></cell>
       <cell><line><bold>Nov 23:</bold> Group Work Day</line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 14</cell>
+     <cell><xref text="title" ref="week14"/></cell>
       <cell><line><bold>Nov 25:</bold> University Closed</line></cell>
       <cell><line><bold>Nov 27:</bold> University Closed</line></cell>
       <cell><line><bold>Nov 30:</bold> </line></cell>
     </row>
     <row bottom="minor">
-      <cell>Week 15</cell>
+      <cell><xref text="title" ref="week15"/></cell>
       <cell><line><bold>Dec 02:</bold> Core project should have been submitted</line></cell>
       <cell><line><bold>Dec 04:</bold> Feedback/Check-in activity </line></cell>
       <cell><line><bold>Dec 07:</bold> </line></cell>
     </row>
     <row>
-      <cell>Week 16</cell>
+      <cell><xref text="title" ref="week16"/></cell>
       <cell><line><bold>Dec 09:</bold> Last day of class</line></cell>
       <cell><line><bold>Dec 11:</bold> </line></cell>
       <cell><line><bold>Dec 14:</bold> </line></cell>
