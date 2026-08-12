@@ -48,70 +48,68 @@ NO_CLASS_DATES = [
     "20260907", "20261007", "20261106", "20261123", "20261125", "20261127"
 ]
 
-# XML layout template optimized for face-to-face active class days
+# XML layout templates using explicit dictionary-safe formatting parameters
 class_day_template = """<?xml version="1.0" encoding="UTF-8" ?>
-<subsection xml:id="day-{{file_stub}}" web-toc="none" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>{{display_date}}</title>
+<subsection xml:id="day-{file_stub}" web-toc="none" xmlns:xi="{xi_url}">
+  <title>{display_date}</title>
 
-  <paragraphs xml:id="announcements-{{file_stub}}">
+  <paragraphs xml:id="announcements-{file_stub}">
     <title>Announcements</title>
-    <p>{{&#xa0;}}</p>
+    <p>&#xa0;</p>
   </paragraphs>
 
-  <paragraphs xml:id="notes-{{file_stub}}">
+  <paragraphs xml:id="notes-{file_stub}">
     <title>Class Notes</title>
-    <p>{{&#xa0;}}</p>
+    <p>&#xa0;</p>
   </paragraphs>
 
-  <exploration xml:id="activity-{{file_stub}}">
+  <exploration xml:id="activity-{file_stub}">
     <title>In-Class Activity</title>
-    <p>{{&#xa0;}}</p>
+    <p>&#xa0;</p>
   </exploration>
 
-  <handout xml:id="handout-{{file_stub}}">
-    <title>Reflection and Review for Class Date: {{display_date}}</title>
+  <handout xml:id="handout-{file_stub}">
+    <title>Reflection and Review for Class Date: {display_date}</title>
     <p>
       Fall 2026 MATH 340 Intro to Differential Equations<br/>
       Instructor: Dwight Anderson Williams II, PhD<br/>
       Student: <fillin characters="30" /><br/>
       Date of Work: <fillin characters="20" />
     </p>
-    <p>{{&#xa0;}}</p>
+    <p>&#xa0;</p>
   </handout>
 
 </subsection>"""
 
-# XML layout template optimized for independent study and preparation days
 no_class_template = """<?xml version="1.0" encoding="UTF-8" ?>
-<subsection xml:id="day-{{file_stub}}" web-toc="none" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>{{display_date}}</title>
+<subsection xml:id="day-{file_stub}" web-toc="none" xmlns:xi="{xi_url}">
+  <title>{display_date}</title>
 
-  <paragraphs xml:id="announcements-{{file_stub}}">
+  <paragraphs xml:id="announcements-{file_stub}">
     <title>Announcements</title>
-    <p>{{&#xa0;}}</p>
+    <p>&#xa0;</p>
   </paragraphs>
 
-  <paragraphs xml:id="preparation-{{file_stub}}">
+  <paragraphs xml:id="preparation-{file_stub}">
     <title>Pre-Class Preparation</title>
-    <p>{{&#xa0;}}</p>
+    <p>&#xa0;</p>
   </paragraphs>
 
-  <handout xml:id="handout-{{file_stub}}">
-    <title>Reflection and Review for Study Date: {{display_date}}</title>
+  <handout xml:id="handout-{file_stub}">
+    <title>Reflection and Review for Study Date: {display_date}</title>
     <p>
       Fall 2026 MATH 340 Intro to Differential Equations<br/>
       Instructor: Dwight Anderson Williams II, PhD<br/>
       Student: <fillin characters="30" /><br/>
       Date of Work: <fillin characters="20" />
     </p>
-    <p>{{&#xa0;}}</p>
+    <p>&#xa0;</p>
   </handout>
 
 </subsection>"""
 
-# Parent week PTX structural master template with fully escaped XInclude identifier
 week_template = """<?xml version="1.0" encoding="UTF-8"?>
-<section xml:id="week{week_str}" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="week{week_str}" xmlns:xi="{xi_url}">
   <title>Week {week_num}</title>
 
   <introduction>
@@ -140,7 +138,10 @@ week_template = """<?xml version="1.0" encoding="UTF-8"?>
 -->
 </section>"""
 
-# Initial chronological base mapping pass
+# Un-truncated target namespace string constant
+XINCLUDE_URI = "http://www.w3.org/2001/XInclude"
+
+# Chronological calendar setup pass
 start_date = datetime(2026, 8, 26)
 week_starts = {w: start_date + timedelta(days=(w-1)*7) for w in range(1, 16)}
 
@@ -150,14 +151,16 @@ for w in range(1, 16):
     if m not in mod_starts:
         mod_starts[m] = week_starts[w]
 
-# Explicit master chronologically ordered checklist of all semester deadlines
+# Explicit chronologically ordered milestone registry with automatic EST calculation adjustments
 all_semester_deadlines = [
     {"week_threshold": 1, "text": "Mod-0 Quiz: Aug 31 (if day-one enrolled)"},
     {"week_threshold": 2, "text": "Mod-0 Quiz (if not day-one enrolled): Sep 07, 11:59PM EDT"},
-    {"week_threshold": 2, "text": "Reading Quiz 1: Sep 08, 11:59PM EDT"}
+    {"week_threshold": 2, "text": "Reading Quiz 1: Sep 08, 11:59PM EDT"},
+    {"week_threshold": 14, "text": "Core Projects: Dec 01, 11:59PM EST"},
+    {"week_threshold": 15, "text": "Final Feedback: Dec 08, 11:59PM EST"}
 ]
 
-# Dynamically calculate the Reading Quiz dates for Mod-2 through Mod-5
+# Compute Reading Quizzes 2-5
 for x in range(2, 6):
     target_mod = f"Mod-{x}"
     due_date = mod_starts[target_mod] - timedelta(days=1)
@@ -168,17 +171,18 @@ for x in range(2, 6):
             target_week = w
             break
 
-    formatted_text = f"Reading Quiz {x}: {due_date.strftime('%b %d')}, 11:59PM EDT"
+    # Apply standard winter boundary check rule for zone labeling string adjustments
+    tz = "EST" if due_date >= datetime(2026, 11, 1) else "EDT"
+    formatted_text = f"Reading Quiz {x}: {due_date.strftime('%b %d')}, 11:59PM {tz}"
     all_semester_deadlines.append({"week_threshold": target_week, "text": formatted_text})
 
-# Main processing loop for generating day files, folders, and week master files
+# Main processing generation pipeline loop
 current_week_start = start_date
 
 for week_num in range(1, 16):
     mod_name = week_to_mod[week_num]
     week_str = f"{week_num:02d}"
 
-    # Establish complete destination folder path for day files
     week_folder_path = os.path.join(source_base, mod_name, f"week{week_str}")
     os.makedirs(week_folder_path, exist_ok=True)
 
@@ -193,7 +197,6 @@ for week_num in range(1, 16):
     commented_handouts = []
     running_date = current_week_start
 
-    # Process 7 consecutive daily XML records
     for d in range(7):
         day_full_name = running_date.strftime("%A")
         day_letter = day_letters[day_full_name]
@@ -201,14 +204,12 @@ for week_num in range(1, 16):
         file_stub = f"{date_iso}-{day_letter}"
         display_date = running_date.strftime("%A, %d %B %Y")
 
-        # Determine if date is an active class session and select layout
         if (day_full_name in STANDARD_CLASS_DAYS) and (date_iso not in NO_CLASS_DATES):
             class_meetings.append(f"        <li>{running_date.strftime('%b %d')}</li>")
-            day_filled = class_day_template.format(file_stub=file_stub, display_date=display_date)
+            day_filled = class_day_template.format(file_stub=file_stub, display_date=display_date, xi_url=XINCLUDE_URI)
         else:
-            day_filled = no_class_template.format(file_stub=file_stub, display_date=display_date)
+            day_filled = no_class_template.format(file_stub=file_stub, display_date=display_date, xi_url=XINCLUDE_URI)
 
-        # Write individual daily XML sub-page files
         day_file_path = os.path.join(week_folder_path, f"{file_stub}.xml")
         with open(day_file_path, "w", encoding="utf-8") as f:
             f.write(day_filled)
@@ -228,7 +229,6 @@ for week_num in range(1, 16):
     include_tags_block = "\n".join(include_tags)
     commented_handouts_block = "\n\n".join(commented_handouts)
 
-    # Filter the master checklist to find the next active upcoming deadlines
     active_dues = []
     for item in all_semester_deadlines:
         if item["week_threshold"] == week_num:
@@ -254,10 +254,10 @@ for week_num in range(1, 16):
         class_meetings_block=class_meetings_block,
         due_dates_block=due_dates_block,
         include_tags_block=include_tags_block,
-        commented_handouts_block=commented_handouts_block
+        commented_handouts_block=commented_handouts_block,
+        xi_url=XINCLUDE_URI
     )
 
-    # Write the master week layout parent file
     parent_file_path = os.path.join(source_base, mod_name, f"week{week_str}.ptx")
     with open(parent_file_path, "w", encoding="utf-8") as f:
         f.write(filled_week)
@@ -265,4 +265,4 @@ for week_num in range(1, 16):
     print(f"Generated clean parent week and sub-folder components for: week{week_str}")
     current_week_start += timedelta(days=7)
 
-print("\nComplete unhyphenated framework generation successful!")
+print("\nComplete course framework generation successful!")

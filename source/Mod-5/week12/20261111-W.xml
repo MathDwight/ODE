@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<subsection xml:id="day-{file_stub}" web-toc="none" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>{display_date}</title>
+<subsection xml:id="day-20261111-W" web-toc="none" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Wednesday, 11 November 2026</title>
 
-  <paragraphs xml:id="announcements-{file_stub}">
+  <paragraphs xml:id="announcements-20261111-W">
     <title>Announcements</title>
-    <p>{&#xa0;}</p>
+    <p>&#xa0;</p>
   </paragraphs>
 
-  <paragraphs xml:id="notes-{file_stub}">
+  <paragraphs xml:id="notes-20261111-W">
     <title>Class Notes</title>
-    <p>{&#xa0;}</p>
+    <p>&#xa0;</p>
   </paragraphs>
 
-  <exploration xml:id="activity-{file_stub}">
+  <exploration xml:id="activity-20261111-W">
     <title>In-Class Activity</title>
-    <p>{&#xa0;}</p>
+    <p>&#xa0;</p>
   </exploration>
 
-  <handout xml:id="handout-{file_stub}">
-    <title>Reflection and Review for Class Date: {display_date}</title>
+  <handout xml:id="handout-20261111-W">
+    <title>Reflection and Review for Class Date: Wednesday, 11 November 2026</title>
     <p>
       Fall 2026 MATH 340 Intro to Differential Equations<br/>
       Instructor: Dwight Anderson Williams II, PhD<br/>
       Student: <fillin characters="30" /><br/>
       Date of Work: <fillin characters="20" />
     </p>
-    <p>{&#xa0;}</p>
+    <p>&#xa0;</p>
   </handout>
 
 </subsection>
