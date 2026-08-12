@@ -29,7 +29,7 @@ day_letters = {
 
 # XML template string for individual day sub-pages
 xml_template = """<?xml version="1.0" encoding="UTF-8" ?>
-<subsection xml:id="day-{file_stub}" xmlns:xi="http://www.w3.org/2001/XInclude">
+<paragraphs xml:id="day-{file_stub}" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>{display_date}</title>
 
   <paragraphs xml:id="scratchpad-{file_stub}">
@@ -48,7 +48,8 @@ xml_template = """<?xml version="1.0" encoding="UTF-8" ?>
     </note>
   </handout>
 
-</subsection>"""
+</paragraphs>"""
+
 
 # Loop through each week configuration to create directories and files
 for week_name, config in week_configs.items():
