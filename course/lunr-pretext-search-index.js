@@ -313,14 +313,68 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "",
   "title": "Wednesday, 09 September 2026",
-  "body": " Wednesday, 09 September 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 09 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+  "body": " Wednesday, 09 September 2026   Announcements        What is an ordinary differential equation (ODE)?  Following the framework established in Logan's text (p. 2), we study how physical processes evolve over time by modeling their structural rates. We begin with a differentiable function that depends entirely with respect to a single independent variable (representing time).  As defined by Logan (p. 2), an ordinary differential equation (ODE) is an equation containing an unknown function of a single independent variable and its derivatives. The primary goal of an ordinary differential equation is to capture a dynamic relationship where the physical rate of accumulation depends on the active state of the variable.  To organize these equations within a clear mathematical taxonomy, Logan (p. 2) states that the order of a differential equation is the order of the highest derivative that appears in the equation. For example, a first-order ordinary differential equation contains at most a first derivative expression , whereas a second-order ODE explicitly introduces a second-order rate expression .     Analyzing ODE structure and notation  Consider the classical, fundamental baseline equation introduced by Logan (p. 2) as a simple first-order ordinary differential equation: This mathematical expression states that the rate of growth of the unknown function is directly proportional and perfectly equal to the scalar value of the function itself at any given moment along the timeline.  Beyond order, we must also classify differential equations by their structural scaling behavior. As outlined by Logan (p. 3), an ODE is mathematically linear if it can be written cleanly in a linear form where the dependent variable and its derivatives appear to the first power and are not multiplied together. For a first-order system, this matches the canonical layout: If an ordinary differential equation cannot be written in this form, it is classified as non-linear (Logan, p. 3). For instance, the logistic growth equation is non-linear because expanding the terms forces a quadratic state parameter.  Finally, Logan (p. 10) defines a differential equation as autonomous if the independent time variable does not appear explicitly in the rate equation. The population model is autonomous because its rates depend strictly on the state variable . Conversely, if an external forcing parameter changes over time—such as a forced oscillator —the equation is non-autonomous.     Recognizing and verifying solutions  According to Logan (p. 2), a formal solution of an ordinary differential equation on an interval is a function that satisfies the differential equation identically on that interval when substituted into the equation. If the solution cannot be isolated explicitly for the dependent variable, we instead seek an implicit solution , which Logan (p. 14) defines as a relational algebraic mapping equation that implicitly defines one or more valid explicit solutions.    Verify that the proposed candidate function is a valid explicit solution to the first-order ordinary differential equation .    To check if the proposed function satisfies the relation, we evaluate both sides of the ODE independently to see if they match identically:  First, compute the left-hand side (LHS) by differentiating our candidate function with respect to the independent time variable:   Next, evaluate the right-hand side (RHS) by substituting the function directly into the state placeholder:   Since , the function is rigorously verified as a valid explicit solution to the differential equation.      In-Class Activity       Reflection and Review for Class Date: Wednesday, 09 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "notes-20260909-p1-3",
+  "level": "2",
+  "url": "day-20260909-W.html#notes-20260909-p1-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "ordinary differential equation (ODE) "
+},
+{
+  "id": "notes-20260909-p1-4",
+  "level": "2",
+  "url": "day-20260909-W.html#notes-20260909-p1-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "order "
+},
+{
+  "id": "notes-20260909-p2-3",
+  "level": "2",
+  "url": "day-20260909-W.html#notes-20260909-p2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "linear non-linear "
+},
+{
+  "id": "notes-20260909-p2-4",
+  "level": "2",
+  "url": "day-20260909-W.html#notes-20260909-p2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "autonomous "
+},
+{
+  "id": "notes-20260909-p3-2",
+  "level": "2",
+  "url": "day-20260909-W.html#notes-20260909-p3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "solution implicit solution "
+},
+{
+  "id": "example-verify-solution",
+  "level": "2",
+  "url": "day-20260909-W.html#example-verify-solution",
+  "type": "Example",
+  "number": "11",
+  "title": "",
+  "body": "  Verify that the proposed candidate function is a valid explicit solution to the first-order ordinary differential equation .    To check if the proposed function satisfies the relation, we evaluate both sides of the ODE independently to see if they match identically:  First, compute the left-hand side (LHS) by differentiating our candidate function with respect to the independent time variable:   Next, evaluate the right-hand side (RHS) by substituting the function directly into the state placeholder:   Since , the function is rigorously verified as a valid explicit solution to the differential equation.   "
 },
 {
   "id": "activity-20260909-W",
   "level": "2",
   "url": "day-20260909-W.html#activity-20260909-W",
   "type": "Exploration",
-  "number": "11",
+  "number": "12",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -347,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260911-F.html#activity-20260911-F",
   "type": "Exploration",
-  "number": "12",
+  "number": "13",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -383,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260914-M.html#activity-20260914-M",
   "type": "Exploration",
-  "number": "13",
+  "number": "14",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -419,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260916-W.html#activity-20260916-W",
   "type": "Exploration",
-  "number": "14",
+  "number": "15",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -446,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260918-F.html#activity-20260918-F",
   "type": "Exploration",
-  "number": "15",
+  "number": "16",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -482,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260921-M.html#activity-20260921-M",
   "type": "Exploration",
-  "number": "16",
+  "number": "17",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -527,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260923-W.html#activity-20260923-W",
   "type": "Exploration",
-  "number": "17",
+  "number": "18",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -554,7 +608,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260925-F.html#activity-20260925-F",
   "type": "Exploration",
-  "number": "18",
+  "number": "19",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -590,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260928-M.html#activity-20260928-M",
   "type": "Exploration",
-  "number": "19",
+  "number": "20",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -626,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20260930-W.html#activity-20260930-W",
   "type": "Exploration",
-  "number": "20",
+  "number": "21",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -653,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261002-F.html#activity-20261002-F",
   "type": "Exploration",
-  "number": "21",
+  "number": "22",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -689,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261005-M.html#activity-20261005-M",
   "type": "Exploration",
-  "number": "22",
+  "number": "23",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -743,7 +797,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261009-F.html#activity-20261009-F",
   "type": "Exploration",
-  "number": "23",
+  "number": "24",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -779,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261012-M.html#activity-20261012-M",
   "type": "Exploration",
-  "number": "24",
+  "number": "25",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -824,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261014-W.html#activity-20261014-W",
   "type": "Exploration",
-  "number": "25",
+  "number": "26",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -851,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261016-F.html#activity-20261016-F",
   "type": "Exploration",
-  "number": "26",
+  "number": "27",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -887,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261019-M.html#activity-20261019-M",
   "type": "Exploration",
-  "number": "27",
+  "number": "28",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -923,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261021-W.html#activity-20261021-W",
   "type": "Exploration",
-  "number": "28",
+  "number": "29",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -950,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261023-F.html#activity-20261023-F",
   "type": "Exploration",
-  "number": "29",
+  "number": "30",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -986,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261026-M.html#activity-20261026-M",
   "type": "Exploration",
-  "number": "30",
+  "number": "31",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1031,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261028-W.html#activity-20261028-W",
   "type": "Exploration",
-  "number": "31",
+  "number": "32",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1058,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261030-F.html#activity-20261030-F",
   "type": "Exploration",
-  "number": "32",
+  "number": "33",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1094,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261102-M.html#activity-20261102-M",
   "type": "Exploration",
-  "number": "33",
+  "number": "34",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1130,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261104-W.html#activity-20261104-W",
   "type": "Exploration",
-  "number": "34",
+  "number": "35",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1184,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261109-M.html#activity-20261109-M",
   "type": "Exploration",
-  "number": "35",
+  "number": "36",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1229,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261111-W.html#activity-20261111-W",
   "type": "Exploration",
-  "number": "36",
+  "number": "37",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1256,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261113-F.html#activity-20261113-F",
   "type": "Exploration",
-  "number": "37",
+  "number": "38",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1292,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261116-M.html#activity-20261116-M",
   "type": "Exploration",
-  "number": "38",
+  "number": "39",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1328,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261118-W.html#activity-20261118-W",
   "type": "Exploration",
-  "number": "39",
+  "number": "40",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1355,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261120-F.html#activity-20261120-F",
   "type": "Exploration",
-  "number": "40",
+  "number": "41",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1472,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261130-M.html#activity-20261130-M",
   "type": "Exploration",
-  "number": "41",
+  "number": "42",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1508,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261202-W.html#activity-20261202-W",
   "type": "Exploration",
-  "number": "42",
+  "number": "43",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1535,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261204-F.html#activity-20261204-F",
   "type": "Exploration",
-  "number": "43",
+  "number": "44",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1571,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261207-M.html#activity-20261207-M",
   "type": "Exploration",
-  "number": "44",
+  "number": "45",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1607,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261209-W.html#activity-20261209-W",
   "type": "Exploration",
-  "number": "45",
+  "number": "46",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1634,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261211-F.html#activity-20261211-F",
   "type": "Exploration",
-  "number": "46",
+  "number": "47",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
@@ -1670,7 +1724,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "day-20261214-M.html#activity-20261214-M",
   "type": "Exploration",
-  "number": "47",
+  "number": "48",
   "title": "In-Class Activity.",
   "body": " In-Class Activity     "
 },
