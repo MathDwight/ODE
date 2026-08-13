@@ -2,80 +2,70 @@
 <subsection xml:id="day-20260909-W" web-toc="none" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Wednesday, 09 September 2026</title>
 
-  <paragraphs xml:id="announcements-20260909-W">
-    <title>Announcements</title>
-    <p>&#xa0;</p>
-  </paragraphs>
+  <!-- PAGE 1: Core Definitions and Philosophy -->
+  <subsection xml:id="notes-20260909-p1">
+      <title>Page 1: What is an Ordinary Differential Equation?</title>
+      <p>
+          In MATH 340, we study how phenomena change over time by modeling them using functions. We begin by looking at a differentiable function <m>x</m> with respect to a single independent variable <m>t</m> (representing time).
+      </p>
+      <p>
+          An equation that relates an unknown function <m>x</m> to its derivatives—such as <m>\frac{dx}{dt}</m>, <m>\frac{d^2x}{dt^2}</m>, and so on—is called an <term>ordinary differential equation (ODE)</term>. The primary goal of an ODE is to describe a relationship where the rate of change of a quantity depends on the current state of that quantity.
+      </p>
+      <p>
+          To classify these equations, we define the <term>order</term> of an ODE as the highest derivative present in the equation. For example, a first-order ODE contains at most <m>\frac{dx}{dt}</m>, while a second-order ODE involves <m>\frac{d^2x}{dt^2}</m>.
+      </p>
+  </subsection>
 
-  <paragraphs xml:id="notes-20260909-W">
-    <title>Class Notes</title>
-    <?xml version="1.0" encoding="UTF-8"?>
-<subsection xml:id="notes-20260909" xmlns:xi="http://w3.org">
-    <title>Class Notes: Wednesday, 09 September 2026</title>
+  <!-- PAGE 2: Structure, Types, and Notation -->
+  <subsection xml:id="notes-20260909-p2">
+      <title>Page 2: Analyzing ODE Structure and Notation</title>
+      <p>
+          Consider a classic example of a simple first-order ordinary differential equation:
+          <me>\frac{dx}{dt} = x</me>
+          This equation states that the rate of growth of the function <m>x(t)</m> is directly equal to the value of the function itself at any moment in time.
+      </p>
+      <p>
+          When studying these structures, we will approach them using three distinct frameworks:
+          <ul>
+              <li><p><alert>Numerical methods</alert> to approximate data tracks when explicit formulas are impossible to find.</p></li>
+              <li><p><alert>Analytic methods</alert> to compute exact mathematical expressions for the unknown functions.</p></li>
+              <li><p><alert>Qualitative methods</alert> to describe the long-term behavior and stability profiles of solutions visually.</p></li>
+          </ul>
+      </p>
+  </subsection>
 
-    <!-- PAGE 1: Core Definitions and Philosophy -->
-    <subsection xml:id="notes-20260909-p1">
-        <title>Page 1: What is an Ordinary Differential Equation?</title>
-        <p>
-            In MATH 340, we study how phenomena change over time by modeling them using functions. We begin by looking at a differentiable function <m>x</m> with respect to a single independent variable <m>t</m> (representing time).
-        </p>
-        <p>
-            An equation that relates an unknown function <m>x</m> to its derivatives—such as <m>\frac{dx}{dt}</m>, <m>\frac{d^2x}{dt^2}</m>, and so on—is called an <term>ordinary differential equation (ODE)</term>. The primary goal of an ODE is to describe a relationship where the rate of change of a quantity depends on the current state of that quantity.
-        </p>
-        <p>
-            To classify these equations, we define the <term>order</term> of an ODE as the highest derivative present in the equation. For example, a first-order ODE contains at most <m>\frac{dx}{dt}</m>, while a second-order ODE involves <m>\frac{d^2x}{dt^2}</m>.
-        </p>
-    </subsection>
-
-    <!-- PAGE 2: Structure, Types, and Notation -->
-    <subsection xml:id="notes-20260909-p2">
-        <title>Page 2: Analyzing ODE Structure and Notation</title>
-        <p>
-            Consider a classic example of a simple first-order ordinary differential equation:
-            <me>\frac{dx}{dt} = x</me>
-            This equation states that the rate of growth of the function <m>x(t)</m> is directly equal to the value of the function itself at any moment in time.
-        </p>
-        <p>
-            When studying these structures, we will approach them using three distinct frameworks:
-            <ul>
-                <li><p><alert>Numerical methods</alert> to approximate data tracks when explicit formulas are impossible to find.</p></li>
-                <li><p><alert>Analytic methods</alert> to compute exact mathematical expressions for the unknown functions.</p></li>
-                <li><p><alert>Qualitative methods</alert> to describe the long-term behavior and stability profiles of solutions visually.</p></li>
-            </ul>
-        </p>
-    </subsection>
-
-    <!-- PAGE 3: Verification of Solutions -->
-    <subsection xml:id="notes-20260909-p3">
-        <title>Page 3: Recognizing and Verifying Solutions</title>
-        <p>
-            A <term>solution</term> to a differential equation is an explicit function <m>x(t)</m> that, when substituted into the ODE, satisfies the algebraic identity for all values of <m>t</m> in an open interval.
-        </p>
-        <example xml:id="example-verify-solution">
-            <statement>
-                <p>
-                    Verify that the solution function <m>x(t) = e^t</m> is a valid solution to the first-order ordinary differential equation <m>\frac{dx}{dt} = x</m>.
-                </p>
-            </statement>
-            <solution>
-                <p>
-                    To check if the function satisfies the relation, we evaluate both sides of the ODE independently:
-                </p>
-                <p>
-                    First, compute the left-hand side (LHS) by differentiating our candidate function:
-                    <me>\text{LHS} = \frac{dx}{dt} = \frac{d}{dt}\left(e^t\right) = e^t</me>
-                </p>
-                <p>
-                    Next, evaluate the right-hand side (RHS) by substituting the function directly:
-                    <me>\text{RHS} = x = e^t</me>
-                </p>
-                <p>
-                    Since <m>\text{LHS} = \text{RHS} = e^t</m>, the function <m>x(t) = e^t</m> is verified as a valid explicit solution to the differential equation.
-                </p>
-            </solution>
-        </example>
-    </subsection>
+  <!-- PAGE 3: Verification of Solutions -->
+  <subsection xml:id="notes-20260909-p3">
+      <title>Page 3: Recognizing and Verifying Solutions</title>
+      <p>
+          A <term>solution</term> to a differential equation is an explicit function <m>x(t)</m> that, when substituted into the ODE, satisfies the algebraic identity for all values of <m>t</m> in an open interval.
+      </p>
+      <example xml:id="example-verify-solution">
+          <statement>
+              <p>
+                  Verify that the solution function <m>x(t) = e^t</m> is a valid solution to the first-order ordinary differential equation <m>\frac{dx}{dt} = x</m>.
+              </p>
+          </statement>
+          <solution>
+              <p>
+                  To check if the function satisfies the relation, we evaluate both sides of the ODE independently:
+              </p>
+              <p>
+                  First, compute the left-hand side (LHS) by differentiating our candidate function:
+                  <me>\text{LHS} = \frac{dx}{dt} = \frac{d}{dt}\left(e^t\right) = e^t</me>
+              </p>
+              <p>
+                  Next, evaluate the right-hand side (RHS) by substituting the function directly:
+                  <me>\text{RHS} = x = e^t</me>
+              </p>
+              <p>
+                  Since <m>\text{LHS} = \text{RHS} = e^t</m>, the function <m>x(t) = e^t</m> is verified as a valid explicit solution to the differential equation.
+              </p>
+          </solution>
+      </example>
+  </subsection>
 </subsection>
+
 
   </paragraphs>
 
