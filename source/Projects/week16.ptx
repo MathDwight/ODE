@@ -1,18 +1,38 @@
-<section xml:id="week-16">
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="week16" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 16</title>
 
   <introduction>
+        <title>Overview</title>
     <p>
-      Week 16 (Dec 9 – Dec 15).
+       Week 16 (Dec 09<ndash/>Dec 15) closes the course.
     </p>
     <p>
-      Class meeting dates: Dec 9.
+      Class meeting dates:
+      <ul>
+        <li>Dec 09</li>
+        <li>Dec 11</li>
+        <li>Dec 14</li>
+      </ul>
     </p>
     <p>
-      Next Reading Quiz due date: None.
+      Next due dates:
+      <ul>
+        <li>None scheduled.</li>
+      </ul>
     </p>
   </introduction>
 
+  <!-- Chronological daily includes for Week 16 -->
+  <xi:include href="week16/20261209-W.xml" />
+  <xi:include href="week16/20261210-R.xml" />
+  <xi:include href="week16/20261211-F.xml" />
+  <xi:include href="week16/20261212-S.xml" />
+  <xi:include href="week16/20261213-U.xml" />
+  <xi:include href="week16/20261214-M.xml" />
+  <xi:include href="week16/20261215-T.xml" />
+
+<!--
   <handout>
     <title>Wednesday, 09 December 2026</title>
     <p>
@@ -54,5 +74,5 @@
     <p>
     </p>
   </handout>
-
+-->
 </section>

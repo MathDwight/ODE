@@ -28,8 +28,20 @@ mod_titles = {
 
 # Determine the structural module progression verb state
 def get_module_action_verb(week, mod):
+    # Full phrase overrides with a full stop
+    if week == 14:
+        return "closes Core Projects."
+    elif week == 15:
+        return "closes grading."
+    elif week == 16:
+        return "closes the course."
+
     mod_weeks = [w for w, m in week_to_mod.items() if m == mod]
-    if week == mod_weeks:
+
+    if not mod_weeks:
+        return "none"
+
+    if week == mod_weeks[0]:
         return "opens"
     elif week == mod_weeks[-1]:
         return "closes"
@@ -111,8 +123,9 @@ week_template = """<?xml version="1.0" encoding="UTF-8"?>
   <title>Week {week_num}</title>
 
   <introduction>
+        <title>Overview</title>
     <p>
-      Week {week_num} ({date_range_str}) {action_verb} {mod_title_text}.
+       Week {week_num} ({date_range_str}) {progression_headline}
     </p>
     <p>
       Class meeting dates:
@@ -192,7 +205,13 @@ for week_num in range(1, 17):
     date_range_str = f"{current_week_start.strftime('%b %d')}<ndash/>{week_end_date.strftime('%b %d')}"
 
     action_verb = get_module_action_verb(week_num, mod_name)
-    mod_title_text = mod_titles[mod_name]
+
+    # Final week override check
+    if week_num in (14,15,16):
+        progression_headline = action_verb
+    else:
+        mod_title_text = mod_titles[mod_name]
+        progression_headline = f"{action_verb} {mod_title_text}."
 
     class_meetings = []
     include_tags = []
@@ -264,8 +283,7 @@ for week_num in range(1, 17):
         week_str=week_str,
         week_num=week_num,
         date_range_str=date_range_str,
-        action_verb=action_verb,
-        mod_title_text=mod_title_text,
+        progression_headline=progression_headline,
         class_meetings_block=class_meetings_block,
         due_dates_block=due_dates_block,
         include_tags_block=include_tags_block,
