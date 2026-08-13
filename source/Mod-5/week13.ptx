@@ -2,25 +2,26 @@
 <section xml:id="week13" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 13</title>
 
-  <introduction>
+    <subsection xml:id="week13-overview">
         <title>Overview</title>
-    <p>
-       Week 13 (Nov 18<ndash/>Nov 24) closes Mod-5: Systems and Symmetries.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 13 (Nov 18<ndash/>Nov 24) closes Mod-5: Systems and Symmetries.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Nov 18</li>
         <li>Nov 20</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Core Projects: Dec 01, 11:59PM EST</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 13 -->
   <xi:include href="week13/20261118-W.xml" />

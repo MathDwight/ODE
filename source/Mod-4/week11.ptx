@@ -2,25 +2,26 @@
 <section xml:id="week11" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 11</title>
 
-  <introduction>
+    <subsection xml:id="week11-overview">
         <title>Overview</title>
-    <p>
-       Week 11 (Nov 04<ndash/>Nov 10) closes Mod-4: Second-Order ODEs and Analytic Methods.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 11 (Nov 04<ndash/>Nov 10) closes Mod-4: Second-Order ODEs and Analytic Methods.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Nov 04</li>
         <li>Nov 09</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Reading Quiz 5: Nov 10, 11:59PM EST</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 11 -->
   <xi:include href="week11/20261104-W.xml" />

@@ -2,26 +2,27 @@
 <section xml:id="week01" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 1</title>
 
-  <introduction>
+    <subsection xml:id="week01-overview">
         <title>Overview</title>
-    <p>
-       Week 1 (Aug 26<ndash/>Sep 01) opens Mod-0: Logistics and Foundations.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 1 (Aug 26<ndash/>Sep 01) opens Mod-0: Logistics and Foundations.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Aug 26</li>
         <li>Aug 28</li>
         <li>Aug 31</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Mod-0 Quiz: Aug 31 (if day-one enrolled)</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 1 -->
   <xi:include href="week01/20260826-W.xml" />

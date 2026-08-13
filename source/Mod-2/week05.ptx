@@ -2,26 +2,27 @@
 <section xml:id="week05" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 5</title>
 
-  <introduction>
+    <subsection xml:id="week05-overview">
         <title>Overview</title>
-    <p>
-       Week 5 (Sep 23<ndash/>Sep 29) opens Mod-2: Numerical Methods.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 5 (Sep 23<ndash/>Sep 29) opens Mod-2: Numerical Methods.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Sep 23</li>
         <li>Sep 25</li>
         <li>Sep 28</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Reading Quiz 3: Oct 13, 11:59PM EDT</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 5 -->
   <xi:include href="week05/20260923-W.xml" />

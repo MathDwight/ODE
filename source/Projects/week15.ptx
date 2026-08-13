@@ -2,26 +2,27 @@
 <section xml:id="week15" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 15</title>
 
-  <introduction>
+    <subsection xml:id="week15-overview">
         <title>Overview</title>
-    <p>
-       Week 15 (Dec 02<ndash/>Dec 08) closes grading.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 15 (Dec 02<ndash/>Dec 08) closes grading.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Dec 02</li>
         <li>Dec 04</li>
         <li>Dec 07</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Final Feedback: Dec 08, 11:59PM EST</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 15 -->
   <xi:include href="week15/20261202-W.xml" />

@@ -2,26 +2,27 @@
 <section xml:id="week03" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 3</title>
 
-  <introduction>
+    <subsection xml:id="week03-overview">
         <title>Overview</title>
-    <p>
-       Week 3 (Sep 09<ndash/>Sep 15) opens Mod-1: Recognizing ODEs and Their Solutions.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 3 (Sep 09<ndash/>Sep 15) opens Mod-1: Recognizing ODEs and Their Solutions.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Sep 09</li>
         <li>Sep 11</li>
         <li>Sep 14</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Reading Quiz 2: Sep 22, 11:59PM EDT</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 3 -->
   <xi:include href="week03/20260909-W.xml" />

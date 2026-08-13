@@ -2,26 +2,27 @@
 <section xml:id="week08" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 8</title>
 
-  <introduction>
+    <subsection xml:id="week08-overview">
         <title>Overview</title>
-    <p>
-       Week 8 (Oct 14<ndash/>Oct 20) opens Mod-3: First-Order ODEs and Analytic Methods.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 8 (Oct 14<ndash/>Oct 20) opens Mod-3: First-Order ODEs and Analytic Methods.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Oct 14</li>
         <li>Oct 16</li>
         <li>Oct 19</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Reading Quiz 4: Oct 27, 11:59PM EDT</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 8 -->
   <xi:include href="week08/20261014-W.xml" />

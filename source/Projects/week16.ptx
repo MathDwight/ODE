@@ -2,26 +2,27 @@
 <section xml:id="week16" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 16</title>
 
-  <introduction>
+    <subsection xml:id="week16-overview">
         <title>Overview</title>
-    <p>
-       Week 16 (Dec 09<ndash/>Dec 15) closes the course.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 16 (Dec 09<ndash/>Dec 15) closes the course.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Dec 09</li>
         <li>Dec 11</li>
         <li>Dec 14</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>None scheduled.</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 16 -->
   <xi:include href="week16/20261209-W.xml" />

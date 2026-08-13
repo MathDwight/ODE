@@ -2,24 +2,25 @@
 <section xml:id="week14" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 14</title>
 
-  <introduction>
+    <subsection xml:id="week14-overview">
         <title>Overview</title>
-    <p>
-       Week 14 (Nov 25<ndash/>Dec 01) closes Core Projects.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 14 (Nov 25<ndash/>Dec 01) closes Core Projects.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Nov 30</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Core Projects: Dec 01, 11:59PM EST</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 14 -->
   <xi:include href="week14/20261125-W.xml" />

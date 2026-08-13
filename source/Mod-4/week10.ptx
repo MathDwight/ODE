@@ -2,26 +2,27 @@
 <section xml:id="week10" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 10</title>
 
-  <introduction>
+    <subsection xml:id="week10-overview">
         <title>Overview</title>
-    <p>
-       Week 10 (Oct 28<ndash/>Nov 03) opens Mod-4: Second-Order ODEs and Analytic Methods.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 10 (Oct 28<ndash/>Nov 03) opens Mod-4: Second-Order ODEs and Analytic Methods.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Oct 28</li>
         <li>Oct 30</li>
         <li>Nov 02</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Reading Quiz 5: Nov 10, 11:59PM EST</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 10 -->
   <xi:include href="week10/20261028-W.xml" />

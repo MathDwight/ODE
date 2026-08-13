@@ -122,24 +122,25 @@ week_template = """<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="week{week_str}" xmlns:xi="{xi_url}">
   <title>Week {week_num}</title>
 
-  <introduction>
+    <subsection xml:id="week{week_str}-overview">
         <title>Overview</title>
-    <p>
-       Week {week_num} ({date_range_str}) {progression_headline}
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week {week_num} ({date_range_str}) {progression_headline}
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
 {class_meetings_block}
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
 {due_dates_block}
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week {week_num} -->
 {include_tags_block}

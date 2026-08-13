@@ -2,26 +2,27 @@
 <section xml:id="week02" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 2</title>
 
-  <introduction>
+    <subsection xml:id="week02-overview">
         <title>Overview</title>
-    <p>
-       Week 2 (Sep 02<ndash/>Sep 08) closes Mod-0: Logistics and Foundations.
-    </p>
-    <p>
-      Class meeting dates:
-      <ul>
+        <p>
+            Week 2 (Sep 02<ndash/>Sep 08) closes Mod-0: Logistics and Foundations.
+        </p>
+        <p>
+            Class meeting dates:
+            <ul>
         <li>Sep 02</li>
         <li>Sep 04</li>
-      </ul>
-    </p>
-    <p>
-      Next due dates:
-      <ul>
+            </ul>
+        </p>
+        <p>
+            Next due dates:
+            <ul>
         <li>Mod-0 Quiz (if not day-one enrolled): Sep 07, 11:59PM EDT</li>
         <li>Reading Quiz 1: Sep 08, 11:59PM EDT</li>
-      </ul>
-    </p>
-  </introduction>
+            </ul>
+        </p>
+    </subsection>
+
 
   <!-- Chronological daily includes for Week 2 -->
   <xi:include href="week02/20260902-W.xml" />
