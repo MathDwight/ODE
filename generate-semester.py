@@ -12,7 +12,7 @@ week_to_mod = {
     8: "Mod-3", 9: "Mod-3",
     10: "Mod-4", 11: "Mod-4",
     12: "Mod-5", 13: "Mod-5",
-    14: "Projects", 15: "Projects"
+    14: "Projects", 15: "Projects", 16: "Projects"
 }
 
 # Explicit definition of the exact Mod labels matching your syllabus parameters
@@ -141,10 +141,10 @@ XINCLUDE_URI = "http://www.w3.org/2001/XInclude"
 
 # Chronological calendar setup pass
 start_date = datetime(2026, 8, 26)
-week_starts = {w: start_date + timedelta(days=(w-1)*7) for w in range(1, 16)}
+week_starts = {w: start_date + timedelta(days=(w-1)*7) for w in range(1, 17)}
 
 mod_starts = {}
-for w in range(1, 16):
+for w in range(1, 17):
     m = week_to_mod[w]
     if m not in mod_starts:
         mod_starts[m] = week_starts[w]
@@ -163,8 +163,8 @@ for x in range(2, 6):
     target_mod = f"Mod-{x}"
     due_date = mod_starts[target_mod] - timedelta(days=1)
 
-    target_week = 15
-    for w in range(1, 16):
+    target_week = 16
+    for w in range(1, 17):
         if week_starts[w] <= due_date <= (week_starts[w] + timedelta(days=6)):
             target_week = w
             break
@@ -181,7 +181,7 @@ current_week_start = start_date
 all_semester_deadlines.sort(key=lambda x: x["week_threshold"])
 
 
-for week_num in range(1, 16):
+for week_num in range(1, 17):
     mod_name = week_to_mod[week_num]
     week_str = f"{week_num:02d}"
 
