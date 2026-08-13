@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Preface",
   "number": "",
   "title": "What’s Happening, Good People!",
-  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.      Vector field simulation (original credit: Andrei Kashcha): ,         Visualizing (Sophus) Lie theory      "
+  "body": " What's Happening, Good People!  Differential equations help us model the world; geometry and algebra help us understand their solutions.     Vector field simulation (original credit: Andrei Kashcha): ,       Visualizing (Sophus) Lie theory    "
 },
 {
   "id": "fig-vector-field",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "1",
   "title": "",
-  "body": "  Vector field simulation (original credit: Andrei Kashcha): ,      "
+  "body": "  Vector field simulation (original credit: Andrei Kashcha): ,    "
 },
 {
   "id": "fig-desmos-graph",
@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "2",
   "title": "",
-  "body": " Visualizing (Sophus) Lie theory    "
+  "body": " Visualizing (Sophus) Lie theory   "
 },
 {
   "id": "sec-course-info",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Schedule",
-  "body": " Schedule  All times are local to Baltimore. Deadlines are specified by the due date and the 11:59PM cut-off for submission.  Click a specific week to jump to the page within the correspond Mod. Find printable worksheets and full week activities\/alerts within Mods.   Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday      Aug 26: First day of class  Aug 28:   Aug 31: Mod-0 quiz due for first-day enrollees    Week 2  Sep 02:   Sep 04:   Sep 07: University Closed; Mod-0 quiz due for other enrollees    Week 3  Sep 09: Mod-1 begins  Sep 11: Feedback\/Check-in activity  Sep 14:     Week 4  Sep 16:   Sep 18:   Sep 21:     Week 5  Sep 23: Mod-2 begins  Sep 25: Feedback\/Check-in activity  Sep 28:     Week 6  Sep 30:   Oct 02:   Oct 05:     Week 7  Oct 07: Group Work Day  Oct 09:   Oct 12:     Week 8  Oct 14: Mod-3 begins  Oct 16: Feedback\/Check-in activity  Oct 19: Mid-term\/snapshot grade calculated by     Week 9  Oct 21:   Oct 23:   Oct 26:     Week 10  Oct 28: Mod-4 begins  Oct 30: Feedback\/Check-in activity  Nov 02:     Week 11  Nov 04:   Nov 06: Group Work Day  Nov 09:     Week 12  Nov 11: Mod-5 begins  Nov 13: Feedback\/Check-in activity  Nov 16:     Week 13  Nov 18:   Nov 20:   Nov 23: Group Work Day    Week 14  Nov 25: University Closed  Nov 27: University Closed  Nov 30:     Week 15  Dec 02: Core project should have been submitted  Dec 04: Feedback\/Check-in activity  Dec 07:     Week 16  Dec 09: Last day of class  Dec 11:   Dec 14:      "
+  "body": " Schedule  All times are local to Baltimore. Deadlines are specified by the due date and the 11:59PM cut-off for submission.  Click a specific week to jump to the page within the correspond Mod. Find printable worksheets and full week activities\/alerts within Mods.   Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday      Aug 26: First day of class  Aug 28:   Aug 31: Mod-0 quiz due for first-day enrollees     Sep 02:   Sep 04:   Sep 07: University Closed; Mod-0 quiz due for other enrollees     Sep 09: Mod-1 begins  Sep 11: Feedback\/Check-in activity  Sep 14:      Sep 16:   Sep 18:   Sep 21:      Sep 23: Mod-2 begins  Sep 25: Feedback\/Check-in activity  Sep 28:      Sep 30:   Oct 02:   Oct 05:      Oct 07: Group Work Day  Oct 09:   Oct 12:      Oct 14: Mod-3 begins  Oct 16: Feedback\/Check-in activity  Oct 19: Mid-term\/snapshot grade calculated by      Oct 21:   Oct 23:   Oct 26:      Oct 28: Mod-4 begins  Oct 30: Feedback\/Check-in activity  Nov 02:      Nov 04:   Nov 06: Group Work Day  Nov 09:      Nov 11: Mod-5 begins  Nov 13: Feedback\/Check-in activity  Nov 16:      Nov 18:   Nov 20:   Nov 23: Group Work Day     Nov 25: University Closed  Nov 27: University Closed  Nov 30:      Dec 02: Core project should have been submitted  Dec 04: Feedback\/Check-in activity  Dec 07:      Dec 09: Last day of class  Dec 11:   Dec 14:      "
 },
 {
   "id": "schedule-4",
@@ -88,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Table",
   "number": "5",
   "title": "Course Schedule for Fall 2026",
-  "body": " Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday      Aug 26: First day of class  Aug 28:   Aug 31: Mod-0 quiz due for first-day enrollees    Week 2  Sep 02:   Sep 04:   Sep 07: University Closed; Mod-0 quiz due for other enrollees    Week 3  Sep 09: Mod-1 begins  Sep 11: Feedback\/Check-in activity  Sep 14:     Week 4  Sep 16:   Sep 18:   Sep 21:     Week 5  Sep 23: Mod-2 begins  Sep 25: Feedback\/Check-in activity  Sep 28:     Week 6  Sep 30:   Oct 02:   Oct 05:     Week 7  Oct 07: Group Work Day  Oct 09:   Oct 12:     Week 8  Oct 14: Mod-3 begins  Oct 16: Feedback\/Check-in activity  Oct 19: Mid-term\/snapshot grade calculated by     Week 9  Oct 21:   Oct 23:   Oct 26:     Week 10  Oct 28: Mod-4 begins  Oct 30: Feedback\/Check-in activity  Nov 02:     Week 11  Nov 04:   Nov 06: Group Work Day  Nov 09:     Week 12  Nov 11: Mod-5 begins  Nov 13: Feedback\/Check-in activity  Nov 16:     Week 13  Nov 18:   Nov 20:   Nov 23: Group Work Day    Week 14  Nov 25: University Closed  Nov 27: University Closed  Nov 30:     Week 15  Dec 02: Core project should have been submitted  Dec 04: Feedback\/Check-in activity  Dec 07:     Week 16  Dec 09: Last day of class  Dec 11:   Dec 14:     "
+  "body": " Course Schedule for Fall 2026             Week  Wednesday  Friday  Monday      Aug 26: First day of class  Aug 28:   Aug 31: Mod-0 quiz due for first-day enrollees     Sep 02:   Sep 04:   Sep 07: University Closed; Mod-0 quiz due for other enrollees     Sep 09: Mod-1 begins  Sep 11: Feedback\/Check-in activity  Sep 14:      Sep 16:   Sep 18:   Sep 21:      Sep 23: Mod-2 begins  Sep 25: Feedback\/Check-in activity  Sep 28:      Sep 30:   Oct 02:   Oct 05:      Oct 07: Group Work Day  Oct 09:   Oct 12:      Oct 14: Mod-3 begins  Oct 16: Feedback\/Check-in activity  Oct 19: Mid-term\/snapshot grade calculated by      Oct 21:   Oct 23:   Oct 26:      Oct 28: Mod-4 begins  Oct 30: Feedback\/Check-in activity  Nov 02:      Nov 04:   Nov 06: Group Work Day  Nov 09:      Nov 11: Mod-5 begins  Nov 13: Feedback\/Check-in activity  Nov 16:      Nov 18:   Nov 20:   Nov 23: Group Work Day     Nov 25: University Closed  Nov 27: University Closed  Nov 30:      Dec 02: Core project should have been submitted  Dec 04: Feedback\/Check-in activity  Dec 07:      Dec 09: Last day of class  Dec 11:   Dec 14:     "
 },
 {
   "id": "Mod-0-breakdown",
@@ -98,6 +98,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Mod-0: Logistics and Foundations",
   "body": " Mod-0: Logistics and Foundations   Mod 0 is called Logistics and Foundations.  Before we start to study, we will discuss how to study and how to progress in this particular instance of MATH 340 Intro to Differential Equations. Expect to grow! Expect to work! Expect to learn! Expect to get stuck, but expect to get unstuck, too! Then repeat.  The assignments of the course are a proxy to help me assess your knowledge and learning, according to the contract we enter together as students and faculty at a institute of higher education within the tradition of the United States. We need to be familiar with the criteria to achieve final letter grades. The route features expertly-crafted markers aligned along a journey in the study of mathematics. Before taking a step, however, we will prepare for the trip: We consider where we are now; where are we headed; and, what we need to get there.  Keywords: , course schedule, group meetings, Mods, core projects.    "
+},
+{
+  "id": "week01-overview",
+  "level": "1",
+  "url": "week01-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 1 (Aug 26 Sep 01) opens Mod-0: Logistics and Foundations.  Class meeting dates:  Aug 26  Aug 28  Aug 31    Next due dates:  Mod-0 Quiz: Aug 31 (if day-one enrolled)    "
 },
 {
   "id": "day-20260826-W",
@@ -190,6 +199,15 @@ var ptx_lunr_docs = [
   "body": " Tuesday, 01 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 01 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
+  "id": "week02-overview",
+  "level": "1",
+  "url": "week02-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 2 (Sep 02 Sep 08) closes Mod-0: Logistics and Foundations.  Class meeting dates:  Sep 02  Sep 04    Next due dates:  Mod-0 Quiz (if not day-one enrolled): Sep 07, 11:59PM EDT  Reading Quiz 1: Sep 08, 11:59PM EDT    "
+},
+{
   "id": "day-20260902-W",
   "level": "1",
   "url": "day-20260902-W.html",
@@ -280,6 +298,15 @@ var ptx_lunr_docs = [
   "body": " Mod-1: Recognizing ODEs and Their Solutions   Mod-1 is called Recognizing ODEs and Their Solutions.  After internalizing the course set-up and considering plans of progress, we step into the world of differential equations. We need to recognize the landscape and that process starts with determining what is and isn't a differential equation. Identifying what kind of problem we face is central to developing our problem solving skills. Then, believe it or not, we will analyze solutions before we discuss techniques to arrive at solutions. We take time to construct quality checks and assurance factors for the work we submit. The mantra is as follows:   A solution we do not understand is no solution at all!     "
 },
 {
+  "id": "week03-overview",
+  "level": "1",
+  "url": "week03-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 3 (Sep 09 Sep 15) opens Mod-1: Recognizing ODEs and Their Solutions.  Class meeting dates:  Sep 09  Sep 11  Sep 14    Next due dates:  Reading Quiz 2: Sep 22, 11:59PM EDT    "
+},
+{
   "id": "day-20260909-W",
   "level": "1",
   "url": "day-20260909-W.html",
@@ -368,6 +395,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Tuesday, 15 September 2026",
   "body": " Tuesday, 15 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 15 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "week04-overview",
+  "level": "1",
+  "url": "week04-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 4 (Sep 16 Sep 22) closes Mod-1: Recognizing ODEs and Their Solutions.  Class meeting dates:  Sep 16  Sep 18  Sep 21    Next due dates:  Reading Quiz 2: Sep 22, 11:59PM EDT    "
 },
 {
   "id": "day-20260916-W",
@@ -469,6 +505,15 @@ var ptx_lunr_docs = [
   "body": " Mod-2: Numerical Methods   Mod-2 is called Numerical Methods.   "
 },
 {
+  "id": "week05-overview",
+  "level": "1",
+  "url": "week05-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 5 (Sep 23 Sep 29) opens Mod-2: Numerical Methods.  Class meeting dates:  Sep 23  Sep 25  Sep 28    Next due dates:  Reading Quiz 3: Oct 13, 11:59PM EDT    "
+},
+{
   "id": "day-20260923-W",
   "level": "1",
   "url": "day-20260923-W.html",
@@ -557,6 +602,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Tuesday, 29 September 2026",
   "body": " Tuesday, 29 September 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 29 September 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "week06-overview",
+  "level": "1",
+  "url": "week06-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 6 (Sep 30 Oct 06) continues Mod-2: Numerical Methods.  Class meeting dates:  Sep 30  Oct 02  Oct 05    Next due dates:  Reading Quiz 3: Oct 13, 11:59PM EDT    "
 },
 {
   "id": "day-20260930-W",
@@ -649,6 +703,15 @@ var ptx_lunr_docs = [
   "body": " Tuesday, 06 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 06 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
+  "id": "week07-overview",
+  "level": "1",
+  "url": "week07-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 7 (Oct 07 Oct 13) closes Mod-2: Numerical Methods.  Class meeting dates:  Oct 09  Oct 12    Next due dates:  Reading Quiz 3: Oct 13, 11:59PM EDT    "
+},
+{
   "id": "day-20261007-W",
   "level": "1",
   "url": "day-20261007-W.html",
@@ -739,6 +802,15 @@ var ptx_lunr_docs = [
   "body": " Mod-3: First-Order ODEs and Analytic Methods   Mod-3 is called First-Order ODEs and Analytic Methods.   "
 },
 {
+  "id": "week08-overview",
+  "level": "1",
+  "url": "week08-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 8 (Oct 14 Oct 20) opens Mod-3: First-Order ODEs and Analytic Methods.  Class meeting dates:  Oct 14  Oct 16  Oct 19    Next due dates:  Reading Quiz 4: Oct 27, 11:59PM EDT    "
+},
+{
   "id": "day-20261014-W",
   "level": "1",
   "url": "day-20261014-W.html",
@@ -827,6 +899,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Tuesday, 20 October 2026",
   "body": " Tuesday, 20 October 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 20 October 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "week09-overview",
+  "level": "1",
+  "url": "week09-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 9 (Oct 21 Oct 27) closes Mod-3: First-Order ODEs and Analytic Methods.  Class meeting dates:  Oct 21  Oct 23  Oct 26    Next due dates:  Reading Quiz 4: Oct 27, 11:59PM EDT    "
 },
 {
   "id": "day-20261021-W",
@@ -928,6 +1009,15 @@ var ptx_lunr_docs = [
   "body": " Mod-4: Second-Order ODEs and Analytic Methods   Mod-4 is called Second-Order ODEs and Analytic Methods.   "
 },
 {
+  "id": "week10-overview",
+  "level": "1",
+  "url": "week10-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 10 (Oct 28 Nov 03) opens Mod-4: Second-Order ODEs and Analytic Methods.  Class meeting dates:  Oct 28  Oct 30  Nov 02    Next due dates:  Reading Quiz 5: Nov 10, 11:59PM EST    "
+},
+{
   "id": "day-20261028-W",
   "level": "1",
   "url": "day-20261028-W.html",
@@ -1016,6 +1106,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Tuesday, 03 November 2026",
   "body": " Tuesday, 03 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 03 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "week11-overview",
+  "level": "1",
+  "url": "week11-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 11 (Nov 04 Nov 10) closes Mod-4: Second-Order ODEs and Analytic Methods.  Class meeting dates:  Nov 04  Nov 09    Next due dates:  Reading Quiz 5: Nov 10, 11:59PM EST    "
 },
 {
   "id": "day-20261104-W",
@@ -1108,6 +1207,15 @@ var ptx_lunr_docs = [
   "body": " Mod-5: Systems and Symmetries   Mod-5 is called Systems and Symmetries.   "
 },
 {
+  "id": "week12-overview",
+  "level": "1",
+  "url": "week12-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 12 (Nov 11 Nov 17) opens Mod-5: Systems and Symmetries.  Class meeting dates:  Nov 11  Nov 13  Nov 16    Next due dates:  Core Projects: Dec 01, 11:59PM EST    "
+},
+{
   "id": "day-20261111-W",
   "level": "1",
   "url": "day-20261111-W.html",
@@ -1196,6 +1304,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Tuesday, 17 November 2026",
   "body": " Tuesday, 17 November 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 17 November 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "week13-overview",
+  "level": "1",
+  "url": "week13-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 13 (Nov 18 Nov 24) closes Mod-5: Systems and Symmetries.  Class meeting dates:  Nov 18  Nov 20    Next due dates:  Core Projects: Dec 01, 11:59PM EST    "
 },
 {
   "id": "day-20261118-W",
@@ -1288,6 +1405,15 @@ var ptx_lunr_docs = [
   "body": " Core Projects   There is a core proejct per Mod. Thus there are five core projects.  Timeline: There is a single due date for core projects. Each project is due December 4, 2026, at 11:59PM EDT.    "
 },
 {
+  "id": "week14-overview",
+  "level": "1",
+  "url": "week14-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 14 (Nov 25 Dec 01) closes Core Projects.  Class meeting dates:  Nov 30    Next due dates:  Core Projects: Dec 01, 11:59PM EST    "
+},
+{
   "id": "day-20261125-W",
   "level": "1",
   "url": "day-20261125-W.html",
@@ -1358,6 +1484,15 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Tuesday, 01 December 2026",
   "body": " Tuesday, 01 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 01 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
+},
+{
+  "id": "week15-overview",
+  "level": "1",
+  "url": "week15-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 15 (Dec 02 Dec 08) closes grading.  Class meeting dates:  Dec 02  Dec 04  Dec 07    Next due dates:  Final Feedback: Dec 08, 11:59PM EST    "
 },
 {
   "id": "day-20261202-W",
@@ -1450,67 +1585,103 @@ var ptx_lunr_docs = [
   "body": " Tuesday, 08 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 08 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16-3",
+  "id": "week16-overview",
   "level": "1",
-  "url": "week-16-3.html",
-  "type": "Handout",
+  "url": "week16-overview.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Overview",
+  "body": " Overview  Week 16 (Dec 09 Dec 15) closes the course.  Class meeting dates:  Dec 09  Dec 11  Dec 14    Next due dates:  None scheduled.    "
+},
+{
+  "id": "day-20261209-W",
+  "level": "1",
+  "url": "day-20261209-W.html",
+  "type": "Subsection",
   "number": "",
   "title": "Wednesday, 09 December 2026",
-  "body": " Wednesday, 09 December 2026    "
+  "body": " Wednesday, 09 December 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Wednesday, 09 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16-4",
+  "id": "activity-20261209-W",
+  "level": "2",
+  "url": "day-20261209-W.html#activity-20261209-W",
+  "type": "Exploration",
+  "number": "45",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261210-R",
   "level": "1",
-  "url": "week-16-4.html",
-  "type": "Handout",
+  "url": "day-20261210-R.html",
+  "type": "Subsection",
   "number": "",
   "title": "Thursday, 10 December 2026",
-  "body": " Thursday, 10 December 2026    "
+  "body": " Thursday, 10 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Thursday, 10 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16-5",
+  "id": "day-20261211-F",
   "level": "1",
-  "url": "week-16-5.html",
-  "type": "Handout",
+  "url": "day-20261211-F.html",
+  "type": "Subsection",
   "number": "",
   "title": "Friday, 11 December 2026",
-  "body": " Friday, 11 December 2026    "
+  "body": " Friday, 11 December 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Friday, 11 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16-6",
+  "id": "activity-20261211-F",
+  "level": "2",
+  "url": "day-20261211-F.html#activity-20261211-F",
+  "type": "Exploration",
+  "number": "46",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261212-S",
   "level": "1",
-  "url": "week-16-6.html",
-  "type": "Handout",
+  "url": "day-20261212-S.html",
+  "type": "Subsection",
   "number": "",
   "title": "Saturday, 12 December 2026",
-  "body": " Saturday, 12 December 2026    "
+  "body": " Saturday, 12 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Saturday, 12 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16-7",
+  "id": "day-20261213-U",
   "level": "1",
-  "url": "week-16-7.html",
-  "type": "Handout",
+  "url": "day-20261213-U.html",
+  "type": "Subsection",
   "number": "",
   "title": "Sunday, 13 December 2026",
-  "body": " Sunday, 13 December 2026    "
+  "body": " Sunday, 13 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Sunday, 13 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16-8",
+  "id": "day-20261214-M",
   "level": "1",
-  "url": "week-16-8.html",
-  "type": "Handout",
+  "url": "day-20261214-M.html",
+  "type": "Subsection",
   "number": "",
   "title": "Monday, 14 December 2026",
-  "body": " Monday, 14 December 2026    "
+  "body": " Monday, 14 December 2026   Announcements       Class Notes       In-Class Activity       Reflection and Review for Class Date: Monday, 14 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 },
 {
-  "id": "week-16-9",
+  "id": "activity-20261214-M",
+  "level": "2",
+  "url": "day-20261214-M.html#activity-20261214-M",
+  "type": "Exploration",
+  "number": "47",
+  "title": "In-Class Activity.",
+  "body": " In-Class Activity     "
+},
+{
+  "id": "day-20261215-T",
   "level": "1",
-  "url": "week-16-9.html",
-  "type": "Handout",
+  "url": "day-20261215-T.html",
+  "type": "Subsection",
   "number": "",
   "title": "Tuesday, 15 December 2026",
-  "body": " Tuesday, 15 December 2026    "
+  "body": " Tuesday, 15 December 2026   Announcements       Pre-Class Preparation       Reflection and Review for Study Date: Tuesday, 15 December 2026  Fall 2026 MATH 340 Intro to Differential Equations  Instructor: Dwight Anderson Williams II, PhD  Student:  Date of Work:      "
 }
 ]
 
