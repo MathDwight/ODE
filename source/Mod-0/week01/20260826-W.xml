@@ -7,18 +7,125 @@
     <p>&#xa0;</p>
   </paragraphs>
 
-  <paragraphs xml:id="notes-20260826-W">
-    <title>Class Notes</title>
-    <p>&#xa0;</p>
+  <!-- Section 1: Navigation framework, syllabus structure, and course expectations -->
+  <paragraphs xml:id="notes-20260826-p1">
+    <title>Course site navigation and syllabus architecture</title>
+    <p>
+      Welcome to MATH 340 (Intro to Ordinary Differential Equations) in Fall 2026 semester.
+    <!--
+      In Mod-0 (Logistics and Foundations), students establish the interactive digital infrastructure required for a collaborative mathematical workflow.
+      Rather than relying on static paper documents, the structural course material compiles from dynamic PreTeXt source files into a unified web environment.
+      The compiled web environment allows for synchronized cross-referencing between sections, modules, and assignment schedules.
+   -->
+    </p>
+    <!--
+    <p>
+      Navigating the digital textbook effectively is essential for tracking daily academic obligations.
+      The sidebar navigation menu breaks the semester down chronologically into specific structural units.
+      As documented on the main Schedule page, the full curriculum spans from Mod-0 through Mod-5 across a strict sixteen-week horizon.
+      Every calendar date contains distinct subsections optimized for tracking announcements, class notebook entries, in-class exploration activities, and reflection handouts.
+    </p>
+    <p>
+      The complete course syllabus serves as an operational roadmap for students.
+      The text details grade distribution models, exam weights, and our unique rolling timeline rule.
+      Because assignment thresholds use a forward-scanning method within the automated pipeline generator script, upcoming deadlines will automatically display across successive week layouts.
+      The forward-scanning algorithm ensures future milestones remain visible to students well before absolute cut-off parameters arrive.
+    </p>
+  </paragraphs>
+-->
+
+  <!-- Section 2: Collaborative ecosystems, canvas, and padlet boards -->
+  <!--
+  <paragraphs xml:id="notes-20260826-p2">
+    <title>Collaborative ecosystems using Padlet shelves and Canvas</title>
+    <p>
+      Active participation and peer collaboration form a core pillar of our mathematical study framework.
+      As detailed on the Course Information page, students will submit completed work items directly via Padlet boards.
+      The Padlet platform serves as our open, visual workspace where classmates brainstorm modeling interpretations, share analytical insights, and post technical validation data.
+      While work submissions and instructor feedback will be provided via Padlet, the Canvas Learning Management System will host official student grades.
+    </p>
+    <p>
+      Integrating the PreTeXt course site directly into the Canvas environment remains a primary structural goal for this semester.
+      Regardless of the final site integration status, Canvas will serve exclusively to provide a clear, unambiguous grading status for every student.
+      To maintain organizational order across the semester, the collaborative Padlet board space is arranged using a column-shelf layout that corresponds exactly with our module partitions.
+      When posting work to the shared boards, students must adhere to the community publishing standards outlined in the course documents:
+      <ul>
+        <li>
+          <p>
+            File group contributions strictly under the active module column that matches the current week timeline.
+          </p>
+        </li>
+        <li>
+          <p>
+            Ensure all image uploads of scratch work are clear, cropped, and properly oriented for reading.
+          </p>
+        </li>
+        <li>
+          <p>
+            Maintain a professional, supportive, and mathematically rigorous critique style when providing feedback on peer entries.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </paragraphs>
+-->
+  <!-- Section 3: Analysis of grading models and rubric evaluations -->
+  <paragraphs xml:id="notes-20260826-p3">
+    <title>Evaluation rubrics and grading examples analysis</title>
+    <p>
+      Understanding how assignments are evaluated requires a careful review of the explicit grading framework.
+      Students should review the dedicated Grading Examples documentation page to see exactly how different levels of mathematical completeness translate into final letter grades.
+      The grading examples page outlines specific scenarios, contrasting work done by example students. <!--that merely provides a superficial answer with work that demonstrates rigorous analytical step verification.
+      Reviewing these model scenarios helps students eliminate ambiguity regarding instructor expectations.
+      The sample portfolios demonstrate how clear notation and explicit antecedent identification safeguard against lost credit on exams.-->
+    </p>
+  </paragraphs>
+
+  <!-- Section 4: Foundational calculus review and state notation -->
+  <paragraphs xml:id="notes-20260826-p4">
+    <title>Foundations of rates and linearizaton</title>
+    <p>
+      <!--
+      Transitioning from course logistics to ordinary differential equations requires a deliberate shift in mathematical perspective.
+      In traditional college algebra and standard calculus optimization problems, the objective is to solve for a static numerical value or an independent coordinate vector.
+      In ordinary differential equations, the unknown element a student seeks to uncover is an entire continuous function trajectory.
+      The target trajectory is denoted in this course as the dependent variable state function <m>x(t)</m> operating over an independent time domain <m>t</m>.
+   -->
+    </p>
+    <p>
+      Before analyzing complex equations, we must verify foundational rate notation and derivative operations.
+      As a baseline mathematical exercise, let us consider the exponential function:
+    <example xml:id="example-mod0-rate-check">
+      <statement>
+        <p>
+          Evaluate the instantaneous rate of change of the foundational exponential function:
+          <md>x(t) = e^{3t}</md>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          To isolate the instantaneous rate component with respect to our independent time variable <m>t</m>, we apply the calculus chain rule operation to our candidate expression:
+          <md>\frac{dx}{dt} = \frac{d}{dt}\left(e^{3t}\right) = 3e^{3t}</md>
+        </p>
+        <p>
+          We then substitute the original state definition expression directly back into the derivative result:
+          <md>\frac{dx}{dt} = 3x</md>
+        </p>
+        <p>
+          The final derivative expression demonstrates an essential relationship: the rate of change of the system is directly proportional to the active state value itself.
+          The stated rate balance law forms the literal core of first-order ordinary differential equations.
+        </p>
+      </solution>
+    </example>
   </paragraphs>
 
   <exploration xml:id="activity-20260826-W">
-    <title>In-Class Activity</title>
+    <title>In-class activity</title>
     <p>&#xa0;</p>
   </exploration>
 
   <handout xml:id="handout-20260826-W">
-    <title>Reflection and Review for Class Date: Wednesday, 26 August 2026</title>
+    <title>Reflection and review for class date: Wednesday, 26 August 2026</title>
     <p>Fall 2026 MATH 340 Intro to Differential Equations</p>
     <p>Instructor: Dwight Anderson Williams II, PhD</p>
     <p>Student: <fillin characters="30" /></p>
