@@ -15,6 +15,16 @@
     </date>
   </bibinfo>
 
+  <colophon>
+  <p>
+    Text and educational content <copyright><year>2026</year><holder>Dwight Anderson Williams II</holder></copyright>. Licensed under CC BY-NC-SA 4.0.
+  </p>
+  <p>
+    The present project utilizes repository structures created by Oscar Levin, distributed under the MIT License.
+  </p>
+</colophon>
+
+
   <!-- This displays the title page information -->
   <titlepage>
     <titlepage-items/>
