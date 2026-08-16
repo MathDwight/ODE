@@ -10,6 +10,7 @@ steps:
   build:
     image: pretextbook/pretext:latest
     commands:
+      - pretext validate || true
       - pretext build course
     when:
       event: push
@@ -28,8 +29,7 @@ steps:
 
       - |
         TARGET_URL="https://codeberg.org/${CI_REPO}.git"
-        PUSH_URL="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
-
+        # Clone without auth; auth is only needed for push.
         if git clone --single-branch --branch pages "$TARGET_URL" deploy_dir; then
           cd deploy_dir
           find . -maxdepth 1 -mindepth 1 ! -name ".git" -exec rm -rf {} +
@@ -57,6 +57,7 @@ steps:
         BUILD_NUM="$${CI_PIPELINE_NUMBER}"
         git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
 
+        # Force-auth for the push using token as the "password"
         PUSH_URL="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
         git push --force "$PUSH_URL" pages:pages
     when:
