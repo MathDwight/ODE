@@ -1,0 +1,10 @@
+pipeline:
+  # Validate that the PreTeXt source files compile cleanly on Codeberg CI
+  validate-pretext:
+    image: straightwood/texlive-python:latest
+    commands:
+      - pip install pretext[all]
+      - pretext build html
+    when:
+      branch: codeberg-staging
+      event: push

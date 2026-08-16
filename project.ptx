@@ -4,8 +4,7 @@
 <project ptx-version="2">
   <targets>
     <!-- Main course for html or pdf -->
-    <target name="course" source="main.ptx" format="html"
-            publication="publication.ptx" deploy-dir="course" />
+       <target name="course" source="main.ptx" format="html" publication="publication.ptx" deploy-dir="course" />
     <target name="print" source="main.ptx" format="pdf"
             output-filename="course.pdf" publication="publication.ptx" />
 
@@ -20,9 +19,7 @@
             publication="publication.ptx"
             output-dir="slides-html" />
 
-
-  
-    <!-- 
+    <!--
     <target name="slides-annotated" source="slides/slides.ptx" format="revealjs"
             publication="publication-slides-annotated.ptx" deploy-dir="slides-annotated"
             output-filename="index.html"/>

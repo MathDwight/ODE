@@ -336,7 +336,7 @@
     <!-- Set the base URL of where the online version is hosted to have -->
     <!-- links in other formats.  The value is a directory, so it       -->
     <!-- should end with a slash.                                       -->
-      <!-- <baseurl href="https://changetomywebsite.org/"/> -->
+      <baseurl href="https://mathdwight.codeberg.page/ODE/"/> 
 
     <!-- An image in the upper-left corner of every page's banner.       -->
     <!-- @source (required) locates the image in your external assets    -->
