@@ -27,6 +27,8 @@ steps:
     image: codeberg.org/sugar700/plugin-codeberg-pages-deploy:1
     settings:
       folder: output/course
+      branch: pages
+      token: ${CI_REPO_TOKEN}
     backend_options:
       kubernetes:
         resources:
