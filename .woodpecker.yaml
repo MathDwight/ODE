@@ -56,16 +56,31 @@ steps:
         BUILD_NUM="$${CI_PIPELINE_NUMBER}"
         git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
 
-        # Token formats to try (Forgejo can differ by config/auth mechanism)
+        # ---- Auth diagnostics: check read access first (ls-remote) ----
         PUSH_URL_1="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
         PUSH_URL_2="https://git:${CI_REPO_TOKEN}@codeberg.org/${CI_REPO}.git"
 
-        echo "Trying PUSH_URL_1..."
+        echo "Testing read access (ls-remote) with PUSH_URL_1..."
+        if git ls-remote "$PUSH_URL_1" > /dev/null 2>&1; then
+          echo "PUSH_URL_1 read OK"
+        else
+          echo "PUSH_URL_1 read FAIL"
+        fi
+
+        echo "Testing read access (ls-remote) with PUSH_URL_2..."
+        if git ls-remote "$PUSH_URL_2" > /dev/null 2>&1; then
+          echo "PUSH_URL_2 read OK"
+        else
+          echo "PUSH_URL_2 read FAIL"
+        fi
+
+        # ---- Push attempt (still required) ----
+        echo "Attempting push (PUSH_URL_1)..."
         if git push --force "$PUSH_URL_1" pages:pages; then
           exit 0
         fi
 
-        echo "PUSH_URL_1 failed; trying PUSH_URL_2..."
+        echo "PUSH_URL_1 push failed; attempting push (PUSH_URL_2)..."
         git push --force "$PUSH_URL_2" pages:pages
     when:
       event: push
