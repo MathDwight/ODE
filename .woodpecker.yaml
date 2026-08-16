@@ -1,6 +1,6 @@
 when:
   - event: push
-    branch: 
+    branch:
       - codeberg-staging
       - main
 
@@ -21,19 +21,27 @@ steps:
 
   deploy:
     image: pretextbook/pretext:latest
-    secrets: [ repo_token ]
     commands:
+      # Bypass Git ownership security limits inside Docker containers
+      - git config --global --add safe.directory /woodpecker/src || true
+      - git config --global --add safe.directory $${PWD} || true
+
+      # Configure Git author identity
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
-      
-      # Clear and prepare deployment workspace
+
+      # Write authentication token safely to local runtime environment
+      - echo "machine codeberg.org login token password $${CI_REPO_TOKEN}" > ~/.netrc
+      - chmod 600 ~/.netrc
+
+      # Reset deployment workspace
       - rm -rf deploy_dir
-      
-      # Clone pages branch or initialize it fresh if it doesn't exist
+
+      # Clone target branch; if it doesn't exist yet, initialize a blank branch cleanly
       - |
-        if git clone --single-branch --branch pages "https://token:${REPO_TOKEN}@codeberg.org/${CI_REPO}.git" deploy_dir; then
+        if git clone --single-branch --branch pages "https://codeberg.org{CI_REPO}.git" deploy_dir; then
           cd deploy_dir
-          # Clean old files to prevent orphaned assets, keeping git history
+          # Safely clear old assets without deleting the crucial hidden .git tracking history
           find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
           cd ..
         else
@@ -44,14 +52,22 @@ steps:
           cd ..
         fi
 
-      # Sync build artifacts and push
+      # Sync assets into target deployment directory
+      - mkdir -p deploy_dir
       - cp -ar output/course/. deploy_dir/
+
+      # Enter deployment directory and apply safe flags locally
       - cd deploy_dir
+      - git config --global --add safe.directory $${PWD} || true
       - git add -A
+
+      # Commit and push updates using a cache-safe check valid for empty or existing repositories
       - |
-        if ! git diff-index --quiet HEAD; then
-          git commit -m "Deploy textbook update - Build #${CI_PIPELINE_NUMBER} [skip ci]"
-          git push "https://token:${REPO_TOKEN}@codeberg.org/${CI_REPO}.git" pages
+        if git diff --cached --quiet; then
+          echo "No changes to deploy. Skipping push."
+        else
+          git commit -m "Deploy textbook update - Build #$${CI_PIPELINE_NUMBER} [SKIP CI]"
+          git push -u "https://codeberg.org{CI_REPO}.git" pages
         fi
     when:
       branch: main
