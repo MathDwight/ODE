@@ -6,25 +6,23 @@ when:
     event: push
 
 steps:
-  # Step 1: Pre-validation sequence for development staging checks
+  # Validate that the PreTeXt source files compile cleanly on Codeberg CI
   validate-pretext:
-    image: straightwood/texlive-python:latest
+    image: pretextbook/cli:latest
     commands:
-      - pip install pretext[all]
       - pretext build html
     when:
       branch: codeberg-staging
 
-  # Step 2: Main compilation sequence for production distribution
+  # Main compilation sequence for production distribution
   build:
-    image: python:3.12
+    image: pretextbook/cli:latest
     commands:
-      - pip install pretext
       - pretext build course
     when:
       branch: main
 
-  # Step 3: Distribution handler to inject files into the pages branch
+  # Distribution handler to inject files into the pages branch
   deploy:
     image: woodpeckerci/plugin-deploy:latest
     settings:
