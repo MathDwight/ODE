@@ -1,4 +1,3 @@
-# Global conditions: Runs whenever a push occurs on either target branch
 when:
   - branch: codeberg-staging
     event: push
@@ -24,19 +23,21 @@ steps:
 
   # Native distribution pipeline to update the hosting pages branch via token
   deploy:
-    image: alpine:latest
+    image: pretextbook/pretext:latest
     commands:
-      - apk add --no-cache git
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
-      # Clone the independent target pages branch over HTTPS using the internal token
-      - git clone -b pages https://$CI_REPO_TOKEN@codeberg.org/$CI_REPO.git target_pages_dir || git init target_pages_dir && cd target_pages_dir && git checkout -b pages
-      # Copy compiled html assets into the tracking target directory
-      - cp -ar output/course/. target_pages_dir/
-      - cd target_pages_dir
+      # Initialize an isolated deployment folder
+      - mkdir deploy_dir
+      - cd deploy_dir
+      - git init
+      - git checkout -b pages
+      # Pull the contents from your generated web build folder into this space
+      - cp -ar ../output/html/. ./
       - git add .
-      # Only commit and push if new file changes actually exist
+      # Only commit if new file changes exist to prevent infinite loops
       - git diff-index --quiet HEAD || git commit -m "Deploy textbook update - Build #${CI_PIPELINE_NUMBER}"
-      - git push https://$CI_REPO_TOKEN@codeberg.org/$CI_REPO.git pages
+      # Authenticate securely using the runner token variable mapped inside the standard HTTPS URL
+      - git push --force https://token:${CI_REPO_TOKEN}@codeberg.org/${CI_REPO}.git pages
     when:
       branch: main
