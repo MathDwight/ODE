@@ -1,4 +1,4 @@
-pipeline:
+steps:
   # Validate that the PreTeXt source files compile cleanly on Codeberg CI
   validate-pretext:
     image: straightwood/texlive-python:latest
