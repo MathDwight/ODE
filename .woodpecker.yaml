@@ -8,7 +8,7 @@ when:
 steps:
   # Validate that the PreTeXt source files compile cleanly on Codeberg CI
   validate-pretext:
-    image: pretextbook/cli:latest
+    image: pretextbook/pretext:latest
     commands:
       - pretext build html
     when:
@@ -16,7 +16,7 @@ steps:
 
   # Main compilation sequence for production distribution
   build:
-    image: pretextbook/cli:latest
+    image: pretextbook/pretext:latest
     commands:
       - pretext build course
     when:
