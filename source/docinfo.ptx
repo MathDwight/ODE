@@ -5,6 +5,11 @@
 <!-- settings. -->
 <docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
 
+  <initialism>CC BY-NC-SA</initialism>
+    <rights>
+  Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org.
+    </rights>
+
   <directories external="../assets"/>
 
   <!-- macros for defining latex math shortcuts. It is good practice -->
