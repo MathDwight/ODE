@@ -1,5 +1,4 @@
-# Woodpecker CI pipeline for PreTeXt build + deploy to Codeberg pages
-
+# Global conditions: Runs whenever a push occurs on either target branch
 when:
   - event: push
     branch: codeberg-staging
@@ -17,6 +16,8 @@ steps:
   build:
     image: pretextbook/pretext:latest
     commands:
+      # Expose validation failures directly to your pipeline logs before processing compilation
+      - pretext validate || true
       - pretext build course
     when:
       branch: main
@@ -24,25 +25,28 @@ steps:
   deploy:
     image: pretextbook/pretext:latest
     commands:
+      # Bypass Git ownership security limits inside Docker container workspaces
       - git config --global --add safe.directory /woodpecker/src || true
       - git config --global --add safe.directory "$(pwd)" || true
 
+      # Configure Git author identity
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
 
-      - rm -rf deploy_dir
-
-      # Force consistent HOME so netrc lands where Git will look
+      # Ensure netrc lands where Git will read it
       - export HOME=/root
       - mkdir -p "$HOME"
 
-      # Write token to ~/.netrc for HTTPS auth
+      # Securely map the repository authorization token into the internal machine netrc config file
       - echo "machine codeberg.org login token password $${CI_REPO_TOKEN}" > "$HOME/.netrc"
       - chmod 600 "$HOME/.netrc"
 
+      # Reset the workspace deployment directory
+      - rm -rf deploy_dir
+
+      # Clone pages branch if it exists, otherwise initialize pages branch locally inside a closed context
       - |
         TARGET_URL="https://codeberg.org/${CI_REPO}.git"
-
         if git clone --single-branch --branch pages "$TARGET_URL" deploy_dir; then
           cd deploy_dir
           find . -maxdepth 1 -mindepth 1 ! -name ".git" -exec rm -rf {} +
@@ -55,17 +59,23 @@ steps:
           cd ..
         fi
 
+      # Sync and overwrite files into target deployment folder
       - cp -ar output/course/. deploy_dir/
 
+      # Enter deployment directory and apply safe flags locally to subfolders
+      - cd deploy_dir
+      - git config --global --add safe.directory "$(pwd)" || true
+      - git add -A
+
+      # Only commit and push if new textbook changes actually exist
       - |
-        cd deploy_dir
-        git config --global --add safe.directory "$(pwd)" || true
-        git add -A
+        TARGET_URL="https://codeberg.org/${CI_REPO}.git"
+        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
 
         if git diff --cached --quiet; then
           echo "No changes to deploy. Skipping push."
         else
-          git commit -m "Deploy textbook update - Build ${CI_PIPELINE_NUMBER} [SKIP CI]"
+          git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
           git push --force "$TARGET_URL" pages:pages
         fi
     when:
