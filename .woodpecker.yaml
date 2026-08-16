@@ -1,4 +1,5 @@
-# Runs whenever a push occurs on either target branch
+# Woodpecker CI pipeline for PreTeXt build + deploy to Codeberg pages
+
 when:
   - event: push
     branch: codeberg-staging
@@ -29,17 +30,10 @@ steps:
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
 
-      - echo "machine codeberg.org login token password $${CI_REPO_TOKEN}" > ~/.netrc
-      - chmod 600 ~/.netrc
-
       - rm -rf deploy_dir
 
       - |
-        # Ensure variables exist in the same shell that uses them
         TARGET_URL="https://codeberg.org/${CI_REPO}.git"
-        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
-
-        # Clone pages branch if it exists, otherwise initialize it locally
         if git clone --single-branch --branch pages "$TARGET_URL" deploy_dir; then
           cd deploy_dir
           find . -maxdepth 1 -mindepth 1 ! -name ".git" -exec rm -rf {} +
@@ -59,14 +53,11 @@ steps:
         git config --global --add safe.directory "$(pwd)" || true
         git add -A
 
-        TARGET_URL="https://codeberg.org/${CI_REPO}.git"
-        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
-
         if git diff --cached --quiet; then
           echo "No changes to deploy. Skipping push."
         else
-          git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
-          git push --force "$TARGET_URL" pages:pages
+          git commit -m "Deploy textbook update - Build ${CI_PIPELINE_NUMBER} [SKIP CI]"
+          git push --force "https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git" pages:pages
         fi
     when:
       branch: main
