@@ -1,5 +1,12 @@
+# Global conditions: Runs whenever a push occurs on either target branch
+when:
+  - branch: codeberg-staging
+    event: push
+  - branch: main
+    event: push
+
 steps:
-  # Validate that the PreTeXt source files compile cleanly on Codeberg CI
+  # Step 1: Pre-validation sequence for development staging checks
   validate-pretext:
     image: straightwood/texlive-python:latest
     commands:
@@ -7,4 +14,21 @@ steps:
       - pretext build html
     when:
       branch: codeberg-staging
-      event: push
+
+  # Step 2: Main compilation sequence for production distribution
+  build:
+    image: python:3.12
+    commands:
+      - pip install pretext
+      - pretext build course
+    when:
+      branch: main
+
+  # Step 3: Distribution handler to inject files into the pages branch
+  deploy:
+    image: woodpeckerci/plugin-deploy:latest
+    settings:
+      target: pages
+      folder: output/course
+    when:
+      branch: main
