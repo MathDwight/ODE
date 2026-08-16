@@ -1,3 +1,4 @@
+# Global conditions: Runs whenever a push occurs on either target branch
 when:
   - branch: codeberg-staging
     event: push
@@ -21,23 +22,15 @@ steps:
     when:
       branch: main
 
-  # Native distribution pipeline to update the hosting pages branch via token
+  # Distribution handler using the authentic Codeberg plugin
   deploy:
-    image: pretextbook/pretext:latest
-    commands:
-      - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
-      - git config --global user.name "Woodpecker CI"
-      # Initialize an isolated deployment folder
-      - mkdir deploy_dir
-      - cd deploy_dir
-      - git init
-      - git checkout -b pages
-      # Pull the contents from your generated web build folder into this space
-      - cp -ar ../output/html/. ./
-      - git add .
-      # Only commit if new file changes exist to prevent infinite loops
-      - git diff-index --quiet HEAD || git commit -m "Deploy textbook update - Build #${CI_PIPELINE_NUMBER}"
-      # Authenticate securely using the runner token variable mapped inside the standard HTTPS URL
-      - git push --force https://token:${CI_REPO_TOKEN}@codeberg.org/${CI_REPO}.git pages
+    image: codeberg.org/sugar700/plugin-codeberg-pages-deploy:1
+    settings:
+      folder: output/course
+    backend_options:
+      kubernetes:
+        resources:
+          requests:
+            memory: "512Mi"
     when:
       branch: main
