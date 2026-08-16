@@ -29,7 +29,6 @@ steps:
 
       - |
         TARGET_URL="https://codeberg.org/${CI_REPO}.git"
-        # Clone without auth; auth is only needed for push.
         if git clone --single-branch --branch pages "$TARGET_URL" deploy_dir; then
           cd deploy_dir
           find . -maxdepth 1 -mindepth 1 ! -name ".git" -exec rm -rf {} +
@@ -57,9 +56,17 @@ steps:
         BUILD_NUM="$${CI_PIPELINE_NUMBER}"
         git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
 
-        # Force-auth for the push using token as the "password"
-        PUSH_URL="https://git:${CI_REPO_TOKEN}@codeberg.org/${CI_REPO}.git"
-        git push --force "$PUSH_URL" pages:pages
+        # Token formats to try (Forgejo can differ by config/auth mechanism)
+        PUSH_URL_1="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
+        PUSH_URL_2="https://git:${CI_REPO_TOKEN}@codeberg.org/${CI_REPO}.git"
+
+        echo "Trying PUSH_URL_1..."
+        if git push --force "$PUSH_URL_1" pages:pages; then
+          exit 0
+        fi
+
+        echo "PUSH_URL_1 failed; trying PUSH_URL_2..."
+        git push --force "$PUSH_URL_2" pages:pages
     when:
       event: push
       branch: main
