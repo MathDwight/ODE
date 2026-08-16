@@ -1,8 +1,9 @@
+# Runs whenever a push occurs on either target branch
 when:
   - event: push
-    branch:
-      - codeberg-staging
-      - main
+    branch: codeberg-staging
+  - event: push
+    branch: main
 
 steps:
   validate-pretext:
@@ -22,22 +23,25 @@ steps:
   deploy:
     image: pretextbook/pretext:latest
     commands:
-      # Fix Git ownership security limits inside Docker container workspaces
       - git config --global --add safe.directory /woodpecker/src || true
-      - git config --global --add safe.directory $${PWD} || true
+      - git config --global --add safe.directory "$(pwd)" || true
 
-      # Configure Git deployment author identity
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
 
-      # Reset the workspace deployment directory
+      - echo "machine codeberg.org login token password $${CI_REPO_TOKEN}" > ~/.netrc
+      - chmod 600 ~/.netrc
+
       - rm -rf deploy_dir
 
-      # Authenticate directly inside the Git URL using the escaped environment token
       - |
-        if git clone --single-branch --branch pages "https://token:$${CI_REPO_TOKEN}@codeberg.org/$${CI_REPO}.git" deploy_dir; then
+        # Ensure variables exist in the same shell that uses them
+        TARGET_URL="https://codeberg.org/${CI_REPO}.git"
+        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
+
+        # Clone pages branch if it exists, otherwise initialize it locally
+        if git clone --single-branch --branch pages "$TARGET_URL" deploy_dir; then
           cd deploy_dir
-          # Safely wipe old website tracking assets without breaking the hidden .git directory
           find . -maxdepth 1 -mindepth 1 ! -name ".git" -exec rm -rf {} +
           cd ..
         else
@@ -48,22 +52,21 @@ steps:
           cd ..
         fi
 
-      # Sync and overwrite files into target deployment folder
-      - mkdir -p deploy_dir
       - cp -ar output/course/. deploy_dir/
 
-      # Enter directory and apply safe flags locally to subfolders
-      - cd deploy_dir
-      - git config --global --add safe.directory $${PWD} || true
-      - git add -A
-
-      # Commit and push changes safely using inline bash evaluation checks
       - |
+        cd deploy_dir
+        git config --global --add safe.directory "$(pwd)" || true
+        git add -A
+
+        TARGET_URL="https://codeberg.org/${CI_REPO}.git"
+        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
+
         if git diff --cached --quiet; then
           echo "No changes to deploy. Skipping push."
         else
-          git commit -m "Deploy textbook update - Build #$${CI_PIPELINE_NUMBER} [SKIP CI]"
-          git push "https://token:$${CI_REPO_TOKEN}@codeberg.org/$${CI_REPO}.git" pages:pages || git push --force-with-lease "https://token:$${CI_REPO_TOKEN}@codeberg.org/$${CI_REPO}.git" pages:pages
+          git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
+          git push --force "$TARGET_URL" pages:pages
         fi
     when:
       branch: main
