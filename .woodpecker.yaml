@@ -22,17 +22,23 @@ steps:
     when:
       branch: main
 
-  # Distribution handler using the authentic Codeberg plugin
+  # Native distribution pipeline using internal token over HTTPS
   deploy:
-    image: codeberg.org/sugar700/plugin-codeberg-pages-deploy:1
-    settings:
-      folder: output/course
-      branch: pages
-      token: ${CI_REPO_TOKEN}
-    backend_options:
-      kubernetes:
-        resources:
-          requests:
-            memory: "512Mi"
+    image: pretextbook/pretext:latest
+    commands:
+      - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
+      - git config --global user.name "Woodpecker CI"
+      # Securely map the repository authorization token into the internal machine netrc config file
+      - echo "machine codeberg.org login token password ${CI_REPO_TOKEN}" > ~/.netrc
+      - chmod 600 ~/.netrc
+      # Clone just the single pages branch history directly from Codeberg into a deployment space
+      - git clone --single-branch --branch pages https://codeberg.org{CI_REPO}.git deploy_dir || (mkdir deploy_dir && cd deploy_dir && git init && git checkout -b pages && cd ..)
+      # Copy over the generated course files from your target output folder
+      - cp -ar output/course/. deploy_dir/
+      - cd deploy_dir
+      - git add .
+      # Only commit and push if new textbook changes actually exist to prevent building loops
+      - git diff-index --quiet HEAD || git commit -m "Deploy textbook update - Build #${CI_PIPELINE_NUMBER} [SKIP CI]"
+      - git push https://codeberg.org{CI_REPO}.git pages
     when:
       branch: main
