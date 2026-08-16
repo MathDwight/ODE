@@ -1,23 +1,18 @@
-when:
-  - event: push
-    branch: codeberg-staging
-  - event: push
-    branch: main
-
 steps:
   validate-pretext:
     image: pretextbook/pretext:latest
     commands:
       - pretext build html
     when:
+      event: push
       branch: codeberg-staging
 
   build:
     image: pretextbook/pretext:latest
     commands:
-      - pretext validate || true
       - pretext build course
     when:
+      event: push
       branch: main
 
   deploy:
@@ -25,6 +20,7 @@ steps:
     commands:
       - git config --global --add safe.directory /woodpecker/src || true
       - git config --global --add safe.directory "$(pwd)" || true
+
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
 
@@ -53,16 +49,16 @@ steps:
         git config --global --add safe.directory "$(pwd)" || true
         git add -A
 
-        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
-
-        # Commit/push only if there are staged changes
         if git diff --cached --quiet; then
           echo "No changes to deploy. Skipping push."
-        else
-          git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
-
-          TARGET_PUSH="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
-          git push --force "$TARGET_PUSH" pages:pages
+          exit 0
         fi
+
+        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
+        git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
+
+        PUSH_URL="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
+        git push --force "$PUSH_URL" pages:pages
     when:
+      event: push
       branch: main
