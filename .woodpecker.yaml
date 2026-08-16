@@ -24,9 +24,8 @@ steps:
 
   # Distribution handler to inject files into the pages branch
   deploy:
-    image: woodpeckerci/plugin-deploy:latest
+    image: codeberg.org/sugar700/plugin-codeberg-pages-deploy:1
     settings:
-      target: pages
       folder: output/course
     when:
       branch: main
