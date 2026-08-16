@@ -58,7 +58,7 @@ steps:
         git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
 
         # Force-auth for the push using token as the "password"
-        PUSH_URL="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
+        PUSH_URL="https://git:${CI_REPO_TOKEN}@codeberg.org/${CI_REPO}.git"
         git push --force "$PUSH_URL" pages:pages
     when:
       event: push
