@@ -39,10 +39,10 @@ steps:
 
       # Clone target branch; if it doesn't exist yet, initialize a blank branch cleanly
       - |
-        if git clone --single-branch --branch pages "https://codeberg.org{CI_REPO}.git" deploy_dir; then
+        if git clone --single-branch --branch pages "https://codeberg.org/$${CI_REPO}.git" deploy_dir; then
           cd deploy_dir
           # Safely clear old assets without deleting the crucial hidden .git tracking history
-          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          find . -maxdepth 1 -mindepth 1 ! -name ".git" -exec rm -rf {} +
           cd ..
         else
           mkdir -p deploy_dir
@@ -61,13 +61,13 @@ steps:
       - git config --global --add safe.directory $${PWD} || true
       - git add -A
 
-      # Commit and push updates using a cache-safe check valid for empty or existing repositories
+      # Commit and push updates using a single-line safe logical chain
       - |
         if git diff --cached --quiet; then
           echo "No changes to deploy. Skipping push."
         else
           git commit -m "Deploy textbook update - Build #$${CI_PIPELINE_NUMBER} [SKIP CI]"
-          git push -u "https://codeberg.org{CI_REPO}.git" pages
+          git push "https://codeberg.org/$${CI_REPO}.git" pages:pages || git push --force-with-lease "https://codeberg.org/$${CI_REPO}.git" pages:pages
         fi
     when:
       branch: main
