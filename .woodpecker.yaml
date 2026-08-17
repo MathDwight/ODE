@@ -42,7 +42,8 @@ steps:
 
       # Securely set up the local SSH workspace environment using the isolated deployment key
       - mkdir -p ~/.ssh
-      - echo "$${SSH_PRIVATE_KEY}" > ~/.ssh/id_ed25519
+      # Using printf with a literal format string protects physical newline structures from collapsing
+      - printf "%s\n" "$${SSH_PRIVATE_KEY}" > ~/.ssh/id_ed25519
       - chmod 600 ~/.ssh/id_ed25519
       - ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
       
