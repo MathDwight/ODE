@@ -32,6 +32,14 @@ steps:
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
 
+      # Install missing SSH packages on the fly depending on underlying container platform type
+      - |
+        if command -v apk >/dev/null 2>&1; then
+          apk add --no-cache openssh-client
+        elif command -v apt-get >/dev/null 2>&1; then
+          apt-get update && apt-get install -y openssh-client
+        fi
+
       # Securely set up the local SSH workspace environment using the isolated deployment key
       - mkdir -p ~/.ssh
       - echo "$${SSH_PRIVATE_KEY}" > ~/.ssh/id_ed25519
