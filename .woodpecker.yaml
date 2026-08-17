@@ -1,4 +1,6 @@
+# Woodpecker 3.x Schema Verified Configuration Matrix
 steps:
+  # Validate that the PreTeXt source files compile cleanly on Codeberg CI
   validate-pretext:
     image: pretextbook/pretext:latest
     commands:
@@ -7,30 +9,44 @@ steps:
       event: push
       branch: codeberg-staging
 
+  # Main compilation sequence for production distribution
   build:
     image: pretextbook/pretext:latest
     commands:
+      # Logs structural document warnings natively to the pipeline output window
       - pretext validate || true
       - pretext build course
     when:
       event: push
       branch: main
 
+  # Native distribution pipeline using isolated SSH Deploy Keys with force override
   deploy:
     image: pretextbook/pretext:latest
     commands:
+      # Bypass Git ownership security limits inside Docker container workspaces
       - git config --global --add safe.directory /woodpecker/src || true
       - git config --global --add safe.directory "$(pwd)" || true
 
+      # Configure Git author identity
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
 
+      # Securely set up the local SSH workspace environment using the isolated deployment key
+      - mkdir -p ~/.ssh
+      - echo "$${SSH_PRIVATE_KEY}" > ~/.ssh/id_ed25519
+      - chmod 600 ~/.ssh/id_ed25519
+      - ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
+      
+      # Reset the workspace deployment directory
       - rm -rf deploy_dir
 
+      # Clone pages branch via SSH; if it doesn't exist yet, initialize a clean local context
       - |
-        TARGET_URL="https://codeberg.org/${CI_REPO}.git"
+        TARGET_URL="git@codeberg.org:MathDwight/ODE.git"
         if git clone --single-branch --branch pages "$TARGET_URL" deploy_dir; then
           cd deploy_dir
+          # Safely clear old website tracking assets without breaking the hidden .git directory
           find . -maxdepth 1 -mindepth 1 ! -name ".git" -exec rm -rf {} +
           cd ..
         else
@@ -41,47 +57,24 @@ steps:
           cd ..
         fi
 
+      # Sync and overwrite compiled assets into target deployment folder
       - cp -ar output/course/. deploy_dir/
 
-      - |
-        cd deploy_dir
-        git config --global --add safe.directory "$(pwd)" || true
-        git add -A
+      # Enter deployment directory and apply safe flags locally to subfolders
+      - cd deploy_dir
+      - git config --global --add safe.directory "$(pwd)" || true
+      - git add -A
 
+      # Commit and push changes safely using the isolated SSH deployment key route
+      - |
+        TARGET_URL="git@codeberg.org:MathDwight/ODE.git"
+        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
         if git diff --cached --quiet; then
           echo "No changes to deploy. Skipping push."
-          exit 0
-        fi
-
-        BUILD_NUM="$${CI_PIPELINE_NUMBER}"
-        git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
-
-        # ---- Auth diagnostics: check read access first (ls-remote) ----
-        PUSH_URL_1="https://${CI_REPO_TOKEN}:x-oauth-basic@codeberg.org/${CI_REPO}.git"
-        PUSH_URL_2="https://git:${CI_REPO_TOKEN}@codeberg.org/${CI_REPO}.git"
-
-        echo "Testing read access (ls-remote) with PUSH_URL_1..."
-        if git ls-remote "$PUSH_URL_1" > /dev/null 2>&1; then
-          echo "PUSH_URL_1 read OK"
         else
-          echo "PUSH_URL_1 read FAIL"
+          git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
+          git push --force "$TARGET_URL" pages:pages
         fi
-
-        echo "Testing read access (ls-remote) with PUSH_URL_2..."
-        if git ls-remote "$PUSH_URL_2" > /dev/null 2>&1; then
-          echo "PUSH_URL_2 read OK"
-        else
-          echo "PUSH_URL_2 read FAIL"
-        fi
-
-        # ---- Push attempt (still required) ----
-        echo "Attempting push (PUSH_URL_1)..."
-        if git push --force "$PUSH_URL_1" pages:pages; then
-          exit 0
-        fi
-
-        echo "PUSH_URL_1 push failed; attempting push (PUSH_URL_2)..."
-        git push --force "$PUSH_URL_2" pages:pages
     when:
       event: push
       branch: main
