@@ -23,6 +23,10 @@ steps:
   # Native distribution pipeline using isolated SSH Deploy Keys with force override
   deploy:
     image: pretextbook/pretext:latest
+    # Safely inject secrets into the shell environment to protect newline formatting
+    environment:
+      MY_DEPLOY_KEY:
+        from_secret: SSH_PRIVATE_KEY
     commands:
       # Bypass Git ownership security limits inside Docker container workspaces
       - git config --global --add safe.directory /woodpecker/src || true
@@ -40,10 +44,10 @@ steps:
           apt-get update && apt-get install -y openssh-client
         fi
 
-      # Securely set up the local SSH workspace environment using the isolated deployment key
+      # Securely set up the local SSH workspace environment using the mapped environment variable
       - mkdir -p ~/.ssh
-      # Using printf with a literal format string protects physical newline structures from collapsing
-      - printf "%s\n" "$${SSH_PRIVATE_KEY}" > ~/.ssh/id_ed25519
+      # Using printf protects physical newline structures from collapsing inside the shell layer
+      - printf "%s\n" "$MY_DEPLOY_KEY" > ~/.ssh/id_ed25519
       - chmod 600 ~/.ssh/id_ed25519
       - ssh-keyscan codeberg.org >> ~/.ssh/known_hosts
       
@@ -67,6 +71,7 @@ steps:
         fi
 
       # Sync and overwrite compiled assets into target deployment folder
+      - mkdir -p deploy_dir
       - cp -ar output/course/. deploy_dir/
 
       # Enter deployment directory and apply safe flags locally to subfolders
@@ -81,7 +86,7 @@ steps:
         if git diff --cached --quiet; then
           echo "No changes to deploy. Skipping push."
         else
-          git commit -m "Deploy textbook update - Build ${BUILD_NUM} [SKIP CI]"
+          git commit -m "Deploy textbook update - Build $${BUILD_NUM} [SKIP CI]"
           git push --force "$TARGET_URL" pages:pages
         fi
     when:
