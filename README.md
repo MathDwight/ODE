@@ -1,7 +1,6 @@
 # My PreTeXt Course
-MATH 340 Intro to Differential equations
-at Morgan State University. Materials for the site
-https://MathDwight.github.io/ODE/ are currently being migrated to Codeberg.
+Visit https://mathdwight.codeberg.page/ODE to engage course materials for MATH 340 Intro to Differential equations
+at Morgan State University.
 
 The site provides HTML class chronicles, SageMath evaluation problems for readers, and PDF production via continuous integration.
 
